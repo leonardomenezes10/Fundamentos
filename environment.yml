@@ -1,0 +1,21 @@
+name: env_fundamentos
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - beautifulsoup4
+  - selenium
+  - httpx
+  - tinydb
+  - lxml
+  - python-dotenv
+  - yattag
+  - unidecode
+  - waybackpy
+  - python-dateutil
+  - pandas
+  - jupyter
+  - unidecode
+  - rich
+  - webdriver-manager
