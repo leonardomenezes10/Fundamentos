@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=60.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "env_fundamentos"
+version = "0.0.0"
+description = "Ambiente virtual para o projeto Fundamentos (conversão de environment.yml)"
+requires-python = ">=3.14,<3.15"
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["fundamentos", "ambiente", "uv"]
+classifiers = ["Programming Language :: Python :: 3"]
+
+# Dependências principais (PEP 621)
+dependencies = [
+  "beautifulsoup4",
+  "selenium",
+  "httpx",
+  "tinydb",
+  "lxml",
+  "python-dotenv",
+  "yattag",
+  "unidecode",
+  "waybackpy",
+  "python-dateutil",
+  "pandas",
+  "jupyter",
+  "rich",
+  "webdriver-manager",
+  "uv>=0.11",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black"]
+
+[tool.uv]
+# Configurações convenientes para ferramentas que usem UV
+venv = ".venv"
+interpreter = "/home/lantri_leonardoferreira/codigo/Fundamentos/.venv/bin/python"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
