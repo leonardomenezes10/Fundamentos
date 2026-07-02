@@ -32,7 +32,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest", "black"]
+dev = ["pytest", "black", "nbstripout"]
 
 [tool.uv]
 # Configurações convenientes para ferramentas que usem UV
