@@ -1,0 +1,2258 @@
+{
+  "document": {
+    "title": "AI for the Good of All: Brazilian Artificial Intelligence Plan (PBIA)",
+    "source_file": "ai-for-the-good-of-all-2025.pdf",
+    "issuer": "Ministry of Science, Technology and Innovation (MCTI); Center for Strategic Studies and Management (CGEE)",
+    "place": "Brasília - DF",
+    "date": "2025",
+    "isbn": "978-65-5775-101-5",
+    "pages": 66,
+    "language": "en",
+    "minister": "Luciana Santos"
+  },
+  "sections": [
+    {
+      "id": 1,
+      "category": "Presentation",
+      "subtitle": "Presentation by the Minister of Science, Technology and Innovation",
+      "text": "It is with great satisfaction that I present the final version of the Brazilian Artificial Intelligence Plan (PBIA), a strategic initiative of the National Council for Science and Technology (CCT), of the federal government, under the coordination of the Ministry of Science, Technology and Innovation (MCTI), with the support of the Center for Strategic Studies and Management (CGEE), to position Brazil at the forefront of the development and responsible application of artificial intelligence. Throughout the world, we are witnessing a real race to guarantee dominance of artificial intelligence technologies. As a sovereign nation committed to the well-being of our population, we cannot remain on the sidelines of this revolution. PBIA is born from the conviction that Brazil not only must participate in this journey but can and should do so in a way that reflects our particular values, priorities, and challenges. Artificial intelligence represents a powerful set of technologies with the potential to transform practically all sectors of society. It requires robust computing infrastructure and has the capacity to present innovative solutions for the most diverse challenges, from the everyday to the most complex national problems. Our vision is clear: we want Brazil to be a global model of efficiency and innovation in the sustainable use of artificial intelligence, including in the public sector. We do not simply want to import solutions; we want to develop them here, by Brazilians and for Brazilians, considering our social, cultural, and economic particularities. To realize this vision, PBIA foresees investments of R$ 23 billion until 2028. These resources, coming from various sources such as credit, public funds, and private investment counterpart, will be directed to strengthen our technological infrastructure, qualify professionals, and foster research and innovation in AI in the Country. One of the most emblematic projects of this effort is the creation of our sovereign cloud, a national data storage infrastructure. This initiative is fundamental to protecting strategic information of national public institutions, guaranteeing our digital sovereignty. PBIA is not just a technological plan. Our goal is to ensure that artificial intelligence improves the lives of the Brazilian people, promoting social inclusion and offering tangible solutions in priority areas such as health and education. We know that, like all disruptive innovation, AI brings both opportunities and challenges. We are attentive to the potential impacts on the job market, and therefore, the Plan places special emphasis on professional qualification and the generation of new employment opportunities. We want not only to prepare our citizens for the jobs of the future but also to create an entire productive ecosystem around these technologies. The strength of PBIA lies in its capacity to connect technological innovation with the resolution of concrete national problems. PBIA represents not only a governmental commitment but a partnership that involves all Brazilian society. Researchers, entrepreneurs, workers, students, and citizens from all regions of the Country are called to contribute to this collective construction of a future where technology serves the common good. We are facing a historic opportunity. With the Brazilian Artificial Intelligence Plan, we take a decisive step to ensure that Brazil is not just a passive consumer of technologies developed elsewhere, but an active protagonist in defining the directions of global artificial intelligence, always with a view to the needs and aspirations of our people. Together, we will make artificial intelligence a powerful ally in building a more just, prosperous, and technologically sovereign Brazil.",
+      "word_count": 565
+    },
+    {
+      "id": 2,
+      "category": "Introduction",
+      "subtitle": "Rationale and National Context",
+      "text": "Artificial intelligence (AI) emerges as one of the greatest transformative forces of our era, representing not an isolated revolution, but the continuity of previous waves associated with computerization and connection through the Internet, among other advances that continue to deeply reshape our society, economy, and governmental structures. AI, especially with recent advances in generative AI, emerges as a new wave of innovation in this context, following the initial waves of computing and the internet. Just as in previous waves, the current moment of accelerated technological transformation offers unique opportunities for developing countries to speed up their progress, reducing the lag behind developed nations. Brazil, in particular, exhibits characteristics that position it favorably in this context. After several reforms, the Brazilian economy recovered its stability and accumulated significant international reserves. The recent approval of tax reform and the new fiscal regime has paved the way for a new horizon of investments for the Country, which is being reinforced by the new industrial policy and the de-contingency of scientific and technological development funds (FNDCT and Funttel). With a young population that is very agile in adopting new technologies, the Country has also made great progress in recent decades in expanding its teaching and research network and structuring its innovation ecosystem. The Country also counts on a set of diverse national databases in different and important areas, such as health, agriculture, and the financial system, among others. It also presents structuring initiatives, such as the Applied Research Centers (CPA) in artificial intelligence, the MCTI/Embrapii Network, and the launch of calls for proposals to stimulate the development of innovative solutions for various governmental and private sectors. Brazil's predominantly clean energy matrix also represents an important competitive advantage, enabling the development of more sustainable AI solutions that align with global emission reduction objectives. However, to fully leverage its potential, the Country faces major challenges. For example, it is necessary to substantially increase investments in research and development (R&D), implement cutting-edge digital and computational infrastructure, and ensure the interoperability, availability, and access to data. In practice, the challenge of implementing computational and data infrastructure means installing high-performance supercomputers dedicated to AI, expanding next-generation data centers, and strengthening high-speed communication networks. In parallel, it is essential to intensify broad training in AI, with the development of qualification programs at all levels, from basic education to postgraduate studies, in addition to the requalification of the existing workforce, in order to adapt to the new demands and opportunities of the labor market, creating a qualified workforce both for the development and for the effective and critical use of AI technologies. The training of a qualified technical body and the creation of compatible job positions are fundamental for the retention of talent and the technological sovereignty of the Country. It is also essential to foster AI ecosystems in the various Brazilian regions that promote collaboration between companies, universities, and the government to boost innovation and the development of artificial intelligence appropriate to Brazilian characteristics. Such challenges, typical of a nation whose path to development remains incomplete, are multifaceted and demand innovative solutions. In the health sector, for instance, although the Country has a broad, decentralized, and universal system, there are important challenges to be overcome to achieve quality healthcare for all, including for isolated communities where reaching a health facility can take days. In this scenario, AI holds transformative potential for the good. Brazil is also one of the largest food producers in the world, but it faces significant challenges, such as the need to reduce waste in the transport and commercialization stages and support small farmers who lack access to information and technologies that could increase their productivity. AI can play an important role in this scenario, contributing from providing personalized technical assistance on best agricultural practices, based on soil and climate data, to optimizing input and distribution chains. In short, when talking about the need for an AI appropriate to Brazilian characteristics, we must take into account that the Country's challenges have their peculiarities. The availability of technological and material resources is limited, and both technical capacity and AI literacy are very diverse, conforming to a unique, but highly relevant, scenario for the solution of these challenges and problems using AI. Although AI is not a panacea, it proves to be a strong ally in the development of sustainable and integrated alternatives to the environment to improve people's lives. Pilot solutions are emerging in new research centers, companies, startups, and universities. Brazil, with its centers of excellence, highly qualified researchers and entrepreneurs, is moving in the right direction to face this broad set of challenges with viable and efficient solutions, but needs to accelerate its journey, through efforts to overcome major bottlenecks. It was based on these premises that the formulation of a Brazilian Artificial Intelligence Plan (PBIA) was requested from the National Council for Science and Technology (CCT) on March 7, 2024. At the time, the President of the Republic emphasized the need to develop and adopt a technology that would improve the lives of Brazilian citizens and be guided by ethical and non-discriminatory principles, serving as an example to the world. PBIA is, thus, a plan geared towards overcoming major national challenges in specific areas with the potential for a positive impact on the well-being of Brazilians. The Plan is inspired by international experiences, adapting them to the Brazilian reality in order to take advantage of the Country's comparative advantages, such as its clean energy matrix, cutting-edge research capacity, and technological qualification in strategic sectors such as agriculture, health, and the environment.",
+      "word_count": 926
+    },
+    {
+      "id": 3,
+      "category": "Introduction",
+      "subtitle": "Elaboration Process and Vision",
+      "text": "To achieve these objectives, the Plan emphasizes the need for significant and long-term investments in R&D, with the creation of mechanisms to encourage greater private sector participation. It fosters collaboration between academia and industry, in addition to supporting the establishment of a regulatory framework conducive to responsible innovation. In this way, PBIA aligns with other regulatory initiatives underway in the legislative, judiciary, and executive spheres. The Brazilian Artificial Intelligence Plan was prepared under the strategic guidance of the CCT, which played a central role in the conception and direction of the Plan. Over four months, various activities were carried out for its elaboration, such as working meetings, thematic workshops, and bilateral meetings with public and private institutions, aiming to identify and design concrete AI application initiatives in priority areas, with the objective of addressing specific bottlenecks relevant to the Brazilian population. The result of this process was a proposed Brazilian Artificial Intelligence Plan that represents an ambitious and necessary commitment to the future of Brazil. PBIA aims to develop and implement AI technologies that boost the Country's economic and technological progress, simultaneously meeting the real needs of the Brazilian population and respecting our diversity and cultural values. PBIA proposes the creation of a responsible innovative ecosystem, where technological development and ethical and social considerations walk side by side. With this approach, Brazil positions itself at the forefront of AI development, serving as a global example of the use of this technology for the benefit of all society.",
+      "word_count": 247
+    },
+    {
+      "id": 4,
+      "category": "1. The context of artificial intelligence in the world and in Brazil",
+      "subtitle": "1.1. What is artificial intelligence?",
+      "text": "For the purposes of this Plan, artificial intelligence is defined as the set of models, algorithms, techniques, and methodologies that can be implemented as computational systems that produce results such as predictions, classifications, recommendations, and decisions, based on learning processes relying on large volumes of data, with the potential to influence physical and virtual environments. Typical characteristics of AI-based systems: operate with different degrees of autonomy to achieve explicitly or implicitly defined objectives; use inputs (e.g., data) generated by machines (e.g., sensors, cameras) and/or humans to perceive and analyze environments; build abstract models from these inputs through a variety of training processes and techniques automated to different degrees; apply these models to different scenarios, to perform inferences, generate information (e.g., predictions, recommendations), execute actions, or support decision-making; can be specialized in tasks of varying degrees of specificity, from peculiar activities to general-purpose systems, capable of performing a range of jobs; and include subtypes such as generative AI, capable of generating, significantly modifying, or synthesizing various types of content, including text, images, audio, video, and software code, often in a way indistinguishable from human-produced content. This combination of data analysis and modeling with high computational power grants AI an unprecedented transformative potential, capable of transforming various sectors of society and the economy.",
+      "word_count": 211
+    },
+    {
+      "id": 5,
+      "category": "1. The context of artificial intelligence in the world and in Brazil",
+      "subtitle": "1.2. The transformative potential of artificial intelligence",
+      "text": "Artificial intelligence represents one of the most transformative technological forces of our time, with the potential to reshape practically every sector of human activity. The emergence of generative AI, capable of generating significant, new, or improved content from existing data, further expands this transformative potential. AI is already reshaping entire sectors, from education to entertainment, requiring a continuous re-evaluation of public policies to ensure its use remains beneficial and ethical. The release of multiple generative AI models for public use starting in 2022 marked a crucial moment in the evolution of artificial intelligence, attracting millions of users in just a few days. Although AI is not in fact a new phenomenon, with roots in the initial development of computing in the 1940s and 1950s, consolidating in the 1980s-1990s, and developing in an accelerated manner since the beginning of the 21st century, this moment created a perception that the world is facing a new technological revolution. Understanding the dynamics of a technological revolution is essential for emerging countries like Brazil to identify and seize windows of opportunity, allowing them to accelerate development and reduce the gap with leading countries. In this transition, two windows open simultaneously: the rejuvenation of mature sectors, driven by the rapid absorption of new technologies, and the emergence of new technological applications, which frequently create new industrial sectors. However, the process of disruptive transformation also brings multiple impacts of AI on society: AI has the potential to profoundly transform democracy and information integrity, both strengthening democratic processes and representing risks such as the spread of misinformation. The human-machine relationship and associated ethical issues are critical, raising questions about justice, transparency, autonomy, and responsibility - for example, who is legally responsible for mistaken autonomous decisions. In education and work, AI offers opportunities for personalization of teaching and continuous learning, but challenges traditional employment structures, requiring adaptation and reskilling; historical trajectory suggests societies tend to adapt to new technologies after an initial period of apprehension, but the transition is rarely uniform, requiring proactive public policy. The impact of AI on the environment is dual: AI offers tools for environmental monitoring and energy efficiency, but AI models also raise concerns about energy and water resource consumption and electronic waste. Technological sovereignty and international cooperation emerge as central themes, with data security and intellectual property protection gaining new dimensions; AI has profound implications for human rights and inclusion, potentially expanding opportunities or exacerbating inequalities through racial or gender bias, and unequal access to AI infrastructure can widen global disparities. It is essential to develop a robust governance and ethical regulation framework for AI, promoting responsible innovation, protecting individual and collective rights, and establishing ethical standards, so that AI is truly a force for the common good.",
+      "word_count": 455
+    },
+    {
+      "id": 6,
+      "category": "1. The context of artificial intelligence in the world and in Brazil",
+      "subtitle": "1.3. Windows of opportunity for Brazil",
+      "text": "Leveraging the global momentum of AI integration in various spheres of human activity, Brazil presents itself as fertile ground for the appropriation, adoption, and adaptation of these technologies, with unique advantages that can be explored to boost technological development and promote inclusive economic growth. Despite the propensity of the Brazilian population to adopt new technologies, it is important to question this characteristic: only a small portion of the population has access to quality education, which directly impacts the Country's ability to develop and implement substantial technological advances. For Brazil to effectively benefit from AI, it is essential to develop a set of policies that not only promotes technological innovation but also addresses existing educational and socio-economic inequalities, including investments in technological education, digital infrastructure development, and policies that broaden and democratize access to AI knowledge across Brazilian society.",
+      "word_count": 138
+    },
+    {
+      "id": 7,
+      "category": "1. The context of artificial intelligence in the world and in Brazil",
+      "subtitle": "1.4. Economic aspects of AI and challenges for application in Brazilian industry",
+      "text": "Artificial intelligence presents great potential to boost various sectors of the economy. The AI value chain is complex and comprehensive, encompassing hardware (specialized chips, processors, data centers, network equipment), data infrastructure (storage, processing, curation, security, privacy, cloud platforms, developer tools), software (development environments, libraries, runtime systems, model implementations, the software stack), high-speed transmission networks, and applications for businesses and end consumers. Generative AI has its own overlapping value chain, including optimized hardware for training and inference, cloud platforms, foundational models, model hubs, and LMOps tools for management, optimization, auditing, and monitoring. A structured and robust AI ecosystem creates spillovers that stimulate innovations across technological segments and economic sectors, and the economic impact of AI is already significant and expected to grow exponentially. Despite public investment efforts, industry currently takes the lead in AI research, traditionally the domain of academia, because industry possesses greater computational power and access to large volumes of data; academia still plays a fundamental role providing freedom to explore and innovate. Although Brazilian companies show an expressive number of AI initiatives, the context is particularly challenging: while Brazil ranks among the top twenty countries in some AI rankings mainly due to academic production, the Country faces a critical shortage of qualified professionals and an expressive brain drain, with most AI patents in Brazil based on foreign technologies. AI can significantly increase efficiency in sectors such as manufacturing, food distribution, health, and retail, an advantage particularly promising for micro, small, and medium-sized enterprises (MSMEs) that face productivity and competitiveness challenges. However, AI adoption and its impact on productivity are still in initial stages: as highlighted by the OECD, adoption remains limited compared to other digital technologies, concentrated in certain sectors and large companies, with barriers such as shortage of computational power and technical skills; the public sector plays a crucial role in creating an environment conducive to large-scale productivity gains. In the Brazilian context, the public sector has already begun to take important steps in AI adoption: 30% of federal and state public agencies have already made use of at least one AI technology, concentrated in the legislative, judiciary, and public prosecutor's offices, with the most common applications involving text mining, prediction, and data analysis; executive governments have made the least use of AI tools, indicating a potential yet to be explored. It is crucial to address issues of inequality through education, training, and redistribution, and to ensure AI implementation is done ethically and transparently, respecting citizens' privacy and preventing the perpetuation of biases, paving the way for an AI for the Good of All.",
+      "word_count": 427
+    },
+    {
+      "id": 8,
+      "category": "2. What is an AI for the Good of All?",
+      "subtitle": "Overview and Five Pillars",
+      "text": "Brazil is at a unique moment in its technological trajectory, with the opportunity to take advantage of development windows opened by the transformative impact of artificial intelligence. However, for the transformative potential of AI to be fully realized and benefit all Brazilian society, it is fundamental that its development and application be guided by ethical and inclusive principles. In this sense, the Brazilian Artificial Intelligence Plan (PBIA) proposes a human-centered approach, aligned with national interests and the defense of the right to development, and oriented towards overcoming the Country's social, environmental, and economic challenges. This vision is embodied in five pillars that underpin an AI for the Good of All.",
+      "word_count": 110
+    },
+    {
+      "id": 9,
+      "category": "2. What is an AI for the Good of All?",
+      "subtitle": "Pillar I - Human-centered and accessible to all",
+      "text": "Human-centered and accessible to all, founded on respect for dignity, social rights, cultural, regional, and peoples' diversity, and the appreciation of work and workers, preventing inequality and discriminatory biases. An AI for the Good of All places the human being at the center of its development and application: AI systems must be designed to complement, expand, and enhance human capabilities, not replace them. Accessibility is fundamental, ensuring that the benefits of AI reach citizens of all countries and all strata of society, including marginalized and underrepresented populations. This approach requires a constant focus on digital inclusion and the reduction of inequalities in access to technology and the skills necessary for responsible and safe use of AI. AI applications must respect and promote cultural, regional, and ethnic diversity, avoiding discriminatory biases, including through the active participation of diverse groups in the conception, development, deployment, and governance of AI systems.",
+      "word_count": 148
+    },
+    {
+      "id": 10,
+      "category": "2. What is an AI for the Good of All?",
+      "subtitle": "Pillar II - Oriented towards overcoming social, environmental, and economic challenges",
+      "text": "Oriented towards overcoming social, environmental, and economic challenges, increasing well-being and contributing to the achievement of the Sustainable Development Goals (SDGs). The AI for the Good of All must be directed towards solving concrete societal problems, contributing to the UN SDGs, envisioning AI applications in public health, quality education, poverty reduction, environmental sustainability, climate change mitigation and adaptation, and energy transition. It is essential that the AI chain itself be sustainable, optimizing the use of energy and water resources in its computational infrastructure and data centers, so that AI acts as a vector of sustainability. In the Brazilian context, AI can be particularly valuable in facing challenges such as the monitoring and preservation of the Amazon, optimization of urban transport systems, improvement of efficiency in agriculture, expansion and consolidation of SUS, promotion of public security, and enhancement of public service delivery, developed with a deep understanding of local contexts and in collaboration with affected communities.",
+      "word_count": 155
+    },
+    {
+      "id": 11,
+      "category": "2. What is an AI for the Good of All?",
+      "subtitle": "Pillar III - Founded on the right to development and national sovereignty",
+      "text": "Founded on the right to development and national sovereignty, promoting technological autonomy and economic competitiveness. An AI for the Good of All must promote the Country's technological and economic development, strengthening its autonomy and competitiveness in the global scenario, implying significant investments in AI research and development, training local talent, and creating a robust innovation ecosystem. National sovereignty involves developing proprietary capabilities along the AI production and innovation chain and in strategic application areas such as health, education, security, environment, industry, and public management, reducing dependence on foreign solutions while seeking a balance between protecting national interests and participating in mutually beneficial international collaborations, with special attention to fostering the scientific and technological advancement of developing countries, especially in Africa and Latin America.",
+      "word_count": 123
+    },
+    {
+      "id": 12,
+      "category": "2. What is an AI for the Good of All?",
+      "subtitle": "Pillar IV - Transparent, traceable, and responsible",
+      "text": "Transparent, traceable, and responsible, intrinsically guaranteeing data privacy and sovereignty, cybersecurity, consumer protection, intellectual property, copyrights, and related rights. Transparency is fundamental to building and maintaining public trust in AI, requiring clear disclosure of how data is collected, processed, and used. Traceability ensures that AI actions and decisions can be audited, allowing for the identification and correction of errors or biases and the attribution of responsibility, particularly crucial in high-risk applications such as autonomous mobility, health, or public security. The protection of individual privacy, intellectual and copyright property, and data sovereignty must be a priority, with robust cybersecurity measures. More broadly, these principles are grouped into what is called Responsible AI: the set of processes, methods, and techniques for designing, developing, using, and deploying AI systems that are ethical, trustworthy, and beneficial to society, typically including the principles of Fairness, Transparency, Reliability, Privacy and security, and Inclusion.",
+      "word_count": 147
+    },
+    {
+      "id": 13,
+      "category": "2. What is an AI for the Good of All?",
+      "subtitle": "Pillar V - Globally cooperative on fair and mutually beneficial bases",
+      "text": "Globally cooperative on fair and mutually beneficial bases, inducing the progress of humanity, the protection of information integrity, and the defense of democracy. An AI for the Good of All recognizes that the challenges and opportunities presented by technology are global in nature, so it is essential to promote international cooperation in AI research, development, and governance based on principles of equity and mutual benefit, respecting the sovereignty and development priorities of each nation. Global collaboration is crucial to addressing issues such as AI regulation, data sharing and taxation of data flows, technological standardization, and the mitigation of global risks, while strengthening rather than harming information integrity, democracy, and national security. The AI for the Good of All must contribute to the progress of humanity as a whole, promoting the exchange of knowledge and best practices between nations to reduce the technological disparity between developed and developing countries.",
+      "word_count": 148
+    },
+    {
+      "id": 14,
+      "category": "3. Action plan",
+      "subtitle": "3.1. Premises and objective",
+      "text": "The Brazilian Artificial Intelligence Plan is based on ten fundamental premises that guide its structuring and implementation, underpinning the central objective of PBIA: to promote the development, availability, and use of artificial intelligence in Brazil, oriented towards solving major national, social, economic, environmental, and cultural challenges, in a way that guarantees security and individual and collective rights, social inclusion, the defense of democracy, the integrity of information, the protection of work and workers, national sovereignty, and the sustainable economic development of the nation.",
+      "word_count": 83
+    },
+    {
+      "id": 15,
+      "category": "3. Action plan",
+      "subtitle": "3.2. Investment Amount",
+      "text": "To achieve this objective, PBIA proposes a dual approach, combining immediate impact actions, oriented towards specific challenges with the potential to bring significant benefits to the Brazilian population in the short term, with structuring actions over the medium to long term, which create capacities and qualifications to fill gaps for the sustainable development of AI in Brazil. PBIA foresees R$ 23.03 billion in investments in the 2024 to 2028 period for immediate impact actions (1.9% of total investments) and each of the five structuring axes. With 98% of the planned investments, the structuring actions - for the consolidation and creation of capacities and qualifications in AI - form the core of PBIA.",
+      "word_count": 112
+    },
+    {
+      "id": 16,
+      "category": "3. Action plan",
+      "subtitle": "3.3. Immediate impact actions",
+      "text": "The first group of PBIA actions is aimed at solving specific challenges with the potential to bring significant benefits to the Brazilian population. Immediate impact actions are initiatives underway or to be launched in the very short term to solve well-defined problems, using already developed artificial intelligence tools or those in an advanced stage of development, with results often already verifiable within 12 months. They are characterized by: focus on specific problems; use of developed technologies and existing databases; quick, measurable, and significant results; clear impact goals and metrics; potential for expansion, replication, and sustainability; and engagement and direct benefit of the target population. The immediate impact actions of PBIA cover nine areas: Health; Agriculture and livestock; Environment, climate, and sustainability; Industry, trade, and services; Education; Social development; Public services management; Work and employment; and Defense, public, and cybersecurity. They are divided into two types: Impact actions - New; and Impact actions supported by Finep (ongoing).",
+      "word_count": 156
+    },
+    {
+      "id": 17,
+      "category": "3. Action plan",
+      "subtitle": "3.4. Structuring actions",
+      "text": "Structuring actions are fundamental to guaranteeing national sovereignty and technological autonomy, competitiveness, sustainable innovation, and the responsible and ethical adoption of AI in the Country. Although the most significant results of these actions are expected in the medium and long term, there are concrete actions planned to be initiated in the short term. These actions are characterized by: sustainability and energy efficiency; alignment and integration with the New Brazil Industry (NIB); generation of national capabilities; varied technological maturity; medium to long-term impact; and mobilization of multiple actors and disciplines. The structuring actions are organized into five fundamental axes: (1) Infrastructure and AI Development; (2) Diffusion, Training, and Qualification in AI; (3) AI for Improving Public Services; (4) AI for Business Innovation; and (5) Support for the Regulatory and Governance Process of AI. Each axis is presented through a diagnosis of the current situation (Where are we?), a transformative vision of the future (Where do we want to get to?), and the programs and structuring actions to be implemented (What will we do?).",
+      "word_count": 172
+    },
+    {
+      "id": 18,
+      "category": "4. Governance and monitoring of the AI for the Good of All Plan",
+      "subtitle": "Governance structure",
+      "text": "The creation and implementation of an adequate governance structure is fundamental for implementing the actions and monitoring the strategic objectives of PBIA, in order to promote transparency and thus guarantee public trust. International examples, such as the White House AI Council in the United States, the AI Office in the European Union, and the Office for Artificial Intelligence (OAI) in the United Kingdom, illustrate the importance of robust governance structures for AI plans and strategies. A well-defined governance structure allows for strategic alignment and coordination among various stakeholders. In the United States, the National Artificial Intelligence Advisory Committee (NAIIC), composed of 25 members from various sectors, coordinates the activities of different governmental agencies and promotes public-private partnerships. In the European Union, the Scientific Panel and Advisory Forum, recently instituted by the AI Act, act as independent advisory bodies offering technical, scientific, and strategic guidance, and supervise the implementation of AI-related policies. In the United Kingdom, the Office for Artificial Intelligence (OAI), now integrated into the Department for Science, Innovation and Technology since February 2024, performs the function of supervision and facilitation in the partnership between various sectors. Transparency and accountability are essential pillars of any governance structure: the European Union, through its EU Artificial Intelligence Observatory, ensures that all initiatives related to AI are monitored and that progress reports are published regularly. To enable broad, transparent, and responsible governance, with distributed responsibilities and monitoring and review mechanisms, the AI Plan will have its governance structure coordinated by the Interministerial Committee for Digital Transformation (CIT Digital), instituted through Decree No. 12.308/2024, composed of representatives of the Federal Public Power.",
+      "word_count": 268
+    },
+    {
+      "id": 19,
+      "category": "Final Considerations",
+      "subtitle": "Final Considerations",
+      "text": "The AI for the Good of All Plan - Brazilian Artificial Intelligence Plan (PBIA) - represents a significant milestone in Brazil's journey towards leadership in AI technologies, with a clear focus on sustainable development and social well-being. This ambitious plan aims not only to boost technological advancement but also to ensure that the benefits of AI are accessible and beneficial for all Brazilians. PBIA is based on the principles that inform AI for the good of all: human-centered and universally accessible; oriented towards overcoming social, environmental, and economic challenges, aligning with the UN SDGs; founded on the right to development and national sovereignty; prioritizing transparency and traceability; and adopting a globally cooperative stance. In short, PBIA aims to create an AI ecosystem that is responsible, inclusive, and sustainable, placing human well-being and national development at the center of its priorities. Through the proposed actions, PBIA promises to transform various aspects of Brazilian society, from the implementation of one of the most powerful supercomputers in the world to the development of advanced language models in Portuguese, and the training of hundreds of thousands of professionals and researchers in AI. However, it is crucial to recognize that AI, although a powerful technology, is not a universal solution: it is a strategic tool to address specific bottlenecks and can boost development, but the success of PBIA depends on complementary actions in fundamental areas such as education, digital infrastructure, and the reduction of regional disparities. A particularly important aspect of PBIA is its commitment to sustainability, leveraging Brazil's predominantly clean energy matrix to develop innovative environmentally responsible AI solutions, positioning Brazil as a potential global leader in sustainable AI and a significant global player in AI overall.",
+      "word_count": 283
+    }
+  ],
+  "categories_summary": [
+    {
+      "category": "Presentation",
+      "num_sections": 1,
+      "total_words": 565
+    },
+    {
+      "category": "Introduction",
+      "num_sections": 2,
+      "total_words": 1173
+    },
+    {
+      "category": "1. The context of artificial intelligence in the world and in Brazil",
+      "num_sections": 4,
+      "total_words": 1231
+    },
+    {
+      "category": "2. What is an AI for the Good of All?",
+      "num_sections": 6,
+      "total_words": 831
+    },
+    {
+      "category": "3. Action plan",
+      "num_sections": 4,
+      "total_words": 523
+    },
+    {
+      "category": "4. Governance and monitoring of the AI for the Good of All Plan",
+      "num_sections": 1,
+      "total_words": 268
+    },
+    {
+      "category": "Final Considerations",
+      "num_sections": 1,
+      "total_words": 283
+    }
+  ],
+  "pbia_objectives": [
+    "Improve the lives of Brazilians through innovations in artificial intelligence aimed at improving national productive capacity and social well-being",
+    "Position Brazil at the advanced technological frontier with computational infrastructure to drive cutting-edge research, technological development, and innovations in AI",
+    "Develop Large Language Models (LLM) for artificial intelligence in Portuguese, based on national data",
+    "Strengthen Brazil's global leadership, promoting technological development in artificial intelligence with sovereignty and international sharing of capabilities"
+  ],
+  "responsible_ai_principles": [
+    {
+      "principle": "Fairness",
+      "description": "Ensuring that AI systems do not treat people unfairly, especially underrepresented groups."
+    },
+    {
+      "principle": "Transparency",
+      "description": "Ensuring that AI systems are transparent and explainable, meaning the results generated by them are interpretable by humans."
+    },
+    {
+      "principle": "Reliability",
+      "description": "Ensuring that AI systems are robust and secure, in the sense that they are not susceptible to malicious actions, for example."
+    },
+    {
+      "principle": "Privacy and security",
+      "description": "Ensuring that AI systems protect the privacy and security of users, in a way that prevents any harm to users and society."
+    },
+    {
+      "principle": "Inclusion",
+      "description": "Ensuring that AI systems are inclusive and benefit everyone."
+    }
+  ],
+  "pillars": [
+    {
+      "id": "I",
+      "title": "Human-centered and accessible to all",
+      "summary": "Founded on respect for dignity, social rights, cultural, regional, and peoples' diversity, and the appreciation of work and workers, preventing inequality and discriminatory biases."
+    },
+    {
+      "id": "II",
+      "title": "Oriented towards overcoming social, environmental, and economic challenges",
+      "summary": "Increasing well-being and contributing to the achievement of the Sustainable Development Goals (SDGs)."
+    },
+    {
+      "id": "III",
+      "title": "Founded on the right to development and national sovereignty",
+      "summary": "Promoting technological autonomy and economic competitiveness."
+    },
+    {
+      "id": "IV",
+      "title": "Transparent, traceable, and responsible",
+      "summary": "Intrinsically guaranteeing data privacy and sovereignty, cybersecurity, consumer protection, intellectual property, copyrights, and related rights."
+    },
+    {
+      "id": "V",
+      "title": "Globally cooperative on fair and mutually beneficial bases",
+      "summary": "Inducing the progress of humanity, the protection of information integrity, and the defense of democracy."
+    }
+  ],
+  "premises": [
+    {
+      "id": 1,
+      "title": "Focus on social well-being",
+      "description": "Prioritizing actions that contribute to social inclusion and the reduction of inequalities, ensuring that the benefits of AI reach all Brazilian society."
+    },
+    {
+      "id": 2,
+      "title": "Generation of national capacities and qualifications",
+      "description": "Investing in infrastructure, research, development, innovation, and training of Brazilian AI talent."
+    },
+    {
+      "id": 3,
+      "title": "Technological and data sovereignty",
+      "description": "Developing national capabilities in AI to guarantee Brazil's technological autonomy and economic competitiveness."
+    },
+    {
+      "id": 4,
+      "title": "Strategic alignment with governmental policies (New Brazil Industry - NIB)",
+      "description": "Integrating AI into governmental policies, leveraging AI as a transversal tool to boost competitiveness and innovation in priority industrial sectors."
+    },
+    {
+      "id": 5,
+      "title": "Environmental sustainability and alignment with the Ecological Transition Plan (PTE)",
+      "description": "Aligning the development and implementation of AI with Brazil's environmental commitments and the Ecological Transition Plan."
+    },
+    {
+      "id": 6,
+      "title": "Valuation of diversity",
+      "description": "Ensuring that Brazilian ethnic and cultural diversity is reflected in the development of AI models and solutions, avoiding prejudices and discrimination."
+    },
+    {
+      "id": 7,
+      "title": "International cooperation",
+      "description": "Seeking international partnerships on fair and mutually beneficial bases for the advancement of AI."
+    },
+    {
+      "id": 8,
+      "title": "Ethics and responsibility in the use of AI",
+      "description": "Prioritizing the ethical and responsible development and use of AI, respecting individual rights, privacy, and democratic values, in compliance with the LGPD."
+    },
+    {
+      "id": 9,
+      "title": "Participatory governance",
+      "description": "Promoting collaboration between the State, academia, the private sector, and civil society in the design, execution, monitoring, and evaluation of PBIA."
+    },
+    {
+      "id": 10,
+      "title": "Flexibility and adaptability",
+      "description": "Keeping PBIA flexible for adjustments according to the evolution of technology, national needs, and results of implemented actions."
+    }
+  ],
+  "windows_of_opportunity": [
+    {
+      "id": 1,
+      "title": "Sustainable AI with a clean energy matrix",
+      "description": "Brazil's predominantly renewable energy matrix offers a unique competitive advantage for the development of sustainable AI, positioning the Country as a leader in low-environmental impact data centers."
+    },
+    {
+      "id": 2,
+      "title": "AI for the environment and biodiversity",
+      "description": "Brazil's vast environmental diversity, combined with preservation challenges, creates unique opportunities for AI applications in environmental monitoring and sustainable resource management."
+    },
+    {
+      "id": 3,
+      "title": "AI in public health and the SUS",
+      "description": "The Unified Health System (SUS) offers an opportunity for large-scale AI applications, driving solutions to improve diagnoses, optimize resources, predict disease outbreaks, and personalize treatments."
+    },
+    {
+      "id": 4,
+      "title": "AI in agriculture",
+      "description": "As one of the main global agricultural producers, the use of AI can bring benefits throughout Brazil's food production value chain."
+    },
+    {
+      "id": 5,
+      "title": "AI for social inclusion and reduction of inequalities",
+      "description": "AI's potential to improve access to essential services and create economic opportunities can help address persistent social challenges."
+    },
+    {
+      "id": 6,
+      "title": "Development of AI models in Portuguese",
+      "description": "Brazil has a favorable condition to lead the development of AI in Portuguese, benefiting a global community."
+    },
+    {
+      "id": 7,
+      "title": "Development of AI solutions for local problems",
+      "description": "The ability to create solutions adapted to Brazil's specific needs can generate relevant innovations for other developing countries."
+    },
+    {
+      "id": 8,
+      "title": "Application of AI in public administration",
+      "description": "Brazil's continental size and the vast amount of governmental data offer fertile ground for optimizing processes and improving public services through AI."
+    },
+    {
+      "id": 9,
+      "title": "AI research and development",
+      "description": "The existence of AI research centers and collaboration between academia, government, and industry create an environment conducive to technological advances."
+    },
+    {
+      "id": 10,
+      "title": "Training and retention of AI talent",
+      "description": "The expanding job market and growing interest in AI offer opportunities for training and retaining talent."
+    }
+  ],
+  "ai_timeline": [
+    {
+      "era": "Beginnings",
+      "period": "1940s",
+      "event": "Alan Turing proposes the idea of 'machines that can think' and introduces the theoretical concept of the Turing Machine."
+    },
+    {
+      "era": "Beginnings",
+      "period": "1950",
+      "event": "Turing publishes 'Computing Machinery and Intelligence,' proposing the Turing Test."
+    },
+    {
+      "era": "Beginnings",
+      "period": "1956",
+      "event": "Dartmouth Conference coins the term 'artificial intelligence.'"
+    },
+    {
+      "era": "Beginnings",
+      "period": "1960s-1970s",
+      "event": "Development of early AI programs, such as ELIZA."
+    },
+    {
+      "era": "Consolidation",
+      "period": "1971",
+      "event": "Launch of the Intel 4004 microprocessor, marking a significant advance in processing capacity."
+    },
+    {
+      "era": "Consolidation",
+      "period": "1980s",
+      "event": "Advances in expert systems and neural networks."
+    },
+    {
+      "era": "Consolidation",
+      "period": "1997",
+      "event": "IBM's Deep Blue defeats world chess champion Garry Kasparov."
+    },
+    {
+      "era": "Consolidation",
+      "period": "1990s-2000s",
+      "event": "Development of machine learning algorithms, increased computational power, and access to large amounts of data."
+    },
+    {
+      "era": "Modern Era",
+      "period": "2006",
+      "event": "NVIDIA launches the CUDA platform, allowing the use of GPUs for deep learning."
+    },
+    {
+      "era": "Modern Era",
+      "period": "2010",
+      "event": "Beginning of significant advances in deep learning."
+    },
+    {
+      "era": "Modern Era",
+      "period": "2012",
+      "event": "AlexNet neural network wins the ImageNet competition using GPUs."
+    },
+    {
+      "era": "Modern Era",
+      "period": "2016",
+      "event": "Google launches the Tensor Processing Unit (TPU); AlphaGo defeats Lee Sedol in Go."
+    },
+    {
+      "era": "Modern Era",
+      "period": "2022",
+      "event": "OpenAI launches ChatGPT, broadening public access to AI."
+    },
+    {
+      "era": "Modern Era",
+      "period": "2025",
+      "event": "Launch of the Chinese AI model that revolutionized the market with reduced operating costs and lower use of computational resources compared to the competitors."
+    }
+  ],
+  "investments": {
+    "currency": "BRL",
+    "period": "2024-2028",
+    "total_brl_billion": 23.03,
+    "note": "Structuring actions represent 98% of planned investments; immediate impact actions represent 1.9%.",
+    "breakdown": [
+      {
+        "category": "Immediate impact actions",
+        "value_brl_million": 435.04,
+        "percent_of_total": 1.9
+      },
+      {
+        "category": "Infrastructure and AI Development",
+        "value_brl_million": 5790,
+        "percent_of_total": 25.2
+      },
+      {
+        "category": "Diffusion, Training, and Qualification in AI",
+        "value_brl_million": 1150,
+        "percent_of_total": 5.0
+      },
+      {
+        "category": "AI for Improving Public Services",
+        "value_brl_million": 1760,
+        "percent_of_total": 7.6
+      },
+      {
+        "category": "AI for Business Innovation",
+        "value_brl_million": 13790,
+        "percent_of_total": 59.9
+      },
+      {
+        "category": "Support for the Regulatory and Governance Process of AI",
+        "value_brl_million": 103.25,
+        "percent_of_total": 0.4
+      }
+    ]
+  },
+  "immediate_impact_sectors": [
+    "Health",
+    "Agriculture and livestock",
+    "Environment, climate, and sustainability",
+    "Industry, trade, and services",
+    "Education",
+    "Social development",
+    "Public services management",
+    "Work and employment",
+    "Defense, public, and cybersecurity"
+  ],
+  "immediate_impact_actions": [
+    {
+      "id": 1,
+      "type": "New",
+      "sector": "Health",
+      "name": "Spoken Health Records in SUS",
+      "description": "AI system to automate the transcription of telemedicine consultations.",
+      "challenge": "To improve clinical documentation processes during telemedicine services, aiming to enhance the quality of medical care.",
+      "expected_impacts": [
+        "Faster and more accurate diagnoses",
+        "More effective treatments",
+        "Reduction in the mortality rate",
+        "Creation of a secure repository of structured clinical data for use in health"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "New",
+      "sector": "Health",
+      "name": "AI for Medication Procurement Decision Support in SUS",
+      "description": "AI system for specialized medication governmental procurement decision support.",
+      "challenge": "To improve the planning and execution of specialized medication governmental procurement, to address various challenges that affect forecasted demand.",
+      "expected_impacts": [
+        "Greater accuracy in demand forecasts",
+        "Improvement in the management and planning of governmental procurement",
+        "Increased efficiency in medication distribution"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "New",
+      "sector": "Health",
+      "name": "Optimization of Diagnoses in SUS and Prognostic Prediction with AI",
+      "description": "AI-based system to enhance the accuracy and agility of medical diagnoses.",
+      "challenge": "To improve medical diagnosis processes, especially in critical areas such as stroke (AVC), pneumonia, breast cancer, tuberculosis, melanoma, among others.",
+      "expected_impacts": [
+        "Faster and more accurate diagnoses",
+        "More effective treatments",
+        "Reduction in the mortality rate",
+        "Creation of a secure repository of structured clinical data for use in health"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "New",
+      "sector": "Health",
+      "name": "AI in Oral Health in SUS",
+      "description": "AI for oral cancer prognosis and improvement in oral health management in the Unified Health System (SUS).",
+      "challenge": "To increase the efficiency and quality of oral health services offered by SUS and enhance the National Oral Health Policy.",
+      "expected_impacts": [
+        "Improvement of prognosis with more assertive clinical decision-making",
+        "Advancement of research in Brazil",
+        "Enhancement of the National Oral Health Policy"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "New",
+      "sector": "Health",
+      "name": "AI for Anomaly Detection in Hospital and Outpatient Procedures in SUS",
+      "description": "System to detect anomalies in hospital and outpatient procedures with the aim of providing better management of public resources.",
+      "challenge": "To identify anomalies in hospital and outpatient procedures, with the objective of detecting and preventing possible irregularities or errors to improve the management of the health system.",
+      "expected_impacts": [
+        "Reduction of possible irregularities and errors in health procedures",
+        "Increase in the efficiency and integrity of health systems",
+        "Improvement in the utilization of public resources"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "New",
+      "sector": "Health",
+      "name": "AI for Judicialization Process Management Support in SUS",
+      "description": "Intelligent system for judicial process management decision support.",
+      "challenge": "To reduce health litigation and identify treatment alternatives, decreasing costs and improving the planning and procurement management of high-cost medications and procedures.",
+      "expected_impacts": [
+        "Reduction of litigation costs",
+        "Increase in the efficiency of judicial processes",
+        "Improvement in transparency and efficiency in the management of judicialization processes"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "New",
+      "sector": "Health",
+      "name": "Well-Cared for Elderly in SUS",
+      "description": "Artificial intelligence platform for the promotion and care of the elderly's health.",
+      "challenge": "To improve, through the use of AI technologies, the early diagnosis of neurodegenerative diseases, which mainly affect the elderly population.",
+      "expected_impacts": [
+        "Advancement in diagnostic efficiency",
+        "Improvement in the quality of health services",
+        "Improvement in the quality of life of the elderly population",
+        "Reduction of public health costs"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "New",
+      "sector": "Agriculture and livestock",
+      "name": "Digital Ater - AI",
+      "description": "Digital technical guidance service with AI, providing climate, territorial, and meteorological data to rural producers, through a chatbot service, to answer questions.",
+      "challenge": "To strengthen the Technical Assistance and Rural Extension (Ater) service, with personalized service focused on reducing crop losses, increasing productivity, and reducing costs.",
+      "expected_impacts": [
+        "Adoption of technologies for low-carbon agriculture",
+        "Increase in agricultural productivity",
+        "Reduction of production costs",
+        "Improvement in the rural producer's income"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "New",
+      "sector": "Education",
+      "name": "Present Management System",
+      "description": "Intelligent management solution using AI for monitoring the attendance of basic education students, aiming to address school dropout and evasion.",
+      "challenge": "To reduce school dropout and evasion in basic education in Brazil. Among the most vulnerable population, only 46% of the poorest students complete basic education.",
+      "expected_impacts": [
+        "Reduction of school evasion",
+        "Increase in the number of graduates in elementary and secondary education"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "New",
+      "sector": "Education",
+      "name": "Quality Control of Food Acquisitions for Pnae",
+      "description": "Implementation of AI solutions for processing and analyzing invoices for foodstuff purchases with the objective of ensuring the quality and origin of acquired food and preventing fraud.",
+      "challenge": "To improve the process of foodstuff acquisitions through the National School Feeding Program (Pnae), which serves about 40 million basic education students.",
+      "expected_impacts": [
+        "Guarantee of healthy and adequate nutrition",
+        "Guarantee of support for sustainable development, with the acquisition of diversified food"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "New",
+      "sector": "Education",
+      "name": "Student Trajectory Prediction and Protection System",
+      "description": "AI system to reduce evasion in Brazilian schools and universities by identifying risk and/or protection factors for trajectories by stage.",
+      "challenge": "To reduce school dropout and evasion in basic education in Brazil, given the increase in evasion in recent years in basic education, in addition to about 40% annual evasion in federal universities.",
+      "expected_impacts": [
+        "Reduction of school evasion",
+        "Increase in the number of graduates in basic and higher education",
+        "Guarantee of professional training for the Brazilian job market"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "New",
+      "sector": "Education",
+      "name": "Adaptive Solutions with Generative AI for Formative and Diagnostic Literacy Assessment",
+      "description": "Support for teachers and school managers in assessing student activities for better intervention in literacy.",
+      "challenge": "To increase the time available for teachers for analytical and pedagogical tasks, in order to optimize activities and support teachers in interventions for student literacy.",
+      "expected_impacts": [
+        "Increase in teaching quality",
+        "Possibility of personalized intervention for each student, focusing on the most difficult subjects and activities"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "New",
+      "sector": "Education",
+      "name": "Intelligent Mathematics Tutoring Systems with Generative AI",
+      "description": "Intelligent tutoring systems for the development of mathematical skills (unplugged mode), from the first to the fifth year of elementary school.",
+      "challenge": "To improve the level of learning of Brazilian students in mathematics (30% of Brazilian students reached the minimum learning standard vs. 69% in OECD countries - PISA data).",
+      "expected_impacts": [
+        "Improvement in student performance in the PISA math assessment",
+        "Reduction of school failure due to poor performance in mathematics"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "New",
+      "sector": "Education",
+      "name": "Better AI for Student Learning and Well-being",
+      "description": "Support system using positive psychology, generative AI, and intelligent tutoring systems to promote learning and well-being.",
+      "challenge": "To increase the level of student learning and well-being in the teaching process, in order to ensure greater learning and decrease school dropout and evasion.",
+      "expected_impacts": [
+        "Increase in the level of student learning",
+        "Reduction of the dropout, evasion, and school failure rate"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "New",
+      "sector": "Social development",
+      "name": "Believe in the first step - AI",
+      "description": "Platform using AI to map the needs of the population registered in CadUnico, offering qualification courses, job opportunities, and support actions for entrepreneurship, directing people for (re)insertion into the job market and sustainable entrepreneurship.",
+      "challenge": "To ensure a civic life for low-income and socially vulnerable families, guaranteeing socio-economic autonomy.",
+      "expected_impacts": [
+        "Increase in the level of employability and socio-economic autonomy of those registered in CadUnico",
+        "Improvement in the qualification level of those registered in CadUnico"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "New",
+      "sector": "Public services management",
+      "name": "Fiscaliza IA - Federal Revenue of Brazil (RFB)",
+      "description": "Application of large-scale language models to assist in the classification and judgment of fiscal administrative proceedings, including jurisprudential search and divergent theses.",
+      "challenge": "To reduce the judgment time of fiscal administrative proceedings in the RFB, with an increase in legal certainty.",
+      "expected_impacts": [
+        "Significant reduction in the average judgment time of proceedings",
+        "Increase in the legal certainty of decisions",
+        "Acceleration of tax credit collection"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "New",
+      "sector": "Public services management",
+      "name": "Atende IA - Abroad",
+      "description": "Implementation of an AI-based chatbot on the consulate web page for fast, reliable service in any language.",
+      "challenge": "To ensure the efficiency and agility in consular services to Brazilian residents and non-residents abroad, providing answers, in any language, based on prior information.",
+      "expected_impacts": [
+        "Agile access to available information in consular services",
+        "Reduction of employee workload",
+        "Improvement of efficiency in service to Brazilian citizens abroad"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "Finep (ongoing)",
+      "sector": "Health",
+      "name": "Autonomous Environment Disinfection",
+      "description": "Autonomous robot for environment disinfection using UV-C technology and ozonized mist to eliminate viruses and bacteria present in the air and on surfaces.",
+      "challenge": "To improve the capacity for environment disinfection to ensure less proliferation of viruses and bacteria.",
+      "expected_impacts": [
+        "Increase in the efficiency of environment disinfection, mainly in the context of pandemics and the proliferation of contagious diseases"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "Finep (ongoing)",
+      "sector": "Health",
+      "name": "AI and Big Data for Cancer Treatment",
+      "description": "Platform with AI for cancer treatment in the peritoneum using ultrasound technology for aerosolization of chemotherapeutic agent in the peritoneal cavity.",
+      "challenge": "To increase the treatment response capacity and patient survival with cancer in the peritoneum.",
+      "expected_impacts": [
+        "Greater response in oncological treatment of the peritoneal space"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "Finep (ongoing)",
+      "sector": "Health",
+      "name": "Generative AI for Health Care Personalization",
+      "description": "AI assistant to optimize the personalization of health care, in the context of Digital Primary Health Care.",
+      "challenge": "To offer personalized medicine on a mass scale.",
+      "expected_impacts": [
+        "Improvement in quality of life indicators",
+        "Decrease in cases of diseases and illnesses",
+        "Reduction of costs in the health system"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "Finep (ongoing)",
+      "sector": "Health",
+      "name": "Prevention of Stroke and Cardiopathy in Supplementary Health Clients",
+      "description": "AI application for the prediction of cardiovascular system pathologies such as ischemic heart diseases and stroke.",
+      "challenge": "To prevent pathologies related to the cardiovascular system.",
+      "expected_impacts": [
+        "Reduction in the number of complications and hospitalizations caused by heart diseases and stroke"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "Finep (ongoing)",
+      "sector": "Health",
+      "name": "Retina without Anomalies",
+      "description": "AI system in a retinograph for high-accuracy detection of anomalies in the human retina.",
+      "challenge": "To assist in combating severe visual impairment and global blindness, with more than 75% of cases due to lack of prevention and correct treatment.",
+      "expected_impacts": [
+        "Support in ophthalmological medical care in the process of retinal analysis and investigation",
+        "Agility and accuracy in ophthalmological consultations"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "Finep (ongoing)",
+      "sector": "Health",
+      "name": "AI for Health Reimbursement Optimization",
+      "description": "Development of AI-based technology to automate the reimbursement processes of health plans.",
+      "challenge": "To ensure the reimbursement of health plans.",
+      "expected_impacts": [
+        "Agility in the reimbursement of performed medical procedures"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "Finep (ongoing)",
+      "sector": "Agriculture and livestock",
+      "name": "Bovine Weight Calculation by 3D Camera",
+      "description": "AI tool, using computer vision, for monitoring livestock weight, avoiding cattle handling.",
+      "challenge": "To reduce animal stress by performing less handling; to quickly monitor the weight evolution of the batches.",
+      "expected_impacts": [
+        "Improvement in the quality of meat produced",
+        "Agility in business management for the rural producer"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "Finep (ongoing)",
+      "sector": "Environment, climate, and sustainability",
+      "name": "AI for Quantification of Amazon Biome Forest Stock",
+      "description": "Mapping using AI for the location of plant species of interest in the Amazon Biome.",
+      "challenge": "To catalog species efficiently and effectively.",
+      "expected_impacts": [
+        "Cataloging of plant species",
+        "Increase in the protection of the Amazon Biome"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "Finep (ongoing)",
+      "sector": "Industry, trade, and services",
+      "name": "AI for Legal Management",
+      "description": "AI robot assistant to perform jurimetrics, created to process and analyze millions of lawsuits published on court portals in order to generate an AI model.",
+      "challenge": "To increase the assertiveness of the legal service.",
+      "expected_impacts": [
+        "Agility in the processing and analysis of lawsuits",
+        "Increase in the assertiveness of the legal service",
+        "Improvement in the drafting of lawsuits"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "Finep (ongoing)",
+      "sector": "Industry, trade, and services",
+      "name": "Artificial Intelligence for Corporate Communication",
+      "description": "Development of personalized chatbots based on advanced AI technology.",
+      "challenge": "To promote greater and better interaction between the customer and the company, allowing for an increase in the number of services provided and a reduction in waiting time.",
+      "expected_impacts": [
+        "Improvement of the interaction between the customer and the company",
+        "Increase in the number of services provided",
+        "Reduction of waiting time"
+      ]
+    }
+  ],
+  "structuring_axes": [
+    {
+      "axis_number": 1,
+      "title": "Infrastructure and AI Development",
+      "where_are_we": "Brazil has a significant initial base of high-performance processing capacity for AI development, including supercomputers ranked among the world's most efficient and powerful. The National High-Performance Processing System (Sinapad) provides computational infrastructure for teaching and research, with a total computational power of approximately 6.2 Pflop/s. The Brazilian Open Data Portal offers more than 13 thousand open databases from 264 distinct organizations. Brazil holds a significant competitive advantage due to its predominantly clean and renewable electricity matrix, which reached 89.2% renewable sources in 2023, and the potential to use hydroelectric reservoir water for efficient cooling. However, current computational infrastructure is insufficient for large-scale AI models, there is repressed demand for supercomputer use in AI research, Brazil lacks robust integrated data infrastructure, and there is external technological dependence for specialized AI hardware.",
+      "where_we_want_to_get_to": "Brazil will become a global leader in AI infrastructure, with a national network of ultra-high-performance supercomputers, a reference in the development of critical AI components, an international hub for AI research and development, and a model for sustainable AI development leveraging its clean electricity matrix and natural resources.",
+      "programs": [
+        {
+          "name": "National AI Infrastructure Program",
+          "description": "Improves the coverage, quality, and computational capacity of existing infrastructure in Brazil to boost cutting-edge AI research, addressing the need for investment in high-performance computational infrastructure and fostering the autonomous development of AI hardware."
+        },
+        {
+          "name": "Sustainability and Renewable Energy Program for AI",
+          "description": "Leverages Brazil's clean energy matrix to drive the sustainable development of public AI infrastructure, focusing on public institutions and Scientific, Technological, and Innovation Institutions (ICT)."
+        },
+        {
+          "name": "Program for Structuring the Data and Software Ecosystem for AI",
+          "description": "Leverages the diversity and richness of existing national datasets and elaborates the necessary software layers for AI applications through a national AI software stack, minimizing external dependence and bias."
+        },
+        {
+          "name": "AI Research and Development Program",
+          "description": "Fosters and strengthens AI research and development in Brazil, creating a robust network of centers of excellence and promoting collaboration among academia, the public sector, and the private sector."
+        }
+      ]
+    },
+    {
+      "axis_number": 2,
+      "title": "Diffusion, Training and Qualification in AI",
+      "where_are_we": "Brazil demonstrates growth in AI training at the higher education level, with an evolution in the number of computing and ICT courses since 2010; between 2013 and 2022, more than 25 thousand theses and dissertations related to AI were registered, a 200% increase in annual production. However, only 15% of Brazilian graduates are in STEM, below Chile (25%) and Mexico (26%), and there is a projected deficit of 530,000 ICT professionals between 2021 and 2025. In elementary and secondary education, AI and technology education is incipient; Brazil is among the 10 worst performers in mathematics in PISA, with 68% of students lacking basic knowledge. Regarding popularization, 66% of Brazilians are excited about AI use and 64% believe there are more benefits than disadvantages, but structured initiatives to educate the population are lacking.",
+      "where_we_want_to_get_to": "Brazil will become an AI talent hub, recognized globally for the quality of its training at all educational levels, a reference in AI education and popularization especially for developing nations, and a pole for attracting and retaining AI talent, reversing the 'brain drain' flow.",
+      "programs": [
+        {
+          "name": "AI Diffusion and Dissemination Program",
+          "description": "Expands knowledge and interest in AI in Brazilian society, promoting AI literacy and creating a solid foundation of understanding about AI across all segments of the population."
+        },
+        {
+          "name": "AI Training Program",
+          "description": "Strengthens comprehensive training in AI from basic education to postgraduate studies, including teacher training, technical-professional education, undergraduate courses, and scholarships abroad."
+        },
+        {
+          "name": "AI Qualification, Skills, and Requalification Program",
+          "description": "Trains and qualifies professionals in AI to meet growing market demand, from technical training to advanced specialization."
+        }
+      ]
+    },
+    {
+      "axis_number": 3,
+      "title": "AI for Improving Public Service",
+      "where_are_we": "More than 30% of federal and state agencies already make use of at least one AI technology, predominantly for text mining, prediction and data analysis, and process automation. Examples include the MCTI Intelligent Platform and the Finep 'AI Solutions for the Public Sector' calls. Despite advances, this potential is still underutilized in the Brazilian public sector; a national innovation ecosystem focused on data and AI, robust digital public infrastructures, and continuous qualification of public servants are needed.",
+      "where_we_want_to_get_to": "Brazil, already an international reference in Digital Government, will also reach this level in the strategic and ethical use of AI in public administration, establishing itself as a leader in governmental digital transformation, reducing operational costs and increasing public satisfaction with services.",
+      "programs": [
+        {
+          "name": "Federal Government AI Core",
+          "description": "A strategic initiative coordinated by the Digital Government Secretariat (SGD), with MGI, MCTI, Enap, Serpro, and Dataprev, to catalyze the efficient and ethical adoption of AI in the Brazilian public sector."
+        },
+        {
+          "name": "National Data Infrastructure (IND)",
+          "description": "A set of rules, policies, architectures, standards, technological tools, information assets, and human talent that enables governance, discovery, interoperability, access, strategic use, privacy, security, and data protection."
+        },
+        {
+          "name": "AI Solutions for Public Services Program",
+          "description": "Fosters the development and implementation of AI solutions to address specific challenges in strategic areas of the public sector, promoting efficiency and innovation in governmental services."
+        }
+      ]
+    },
+    {
+      "axis_number": 4,
+      "title": "AI for Business Innovation",
+      "where_are_we": "In 2024, Brazil launched its industrial policy, Nova Indústria Brasil (NIB), with six industrial development missions; AI aligns directly with Mission 4 (digital transformation of industry) and acts as a catalyst across all missions. Brazil ranks only 13th worldwide in number of data centers (168, versus over 5,000 in the US); only 13% of Brazilian companies use AI technologies. Investment in AI, although growing, is significantly lower than global leaders, and the Country lacks a robust AI production chain. Despite these challenges, Brazil has an energy matrix with 83% renewable sources, water availability for data center cooling, and an installed base of data center equipment suppliers, though these face tax imbalances compared to foreign competitors.",
+      "where_we_want_to_get_to": "Brazil will become a global leader in AI adoption and development for business innovation, a reference in AI solutions for strategic sectors such as precision agriculture, Industry 4.0, and innovative financial services, and a global hub for data centers.",
+      "programs": [
+        {
+          "name": "Program for Fostering the AI Value Chain",
+          "description": "Strengthens and expands the AI value chain in Brazil, from supporting startups to developing national companies supplying foundational AI models, including national data centers and public-private partnerships."
+        },
+        {
+          "name": "AI Program for Brazilian Industry Challenges",
+          "description": "Boosts the adoption and development of AI in the Brazilian industrial sector, contributing to the achievement of the New Brazil Industry (NIB) missions."
+        }
+      ]
+    },
+    {
+      "axis_number": 5,
+      "title": "Support for the Regulatory and Governance Process of AI",
+      "where_are_we": "Brazil is currently debating its AI regulatory framework within the scope of Bill 2338/23 in the National Congress, facing the challenge of promoting public trust and offering guidance for ethical and responsible AI use in the absence of a specific law. There is a relevant normative framework on data access, sharing, transparency, and personal data protection upon which AI governance is built, but significant gaps persist in both the strategic and practical components of AI-specific data governance.",
+      "where_we_want_to_get_to": "Brazil will become a world reference in AI regulation and governance, a global leader in formulating international standards for ethical and responsible AI, and the main spokesperson for the Global South on AI governance issues.",
+      "programs": [
+        {
+          "name": "Program for Improvement of the Regulatory Framework for AI",
+          "description": "Contributes to the consolidation of a robust and ethical regulatory framework for AI development and use in Brazil, covering impact studies, risk assessment methodologies, and a national center for algorithmic transparency."
+        },
+        {
+          "name": "Program to Support AI Governance",
+          "description": "Establishes effective governance mechanisms for AI in Brazil, including the consolidation of the Brazilian AI Observatory, support networks, and expanded international participation in AI debates."
+        }
+      ]
+    }
+  ],
+  "structuring_actions": [
+    {
+      "id": 1,
+      "axis_number": 1,
+      "program": "National AI Infrastructure Program",
+      "name": "AI Supercomputer",
+      "description": "Acquisition of a specialized supercomputer - Top 5 Worldwide.",
+      "challenge": "To expand Brazil's high-performance processing capacity, essential for advanced research in multiple scientific areas, technological development, and innovation.",
+      "expected_impacts": [
+        "Increased volume of research demanding high-performance computing and the use of AI, generating advancement in R&D of solutions for the well-being of society through innovations"
+      ]
+    },
+    {
+      "id": 2,
+      "axis_number": 1,
+      "program": "National AI Infrastructure Program",
+      "name": "Expansion of the Processing Capacity of the National High-Performance Processing Centers (Cenapads)",
+      "description": "Purchase of supercomputers for regional supercomputing centers.",
+      "challenge": "To expand and improve the regional distribution of Brazil's high-performance processing capacity, essential for advanced research, technological development, and innovation.",
+      "expected_impacts": [
+        "Increased volume of research demanding high-performance computing and the use of AI, generating advancement in R&D of solutions for the well-being of society through innovations"
+      ]
+    },
+    {
+      "id": 3,
+      "axis_number": 1,
+      "program": "National AI Infrastructure Program",
+      "name": "High-Speed Connection Networks for Supercomputing",
+      "description": "Expansion of access to supercomputers, with investments in connectivity equipment (e.g., routers and firewalls) and connection infrastructure.",
+      "challenge": "To network and guarantee access to Brazilian supercomputers.",
+      "expected_impacts": [
+        "Increased volume of research demanding high-performance computing and the use of AI, generating advancement in R&D of solutions for the well-being of society through innovations"
+      ]
+    },
+    {
+      "id": 4,
+      "axis_number": 1,
+      "program": "National AI Infrastructure Program",
+      "name": "Pro-Infra AI",
+      "description": "Funding for the acquisition, installation, and modernization of AI infrastructure in Brazilian ICTs.",
+      "challenge": "To expand and modernize computational capacity for AI in ICTs, including data centers and specialized processors, particularly machine learning accelerators.",
+      "expected_impacts": [
+        "Increased capacity for R&D&I in AI per ICT in Brazil",
+        "Reduction of regional asymmetries in AI infrastructure"
+      ]
+    },
+    {
+      "id": 5,
+      "axis_number": 1,
+      "program": "National AI Infrastructure Program",
+      "name": "International Partnerships for the Development of Supercomputer Nodes and Machine Learning Accelerators",
+      "description": "Establishment of partnerships for the national development of supercomputer nodes and machine learning accelerators.",
+      "challenge": "To reduce or eliminate external technological dependence on critical components for AI.",
+      "expected_impacts": [
+        "Development of national technological capacity and reduction of external dependence on critical hardware for AI",
+        "Strengthening of Brazil as a global partner in AI R&D"
+      ]
+    },
+    {
+      "id": 6,
+      "axis_number": 1,
+      "program": "National AI Infrastructure Program",
+      "name": "International Partnerships for Sharing AI R&D Infrastructure",
+      "description": "Sharing of Brazilian AI infrastructure with other developing countries.",
+      "challenge": "To promote access to cutting-edge infrastructure by developing countries, especially in Latin America, the Caribbean, and Africa.",
+      "expected_impacts": [
+        "Development of national technological capacity and reduction of external dependence on critical hardware for AI",
+        "Strengthening of Brazil as a global partner in AI R&D"
+      ]
+    },
+    {
+      "id": 7,
+      "axis_number": 1,
+      "program": "Sustainability and Renewable Energy Program for AI",
+      "name": "Pro-Infra Sustainable AI",
+      "description": "Funding for the implementation of sustainable and efficient energy infrastructure for data centers.",
+      "challenge": "To implement renewable energy infrastructure and sustainable use of resources to support the growth of AI in Brazil, leveraging the Country's clean energy matrix.",
+      "expected_impacts": [
+        "Reduction of the carbon footprint of AI infrastructure in Brazil",
+        "Increase in energy efficiency in high-performance computing facilities"
+      ]
+    },
+    {
+      "id": 8,
+      "axis_number": 1,
+      "program": "Program for Structuring the Data and Software Ecosystem for AI",
+      "name": "Development of an AI Software Stack",
+      "description": "Support for the development of all necessary software layers for AI applications.",
+      "challenge": "To develop a national AI software stack, aiming to be interoperable and integrated with existing free software stacks, seeking to optimize performance and promote technological independence.",
+      "expected_impacts": [
+        "Technological sovereignty",
+        "Improvement in data security and privacy",
+        "Resource optimization",
+        "Economic development, innovation, and competitiveness"
+      ]
+    },
+    {
+      "id": 9,
+      "axis_number": 1,
+      "program": "Program for Structuring the Data and Software Ecosystem for AI",
+      "name": "AI Based on National Data (LLM in Portuguese)",
+      "description": "Funding for the curation of national datasets and support for the development of foundational models, particularly Large Language Models (LLM), specialized in Portuguese.",
+      "challenge": "To create and enhance national databases for AI training, reducing external dependence and contemplating Brazil's diversity and specificities.",
+      "expected_impacts": [
+        "Reduction of external dependence",
+        "Greater alignment of AI models with national norms and specificities"
+      ]
+    },
+    {
+      "id": 10,
+      "axis_number": 1,
+      "program": "AI Research and Development Program",
+      "name": "Promotion of AI R&D Activities",
+      "description": "Launch of calls for proposals and financing initiatives for AI R&D projects, including thematic ones (education, health, environment, and creative economy, among others).",
+      "challenge": "To boost multidisciplinary AI R&D in Brazil, integrating different areas of knowledge.",
+      "expected_impacts": [
+        "Advancement in scientific and technological production in applied AI in Brazil, with innovative solutions for national challenges",
+        "Training of highly qualified AI researchers"
+      ]
+    },
+    {
+      "id": 11,
+      "axis_number": 1,
+      "program": "AI Research and Development Program",
+      "name": "INCT - AI",
+      "description": "Funding for AI research and development through National Institutes of Science and Technology (INCT), integrating computing and exact sciences with areas such as biological, health, social, human, cultural, economic, and legal sciences.",
+      "challenge": "To consolidate a multidisciplinary network of excellence, capable of developing AI solutions oriented towards facing national challenges in various areas.",
+      "expected_impacts": [
+        "Increase in national R&D&I capacity in AI",
+        "Training of highly qualified researchers and professionals",
+        "Acceleration of technology transfer to the productive sector"
+      ]
+    },
+    {
+      "id": 12,
+      "axis_number": 1,
+      "program": "AI Research and Development Program",
+      "name": "National Institute of Informatics with a Focus on AI",
+      "description": "Creation of the National AI Institute to foster advanced AI research.",
+      "challenge": "To strengthen AI R&D in Brazil and increase the impact of Science, Technology, and Innovation (ST&I) on companies with global competitiveness potential.",
+      "expected_impacts": [
+        "Strengthening of Brazil in global AI research",
+        "Acceleration of innovation through international collaborations",
+        "Increase in computational capacity for AI research"
+      ]
+    },
+    {
+      "id": 13,
+      "axis_number": 1,
+      "program": "AI Research and Development Program",
+      "name": "Promotion of R&D in Cooperation with Latin America, the Caribbean, and Africa",
+      "description": "Promotion of international collaborative R&D in AI, with research institutions and universities in Latin America, the Caribbean, and Africa.",
+      "challenge": "To strengthen scientific and technological cooperation in AI among countries, promoting the joint development of solutions for common challenges.",
+      "expected_impacts": [
+        "Consolidation of Brazil as a strategic AI partner in South America and Africa, boosting the development of technological solutions"
+      ]
+    },
+    {
+      "id": 14,
+      "axis_number": 2,
+      "program": "AI Diffusion and Dissemination Program",
+      "name": "AI Diffusion, Dissemination, and Digital Literacy",
+      "description": "Comprehensive action for digital literacy and AI dissemination, aiming to popularize technological fundamentals, transparency, everyday applications, risks, and citizens' rights. Includes the Brazilian AI Olympiad.",
+      "challenge": "To increase the knowledge, engagement, and social inclusion of the Brazilian population regarding AI.",
+      "expected_impacts": [
+        "Increase in interest and understanding of AI among youth and in the general population",
+        "Improvement in scientific education",
+        "More conscious and responsible use of technology"
+      ]
+    },
+    {
+      "id": 15,
+      "axis_number": 2,
+      "program": "AI Training Program",
+      "name": "Interdisciplinary Laboratories for Educator Training (Lifes)",
+      "description": "Creation and expansion of Lifes for teacher training in AI literacy and the pedagogical use of AI.",
+      "challenge": "To promote the qualification of teachers for the pedagogical use of AI.",
+      "expected_impacts": [
+        "Teachers more prepared to address AI topics in the classroom",
+        "Training of a more qualified workforce for the future"
+      ]
+    },
+    {
+      "id": 16,
+      "axis_number": 2,
+      "program": "AI Training Program",
+      "name": "AI in Undergraduate Education",
+      "description": "Creation of undergraduate courses in AI and related fields; stimulus for the creation of elective subjects in programming, data science, and AI; and offering of AI-focused vacancies in the Student Financing Fund (Fies).",
+      "challenge": "To expand training in AI and related disciplines across all undergraduate courses.",
+      "expected_impacts": [
+        "Increase in the number of professionals with AI training",
+        "Greater integration of AI into various areas of knowledge"
+      ]
+    },
+    {
+      "id": 17,
+      "axis_number": 2,
+      "program": "AI Training Program",
+      "name": "AI Scholarships for Undergraduate and Postgraduate Education",
+      "description": "Scientific initiation, master's, and doctoral scholarships for scientific initiation, master's, and doctoral studies in AI, with competitive values for talent training, attraction, and retention.",
+      "challenge": "To increase the supply of highly qualified AI professionals in Brazil and reduce the gap between academia and industry.",
+      "expected_impacts": [
+        "Increase in the quantity and quality of AI research",
+        "Highly qualified researchers",
+        "AI applications with direct benefits for society in strategic areas"
+      ]
+    },
+    {
+      "id": 18,
+      "axis_number": 2,
+      "program": "AI Training Program",
+      "name": "AI Doctoral Scholarships Abroad",
+      "description": "Doctoral scholarships abroad in the field of artificial intelligence to expand international partnerships in AI research.",
+      "challenge": "To expand international partnerships in AI research.",
+      "expected_impacts": [
+        "Doctors with international experience in AI",
+        "Strengthening of international research collaboration networks",
+        "Greater quality and visibility of Brazilian AI research"
+      ]
+    },
+    {
+      "id": 19,
+      "axis_number": 2,
+      "program": "AI Qualification, Skills, and Requalification Program",
+      "name": "Professional Qualification in AI",
+      "description": "National platform of online AI qualification courses, as well as in-person qualification courses via internships in companies.",
+      "challenge": "To increase the supply of qualified professionals in specific AI areas.",
+      "expected_impacts": [
+        "Increase in the supply of qualified AI professionals",
+        "Reduction of training gaps in AI skills in the industrial sector",
+        "Contribution to the realization of the NIB missions"
+      ]
+    },
+    {
+      "id": 20,
+      "axis_number": 2,
+      "program": "AI Qualification, Skills, and Requalification Program",
+      "name": "AI for Education and Work",
+      "description": "Multi-institutional initiative for AI training and qualification, with intensive use of experimental environments.",
+      "challenge": "To increase the supply of qualified AI professionals in Brazil.",
+      "expected_impacts": [
+        "Greater supply of qualified AI professionals",
+        "Greater competitiveness of Brazilian companies",
+        "Promotion of innovation and entrepreneurship"
+      ]
+    },
+    {
+      "id": 21,
+      "axis_number": 2,
+      "program": "AI Qualification, Skills, and Requalification Program",
+      "name": "ICT-AI Residency",
+      "description": "Technological training and qualification in AI, in partnership with the private sector (internships in companies).",
+      "challenge": "To increase the supply of professionals in ICTs with a focus on AI.",
+      "expected_impacts": [
+        "Increase in the supply of qualified AI professionals, meeting market demand and contributing to the competitiveness of the Brazilian industry and ICT ecosystem"
+      ]
+    },
+    {
+      "id": 22,
+      "axis_number": 3,
+      "program": "Federal Government AI Core",
+      "name": "Government Artificial Intelligence Platform",
+      "description": "Government AI platform with an approach based on the context and strategy of the federal public administration.",
+      "challenge": "To develop, train, and deploy AI models for the government.",
+      "expected_impacts": [
+        "Elaboration of integration standards",
+        "Interoperability",
+        "Availability of emerging technologies",
+        "Operation of AI projects"
+      ]
+    },
+    {
+      "id": 23,
+      "axis_number": 3,
+      "program": "Federal Government AI Core",
+      "name": "AI Project Prospecting and Structuring",
+      "description": "Establishment of a methodology for the prospecting and structuring of strategic AI-related projects within the government.",
+      "challenge": "To identify and structure strategic AI projects in the government.",
+      "expected_impacts": [
+        "Identification of opportunities for the structuring and application of AI solutions in the public sector",
+        "Improvement in the quality and efficiency of public services"
+      ]
+    },
+    {
+      "id": 24,
+      "axis_number": 3,
+      "program": "Federal Government AI Core",
+      "name": "Experimentation of AI Projects in the Government",
+      "description": "Development of AI pilot projects in the federal government to assess viability, risks, and benefits, before large-scale implementation.",
+      "challenge": "To evaluate the viability and impact of experimental AI projects before large-scale application.",
+      "expected_impacts": [
+        "Better foundation for the decision to advance to large-scale AI project development, reducing project risk"
+      ]
+    },
+    {
+      "id": 25,
+      "axis_number": 3,
+      "program": "Federal Government AI Core",
+      "name": "Monitoring of AI Development and Use",
+      "description": "System for collecting and analyzing data on AI projects in the federal government to obtain an integrated view of their adoption and development.",
+      "challenge": "To obtain an integrated view of the progress of AI adoption in the federal government.",
+      "expected_impacts": [
+        "Evaluation of the pace of AI solution adoption",
+        "Identification of problems faced and technologies used"
+      ]
+    },
+    {
+      "id": 26,
+      "axis_number": 3,
+      "program": "Federal Government AI Core",
+      "name": "Qualification of Public Servants in AI",
+      "description": "Qualification of federal public servants in AI to support the development and adoption of the technology in the government.",
+      "challenge": "To qualify federal public servants to respond to the challenges of digital transformation and AI.",
+      "expected_impacts": [
+        "Increase in the number of public servants capable of working with artificial intelligence",
+        "Efficient and quick delivery of services to the population"
+      ]
+    },
+    {
+      "id": 27,
+      "axis_number": 3,
+      "program": "National Data Infrastructure",
+      "name": "Sovereign Cloud",
+      "description": "Private or community cloud infrastructure managed exclusively by public agencies or companies.",
+      "challenge": "To protect confidential data, guarantee privacy, availability, and appropriate management thereof.",
+      "expected_impacts": [
+        "Increase in the security and sovereignty of critical/sensitive data",
+        "Storage of critical/sensitive data in national territory",
+        "Guarantee of data sovereignty and privacy"
+      ]
+    },
+    {
+      "id": 28,
+      "axis_number": 3,
+      "program": "National Data Infrastructure",
+      "name": "Data Cataloging, Governance, and Use Strategy",
+      "description": "Establishment of a data governance policy, expansion of maturity in data use, and cataloging of datasets within the federal government.",
+      "challenge": "To treat public data as strategic assets to support the solution of major societal challenges.",
+      "expected_impacts": [
+        "Institutionalization and prioritization of the strategic use of data in federal agencies and entities",
+        "Expansion of the governance, transparency, and reuse of governmental data"
+      ]
+    },
+    {
+      "id": 29,
+      "axis_number": 3,
+      "program": "National Data Infrastructure",
+      "name": "Integration and Strategic Reuse of Data",
+      "description": "Implement interoperability among governmental agencies and entities to promote the efficient reuse and sharing of data.",
+      "challenge": "To promote data sharing to avoid duplication of citizen efforts in compliance with the LGPD.",
+      "expected_impacts": [
+        "Simplification of access to digital public services",
+        "Reduction of bureaucracy and resource savings through the implementation of the 'once only' principle and interoperability among governmental agencies"
+      ]
+    },
+    {
+      "id": 30,
+      "axis_number": 3,
+      "program": "National Data Infrastructure",
+      "name": "Personalization of Public Services",
+      "description": "Personalization of public services, to offer the citizen contextual, targeted, and proactive content.",
+      "challenge": "To expand the offering of content from the various federal public agencies and entities to citizens in a personalized and proactive manner.",
+      "expected_impacts": [
+        "Expansion of citizenship, as the citizen will have, in advance and through personalized messages, information about their rights and obligations"
+      ]
+    },
+    {
+      "id": 31,
+      "axis_number": 3,
+      "program": "National Data Infrastructure",
+      "name": "Privacy and Information Security in the Public Sector",
+      "description": "Set of comprehensive privacy and information security actions in federal agencies.",
+      "challenge": "To guarantee the privacy and security of citizens' information in the provision of public services.",
+      "expected_impacts": [
+        "Strengthening of privacy and information security",
+        "Increase in the resilience of public institutions",
+        "Increase in the degree of citizen trust in the use of digital public services"
+      ]
+    },
+    {
+      "id": 32,
+      "axis_number": 3,
+      "program": "National Data Infrastructure",
+      "name": "Infrastructure for the Use and Application of AI in Education",
+      "description": "Construction of a unified educational database.",
+      "challenge": "Application of AI in education based on the organization, integration, and crossing of educational data, access to data in an anonymized way for researchers and accredited public.",
+      "expected_impacts": [
+        "Greater privacy and information security",
+        "Increase in the resilience of public institutions",
+        "Increase in the degree of citizen trust in the use of digital public services"
+      ]
+    },
+    {
+      "id": 33,
+      "axis_number": 3,
+      "program": "AI Solutions for Public Services Program",
+      "name": "AI Solutions for the Government",
+      "description": "Launch of periodic calls for proposals to develop AI solutions that meet public sector challenges and foster govtech startups.",
+      "challenge": "To improve the quality and efficiency of public services using AI for the analysis of the large volume of available governmental data.",
+      "expected_impacts": [
+        "Greater efficiency and effectiveness of public services provided to the population",
+        "Increased AI adoption in the public sector",
+        "Development of startups (govtechs) focused on the AI area"
+      ]
+    },
+    {
+      "id": 34,
+      "axis_number": 3,
+      "program": "AI Solutions for Public Services Program",
+      "name": "Development of AI for Cybersecurity in the Government",
+      "description": "Development of AI systems to improve the detection and response to cybersecurity incidents in the government.",
+      "challenge": "To increase the response capacity to cyberattacks through the use of AI tools.",
+      "expected_impacts": [
+        "Increase in the ability to quickly analyze large amounts of data",
+        "Identification of abnormal behavior",
+        "Detection of malicious activities"
+      ]
+    },
+    {
+      "id": 35,
+      "axis_number": 3,
+      "program": "AI Solutions for Public Services Program",
+      "name": "Development of AI for the Improvement of Public Procurement",
+      "description": "Development of AI tools to optimize public procurement processes.",
+      "challenge": "To identify patterns in public procurement focusing on process agility, cost reduction, error and fraud correction, and increased transparency and effectiveness.",
+      "expected_impacts": [
+        "Improvement in the quality, efficiency, and effectiveness of public procurement processes",
+        "Promotion of the ecosystem and the development of AI solutions in the Country"
+      ]
+    },
+    {
+      "id": 36,
+      "axis_number": 3,
+      "program": "AI Solutions for Public Services Program",
+      "name": "AI for Education Resource Management",
+      "description": "Use of AI for the simplification and automation of management and accountability processes for financial resources from FNDE transfers and the Direct School Money Program.",
+      "challenge": "To modernize and optimize management, with monitoring and accountability through AI.",
+      "expected_impacts": [
+        "Greater agility in the management and accountability of education resources"
+      ]
+    },
+    {
+      "id": 37,
+      "axis_number": 3,
+      "program": "AI Solutions for Public Services Program",
+      "name": "Use of AI to Improve Human Resource Management Processes",
+      "description": "Development and use of AI in projects related to the Human Resource Management area in the public service.",
+      "challenge": "To increase operational and management efficiency of human resources.",
+      "expected_impacts": [
+        "Improvement in the quality and efficiency of administrative processes",
+        "Reduction of costs caused by human errors"
+      ]
+    },
+    {
+      "id": 38,
+      "axis_number": 3,
+      "program": "AI Solutions for Public Services Program",
+      "name": "Use of AI to Improve Union Asset Management Processes",
+      "description": "AI for the Management of Union Assets.",
+      "challenge": "To improve the management and monitoring of Union real estate, such as valuation, identification, and incorporation of new properties; and to support the inspection operations of Union real estate.",
+      "expected_impacts": [
+        "Improvement in the quality and efficiency of administrative processes",
+        "Reduction of costs caused by human errors"
+      ]
+    },
+    {
+      "id": 39,
+      "axis_number": 3,
+      "program": "AI Solutions for Public Services Program",
+      "name": "Support for the Development of AI Projects in State-Owned Enterprises",
+      "description": "Prospecting and support for the structuring of strategic projects related to artificial intelligence in state-owned enterprises.",
+      "challenge": "To identify opportunities for the development of AI projects in state-owned enterprises aligned with the achievement of public policy objectives.",
+      "expected_impacts": [
+        "Improvement of state-owned enterprise processes",
+        "Contribution to fostering the ecosystem and the development of AI solutions in the Country"
+      ]
+    },
+    {
+      "id": 40,
+      "axis_number": 3,
+      "program": "AI Solutions for Public Services Program",
+      "name": "SIPEC - Intelligent System for Extreme Climate Prediction",
+      "description": "Development of an artificial intelligence-based system for the prediction of extreme climate events, with a high degree of reliability and specific to Brazilian characteristics.",
+      "challenge": "To predict extreme climate events and mitigate the damage caused to society.",
+      "expected_impacts": [
+        "Improvement of Brazil's capacity to predict and prepare for extreme climate events, in order to minimize their adverse impacts on the population"
+      ]
+    },
+    {
+      "id": 41,
+      "axis_number": 4,
+      "program": "Program for Fostering the AI Value Chain",
+      "name": "Development of National Data Centers",
+      "description": "Support for the creation of data centers powered by renewable energy sources, prioritizing the North and Northeast regions.",
+      "challenge": "To develop and strengthen the chain of data center suppliers for AI in Brazil.",
+      "expected_impacts": [
+        "Implementation of high-capacity and energy-efficient data centers in Brazil",
+        "Establishment of robust infrastructure for AI",
+        "Reduction of dependence on foreign resources"
+      ]
+    },
+    {
+      "id": 42,
+      "axis_number": 4,
+      "program": "Program for Fostering the AI Value Chain",
+      "name": "Systemic Support for the AI Value Chain",
+      "description": "Support for the AI value chain, integrating and expanding Embrapii's actions related to AI projects.",
+      "challenge": "To strengthen national productive capacity in the AI chain.",
+      "expected_impacts": [
+        "Greater capacity to develop AI solutions for strategic challenges",
+        "Greater collaboration among actors",
+        "Positioning of Brazil as a reference in AI innovation"
+      ]
+    },
+    {
+      "id": 43,
+      "axis_number": 4,
+      "program": "Program for Fostering the AI Value Chain",
+      "name": "Support for AI Startups",
+      "description": "Creation of an investment fund to support AI startups, including resources from the Plano Mais Produção.",
+      "challenge": "To increase the number, revenue, and global presence of Brazilian AI startups.",
+      "expected_impacts": [
+        "Creation and growth of AI startups",
+        "New innovation environments and hubs",
+        "Greater international competitiveness",
+        "Strengthening of the capacity to create endogenous AI models"
+      ]
+    },
+    {
+      "id": 44,
+      "axis_number": 4,
+      "program": "Program for Fostering the AI Value Chain",
+      "name": "AI for MSMEs and Individual Micro-entrepreneurs (MEIs)",
+      "description": "Stimulus and expansion of AI adoption in different segments of small businesses.",
+      "challenge": "To increase the productivity and competitiveness of Micro and Small Enterprises (MSMEs) and Individual Micro-entrepreneurs (MEIs).",
+      "expected_impacts": [
+        "Increased adoption and effective use of AI among MSMEs in intensive sectors",
+        "Preparation and support strategies for the adoption of advanced technologies among MEIs and informal entrepreneurs"
+      ]
+    },
+    {
+      "id": 45,
+      "axis_number": 4,
+      "program": "Program for Fostering the AI Value Chain",
+      "name": "Human Resources in Strategic Areas (RHAE) - AI",
+      "description": "Insertion of masters and doctors specializing in AI in private companies, preferably micro, small, and medium-sized.",
+      "challenge": "To expand the insertion of masters and doctors into private companies, preferably MSMEs, for greater interaction between universities and companies.",
+      "expected_impacts": [
+        "Leveraging the productivity of national small and medium-sized enterprises",
+        "Diffusion, sharing, and improvement of technical-scientific knowledge"
+      ]
+    },
+    {
+      "id": 46,
+      "axis_number": 4,
+      "program": "Program for Fostering the AI Value Chain",
+      "name": "Talent Retention for AI Innovation",
+      "description": "Salary complementation scholarships for the retention of AI talent.",
+      "challenge": "To promote the retention of the highly qualified AI workforce in Brazil, avoiding evasion to competing markets.",
+      "expected_impacts": [
+        "Decrease in the evasion of qualified AI professionals to competing markets",
+        "Fixation of AI-trained professionals in companies"
+      ]
+    },
+    {
+      "id": 47,
+      "axis_number": 4,
+      "program": "AI Program for Brazilian Industry Challenges",
+      "name": "National AI Center for Industry (CNIA4I)",
+      "description": "Creation of a center for the development of AI-based technologies for industry.",
+      "challenge": "To foster an adequate technological ecosystem for the development of AI models for industrial applications.",
+      "expected_impacts": [
+        "Brazil as a regional leader in AI",
+        "Guarantee of technological security and sovereignty, through the scientific and technological advancement of the Brazilian industry"
+      ]
+    },
+    {
+      "id": 48,
+      "axis_number": 4,
+      "program": "AI Program for Brazilian Industry Challenges",
+      "name": "AI Solutions for NIB Missions",
+      "description": "Targeting of resources from the Plano Mais Produção and Programa Mais Inovação for AI projects applied to industry, focusing on the application chains defined in the New Brazil Industry (NIB) missions.",
+      "challenge": "To adopt AI solutions aligned with the specific needs of the New Brazil Industry (NIB) missions.",
+      "expected_impacts": [
+        "Increase in AI adoption in the Brazilian industrial sector",
+        "Strengthening of the national software industry, with greater capacity to develop and implement specialized AI systems"
+      ]
+    },
+    {
+      "id": 49,
+      "axis_number": 4,
+      "program": "AI Program for Brazilian Industry Challenges",
+      "name": "AI for Increasing Productivity of Industrial MSMEs",
+      "description": "Adoption of AI tools in the Brasil Mais Produtivo (B+P) program, covering three main aspects: creation of an industrial data space (dataspace), optimization of the registration process, and implementation of an AI library.",
+      "challenge": "To increase the productivity of industrial MSMEs.",
+      "expected_impacts": [
+        "Improvement of the productivity of the MSMEs served by the program and the productive chains in which they are inserted"
+      ]
+    },
+    {
+      "id": 50,
+      "axis_number": 5,
+      "program": "Program for Improvement of the Regulatory Framework for AI",
+      "name": "Brazilian Guides for Responsible AI",
+      "description": "Series of guides on AI in Brazil to promote responsible use and adapted to the national reality.",
+      "challenge": "Need to promote public trust in AI and adapt global standards to the Brazilian reality.",
+      "expected_impacts": [
+        "Greater understanding and trust of society regarding the use and applications of AI",
+        "Responsible practices in the use and development of AI, aligned with global standards"
+      ]
+    },
+    {
+      "id": 51,
+      "axis_number": 5,
+      "program": "Program for Improvement of the Regulatory Framework for AI",
+      "name": "National Center for Algorithmic Transparency and Trustworthy AI",
+      "description": "Creation of a national center to develop research and studies on the risks, security, transparency, and trustworthiness of AI.",
+      "challenge": "Reduction of risks associated with the use and development of AI, in order to guarantee transparency, information integrity, and trustworthiness in AI systems.",
+      "expected_impacts": [
+        "Greater transparency and responsibility in the development and use of AI, facilitating the auditing and evaluation of systems",
+        "Reduction of risks",
+        "Increase in public confidence in the technology"
+      ]
+    },
+    {
+      "id": 52,
+      "axis_number": 5,
+      "program": "Program to Support AI Governance",
+      "name": "Brazilian AI Observatory (Obia)",
+      "description": "Consolidation of the Brazilian Artificial Intelligence Observatory (Obia) as the main intelligence platform on AI in Brazil.",
+      "challenge": "To develop and consolidate indicators and databases for monitoring the use and development of AI in Brazil.",
+      "expected_impacts": [
+        "Improvement in the formulation of public policies, corporate strategies, and decision-making related to AI"
+      ]
+    },
+    {
+      "id": 53,
+      "axis_number": 5,
+      "program": "Program to Support AI Governance",
+      "name": "Support Network for AI Governance in Brazil",
+      "description": "Structuring of a research network to support AI governance processes in Brazil.",
+      "challenge": "To reduce dependence on external actors in critical capabilities for data and AI governance, including in specific sectors.",
+      "expected_impacts": [
+        "Creation of national capacity on AI regulation and governance, adapted to the Brazilian context"
+      ]
+    },
+    {
+      "id": 54,
+      "axis_number": 5,
+      "program": "Program to Support AI Governance",
+      "name": "Support Network for Brazil's Participation in the International Debate",
+      "description": "Structuring of a network of researchers and technicians to expand and qualify Brazil's participation in international debates and forums on AI.",
+      "challenge": "To expand and qualify Brazil's participation in discussions, initiatives, plans, normative acts, and/or resolutions of global scope in AI.",
+      "expected_impacts": [
+        "Strengthening of Brazil's global leadership",
+        "Consolidation of its role as a relevant interlocutor in the area",
+        "Conformation of AI governance that guarantees the right to development"
+      ]
+    }
+  ],
+  "governance_examples": [
+    {
+      "country_or_bloc": "United States",
+      "body": "National Artificial Intelligence Advisory Committee (NAIIC)",
+      "description": "Composed of 25 members from various sectors; coordinates the activities of different governmental agencies and promotes public-private partnerships."
+    },
+    {
+      "country_or_bloc": "United States",
+      "body": "White House AI Council",
+      "description": "Cited as an international example of a robust governance structure for AI plans and strategies."
+    },
+    {
+      "country_or_bloc": "European Union",
+      "body": "Scientific Panel and Advisory Forum (AI Act)",
+      "description": "Independent advisory bodies offering technical, scientific, and strategic guidance for the development and governance of AI, and supervising policy implementation."
+    },
+    {
+      "country_or_bloc": "European Union",
+      "body": "EU Artificial Intelligence Observatory",
+      "description": "Ensures that all initiatives related to AI are monitored and that progress reports are published regularly."
+    },
+    {
+      "country_or_bloc": "United Kingdom",
+      "body": "Office for Artificial Intelligence (OAI)",
+      "description": "Now integrated into the Department for Science, Innovation and Technology since February 2024; performs supervision and facilitation between sectors."
+    },
+    {
+      "country_or_bloc": "Brazil",
+      "body": "Interministerial Committee for Digital Transformation (CIT Digital)",
+      "description": "Instituted through Decree No. 12.308/2024; coordinates PBIA's governance structure, composed of representatives of the Federal Public Power."
+    }
+  ],
+  "acronyms": [
+    {
+      "acronym": "ABC",
+      "meaning": "Brazilian Academy of Sciences"
+    },
+    {
+      "acronym": "Abruc",
+      "meaning": "Brazilian Association of Community Higher Education Institutions"
+    },
+    {
+      "acronym": "Abruem",
+      "meaning": "Brazilian Association of Rectors of Provincial and Municipal Universities"
+    },
+    {
+      "acronym": "AI Act",
+      "meaning": "European regulation on artificial intelligence (AI) that assigns three risk categories to AI"
+    },
+    {
+      "acronym": "Ancine",
+      "meaning": "National Cinema Agency"
+    },
+    {
+      "acronym": "Andifes",
+      "meaning": "National Association of Directors of Federal Higher Education Institutions"
+    },
+    {
+      "acronym": "ANPG",
+      "meaning": "National Association of Graduate Students"
+    },
+    {
+      "acronym": "ANS",
+      "meaning": "National Health Agency"
+    },
+    {
+      "acronym": "Ater",
+      "meaning": "Strengthening Technical Assistance and Rural Extension"
+    },
+    {
+      "acronym": "AVC",
+      "meaning": "Stroke (Cerebrovascular Accident)"
+    },
+    {
+      "acronym": "Bacen",
+      "meaning": "Central Bank of Brazil"
+    },
+    {
+      "acronym": "BESM-Inpe",
+      "meaning": "Brazilian Earth System Model"
+    },
+    {
+      "acronym": "BNDES",
+      "meaning": "Brazilian Development Bank"
+    },
+    {
+      "acronym": "Capes",
+      "meaning": "Coordination for the Improvement of Higher Education Personnel"
+    },
+    {
+      "acronym": "CC/PR",
+      "meaning": "Civil House of the Presidency of the Republic"
+    },
+    {
+      "acronym": "CCT",
+      "meaning": "National Council for Science and Technology"
+    },
+    {
+      "acronym": "Cenapad SP",
+      "meaning": "National High-Performance Processing Center in São Paulo"
+    },
+    {
+      "acronym": "CGEE",
+      "meaning": "Center for Strategic Studies and Management"
+    },
+    {
+      "acronym": "CGI.br",
+      "meaning": "Brazilian Internet Steering Committee"
+    },
+    {
+      "acronym": "CGU",
+      "meaning": "Office of the Comptroller General"
+    },
+    {
+      "acronym": "CIT Digital",
+      "meaning": "Interministerial Committee for Digital Transformation"
+    },
+    {
+      "acronym": "CMPIAS",
+      "meaning": "Center for Monitoring and Promotion of Sustainable AI"
+    },
+    {
+      "acronym": "CNI",
+      "meaning": "National Confederation of Industry"
+    },
+    {
+      "acronym": "CNIA4I",
+      "meaning": "National AI Center for Industry"
+    },
+    {
+      "acronym": "CNPq",
+      "meaning": "National Council for Scientific and Technological Development"
+    },
+    {
+      "acronym": "Confap",
+      "meaning": "National Council for State Funding Agencies"
+    },
+    {
+      "acronym": "Conif",
+      "meaning": "National Council of Institutions of the Federal Network for Professional, Scientific and Technological Education"
+    },
+    {
+      "acronym": "Consecti",
+      "meaning": "National Council of State Secretaries for Science, Technology and Innovation Affairs"
+    },
+    {
+      "acronym": "CPA",
+      "meaning": "Applied Research Centers in Artificial Intelligence"
+    },
+    {
+      "acronym": "Dataprev",
+      "meaning": "Social Security Technology and Information Company"
+    },
+    {
+      "acronym": "Ebserh",
+      "meaning": "Brazilian Hospital Services Company"
+    },
+    {
+      "acronym": "Embrapa",
+      "meaning": "Brazilian Agricultural Research Corporation"
+    },
+    {
+      "acronym": "Embrapii",
+      "meaning": "Brazilian Company for Industrial Research and Innovation"
+    },
+    {
+      "acronym": "Enap",
+      "meaning": "National School of Public Administration"
+    },
+    {
+      "acronym": "EPE",
+      "meaning": "Energy Research Company"
+    },
+    {
+      "acronym": "FAP",
+      "meaning": "Research Foundations"
+    },
+    {
+      "acronym": "Fies",
+      "meaning": "Student Financing Fund"
+    },
+    {
+      "acronym": "Finep",
+      "meaning": "Funding Authority for Studies and Projects"
+    },
+    {
+      "acronym": "FIP",
+      "meaning": "Equity Investment Fund"
+    },
+    {
+      "acronym": "FNDCT",
+      "meaning": "National Fund for Scientific and Technological Development"
+    },
+    {
+      "acronym": "FNDE",
+      "meaning": "National Fund for Education Development"
+    },
+    {
+      "acronym": "Funttel",
+      "meaning": "Fund for the Technological Development of Telecommunications"
+    },
+    {
+      "acronym": "GSI",
+      "meaning": "Institutional Security Cabinet of the Presidency of the Republic"
+    },
+    {
+      "acronym": "IA",
+      "meaning": "Artificial Intelligence"
+    },
+    {
+      "acronym": "Ibama",
+      "meaning": "Brazilian Institute of Environment and Renewable Natural Resources"
+    },
+    {
+      "acronym": "Ibrachics",
+      "meaning": "Brazilian Institute of Human, Smart, Creative and Sustainable Cities"
+    },
+    {
+      "acronym": "ICT",
+      "meaning": "Scientific, Technological, and Innovation Institutions / Information and Communication Technologies"
+    },
+    {
+      "acronym": "IES",
+      "meaning": "Higher Education Institutions"
+    },
+    {
+      "acronym": "Ifes",
+      "meaning": "Federal Institute of Education, Science, and Technology"
+    },
+    {
+      "acronym": "INCT-IA",
+      "meaning": "Institute of Science and Technology in AI"
+    },
+    {
+      "acronym": "IND",
+      "meaning": "National Data Infrastructure"
+    },
+    {
+      "acronym": "Inpe",
+      "meaning": "National Institute for Space Research"
+    },
+    {
+      "acronym": "LGPD",
+      "meaning": "General Personal Data Protection Law"
+    },
+    {
+      "acronym": "Lifes",
+      "meaning": "Interdisciplinary Laboratories for Educator Training"
+    },
+    {
+      "acronym": "LLM",
+      "meaning": "Large Language Models"
+    },
+    {
+      "acronym": "LMOps",
+      "meaning": "Learning Machine Operations"
+    },
+    {
+      "acronym": "LNCC",
+      "meaning": "National Scientific Computing Laboratory"
+    },
+    {
+      "acronym": "Mapa",
+      "meaning": "Ministry of Agriculture and Livestock"
+    },
+    {
+      "acronym": "MCTI",
+      "meaning": "Ministry of Science, Technology and Innovation"
+    },
+    {
+      "acronym": "MDIC",
+      "meaning": "Ministry of Development, Industry, Trade and Services"
+    },
+    {
+      "acronym": "MDS",
+      "meaning": "Ministry of Development and Social Assistance, Family and Fight Against Hunger"
+    },
+    {
+      "acronym": "MEC",
+      "meaning": "Ministry of Education"
+    },
+    {
+      "acronym": "MEI",
+      "meaning": "Individual Micro-entrepreneur"
+    },
+    {
+      "acronym": "MGI",
+      "meaning": "Ministry of Management and Innovation in Public Services"
+    },
+    {
+      "acronym": "MIDR",
+      "meaning": "Ministry of Integration and Regional Development"
+    },
+    {
+      "acronym": "MJSP",
+      "meaning": "Ministry of Justice and Public Security"
+    },
+    {
+      "acronym": "MLOps",
+      "meaning": "Machine Learning Operations"
+    },
+    {
+      "acronym": "MMA",
+      "meaning": "Ministry of the Environment and Climate Change"
+    },
+    {
+      "acronym": "MME",
+      "meaning": "Ministry of Mines and Energy"
+    },
+    {
+      "acronym": "MPE",
+      "meaning": "Micro and Small Enterprises"
+    },
+    {
+      "acronym": "MPME",
+      "meaning": "Micro and Small Enterprises"
+    },
+    {
+      "acronym": "MRE",
+      "meaning": "Ministry of Foreign Affairs"
+    },
+    {
+      "acronym": "MS",
+      "meaning": "Ministry of Health"
+    },
+    {
+      "acronym": "MTE",
+      "meaning": "Ministry of Labor and Employment"
+    },
+    {
+      "acronym": "NAIIC",
+      "meaning": "National Artificial Intelligence Advisory Committee"
+    },
+    {
+      "acronym": "NEES/UFAL",
+      "meaning": "Center of Excellence in Social Technologies - Federal University of Alagoas"
+    },
+    {
+      "acronym": "NIB",
+      "meaning": "New Brazil Industry"
+    },
+    {
+      "acronym": "OAI",
+      "meaning": "Office for Artificial Intelligence"
+    },
+    {
+      "acronym": "Obia",
+      "meaning": "Brazilian Artificial Intelligence Observatory"
+    },
+    {
+      "acronym": "OCDE",
+      "meaning": "Organisation for Economic Co-operation and Development"
+    },
+    {
+      "acronym": "ODS",
+      "meaning": "Sustainable Development Goals"
+    },
+    {
+      "acronym": "ONU",
+      "meaning": "United Nations"
+    },
+    {
+      "acronym": "P&D",
+      "meaning": "Research and Development (R&D)"
+    },
+    {
+      "acronym": "PBIA",
+      "meaning": "Brazilian Artificial Intelligence Plan"
+    },
+    {
+      "acronym": "PDDE",
+      "meaning": "Direct School Money Program"
+    },
+    {
+      "acronym": "Pisa",
+      "meaning": "Programme for International Student Assessment"
+    },
+    {
+      "acronym": "Pnae",
+      "meaning": "National School Feeding Program"
+    },
+    {
+      "acronym": "PNPD em IA",
+      "meaning": "Capes National Postdoctoral Program in Artificial Intelligence"
+    },
+    {
+      "acronym": "RFB",
+      "meaning": "Federal Revenue of Brazil"
+    },
+    {
+      "acronym": "RFEPCT",
+      "meaning": "Federal Network for Professional, Scientific and Technological Education"
+    },
+    {
+      "acronym": "SAM/CC/PR",
+      "meaning": "Secretariat of Articulation and Monitoring of the Civil House of the Presidency of the Republic"
+    },
+    {
+      "acronym": "SBPC",
+      "meaning": "Brazilian Society for the Advancement of Science"
+    },
+    {
+      "acronym": "Sebrae",
+      "meaning": "Brazilian Service of Support for Micro and Small Enterprises"
+    },
+    {
+      "acronym": "Secom/PR",
+      "meaning": "Secretariat of Social Communication of the Presidency of the Republic"
+    },
+    {
+      "acronym": "Serpro",
+      "meaning": "Federal Data Processing Service"
+    },
+    {
+      "acronym": "Setad/MCTI",
+      "meaning": "MCTI Secretariat of Science and Technology for Digital Transformation"
+    },
+    {
+      "acronym": "Sexec/MCTI",
+      "meaning": "MCTI Executive Secretariat"
+    },
+    {
+      "acronym": "SGD",
+      "meaning": "MGI Digital Government Secretariat"
+    },
+    {
+      "acronym": "Sinapad",
+      "meaning": "National High-Performance Processing System"
+    },
+    {
+      "acronym": "Sine",
+      "meaning": "National Employment System"
+    },
+    {
+      "acronym": "Sisp",
+      "meaning": "Information Technology Resources Administration System"
+    },
+    {
+      "acronym": "STEM",
+      "meaning": "Science, Technology, Engineering and Mathematics"
+    },
+    {
+      "acronym": "SUS",
+      "meaning": "Unified Health System"
+    },
+    {
+      "acronym": "IT",
+      "meaning": "Information Technology"
+    },
+    {
+      "acronym": "UF",
+      "meaning": "Federative Units (States)"
+    },
+    {
+      "acronym": "UFAL",
+      "meaning": "Federal University of Alagoas"
+    }
+  ],
+  "references": [
+    "ACADEMIA BRASILEIRA DE CIÊNCIAS - ABC. Recomendações para o avanço da inteligência artificial no Brasil (2023).",
+    "ASSOCIAÇÃO BRASILEIRA DAS EMPRESAS DE SOFTWARE - ABES. Mercado Brasileiro de Software - Panorama e Tendências 2024. São Paulo: ABES, 2024.",
+    "BRASSCOM. Demanda de talentos em TIC e estratégia Sigma-TCEM: Relatório de Inteligência e Informação BRI2-2021-007. São Paulo, 2021.",
+    "BRASIL. Governo Federal. Portal Brasileiro de dados abertos. 2025.",
+    "BRASIL. Ministério da Ciência, Tecnologia e Inovação - MCTI. Centros de pesquisa aplicada em inteligência artificial. 2023.",
+    "BRASIL. MCTI. Lançada a terceira rodada do programa Soluções de IA para o Poder Público. 2024c.",
+    "BRASIL. MCTI. Portaria MCTI nº 8.251, de 07.06.2024. Institui Grupo de Trabalho de Apoio Operacional para propor o PBIA. 2024a.",
+    "BRASIL. Ministério das Minas e Energia - MME. MME e EPE mapeiam soluções para atender crescente demanda dos Data centers no Brasil. Mai 2024b.",
+    "BRASIL. Ministério do Planejamento, Orçamento e Gestão - MPOG. Instrução Normativa nº 4, de 12 abril de 2012 (INDA). 2012b.",
+    "BRASIL. Presidência da República. Decreto nº 6.666 de 27 de novembro de 2008 (INDE).",
+    "BRASIL. Presidência da República. Decreto nº 7.724 de 16 de maio de 2012.",
+    "BRASIL. Presidência da República. Decreto nº 8.777 de 11 de maio de 2016 (Política de Dados Abertos).",
+    "BRASIL. Presidência da República. Decreto nº 10.046 de 9 de outubro de 2019 (Governança de Dados).",
+    "BRASIL. Presidência da República. Lei nº 12.527, de 18 de novembro de 2011 (Lei de Acesso à Informação).",
+    "BRASIL. Presidência da República. Lei nº 13.709, de 14 de agosto de 2018 (LGPD).",
+    "CETIC.BR. Pesquisa sobre o uso das tecnologias de informação e comunicação no setor público brasileiro - TIC Governo Eletrônico 2021.",
+    "CETIC.BR. TIC Governo Eletrônico 2023. 2023b.",
+    "CETIC.BR. TIC Domicílios - 2023. São Paulo: CETIC, 2023a.",
+    "CETIC.BR. TIC Empresas - 2023. São Paulo: CETIC, 2023c.",
+    "CONFEDERAÇÃO NACIONAL DA INDÚSTRIA - CNI. Produtividade do Brasil tem um dos mais fracos desempenhos em 2019-2021. 2022.",
+    "EASTWOOD, Brian. Industry now dominates AI research. MIT Sloan School of Management, May 2023.",
+    "EMBRAPII. Inteligência Artificial terá impacto positivo na competitividade da indústria, aponta pesquisa. 2021.",
+    "EMPRESA DE PESQUISA ENERGÉTICA - EPE. Balanço Energético Nacional 2023.",
+    "EMPRESA DE PESQUISA ENERGÉTICA - EPE. Balanço Energético Nacional 2024.",
+    "GOOGLE FOR STARTUPS. Startups & inteligência artificial generativa: Destravando o seu potencial no Brasil.",
+    "LAMB, C.L. Ética em IA e IA ética: prolegômenos e estudo de casos significativos. Revista USP, n. 141, 2024.",
+    "MEIRA, S. Inteligência artificial, estratégia e diferenciais competitivos sustentáveis. 2024.",
+    "OECD.AI. National AI policies & strategies. 2021.",
+    "OECD. Fostering an inclusive digital transformation as AI spreads among firms. OECD Policy Brief, October 2024.",
+    "OECD. The state of implementation of the OECD AI principles four years on. OECD Artificial Intelligence Papers, October 2023.",
+    "FAO. The state of food and agriculture 2023.",
+    "PEREZ, C. Technological change and opportunities for development as a moving target. CEPAL Review, n. 12, 2001.",
+    "TOP500 The List. Green500 List - June 2024.",
+    "WORLD ECONOMIC FORUM - WEF. AI and energy: Will AI help reduce emissions or increase demand? July 2024."
+  ],
+  "chart_ready_data": {
+    "investment_breakdown_percent": [
+      {
+        "category": "Immediate impact actions",
+        "percent_of_total": 1.9,
+        "value_brl_million": 435.04
+      },
+      {
+        "category": "Infrastructure and AI Development",
+        "percent_of_total": 25.2,
+        "value_brl_million": 5790
+      },
+      {
+        "category": "Diffusion, Training, and Qualification in AI",
+        "percent_of_total": 5.0,
+        "value_brl_million": 1150
+      },
+      {
+        "category": "AI for Improving Public Services",
+        "percent_of_total": 7.6,
+        "value_brl_million": 1760
+      },
+      {
+        "category": "AI for Business Innovation",
+        "percent_of_total": 59.9,
+        "value_brl_million": 13790
+      },
+      {
+        "category": "Support for the Regulatory and Governance Process of AI",
+        "percent_of_total": 0.4,
+        "value_brl_million": 103.25
+      }
+    ],
+    "immediate_impact_actions_by_sector": [
+      {
+        "key": "Health",
+        "count": 13
+      },
+      {
+        "key": "Education",
+        "count": 6
+      },
+      {
+        "key": "Agriculture and livestock",
+        "count": 2
+      },
+      {
+        "key": "Public services management",
+        "count": 2
+      },
+      {
+        "key": "Industry, trade, and services",
+        "count": 2
+      },
+      {
+        "key": "Social development",
+        "count": 1
+      },
+      {
+        "key": "Environment, climate, and sustainability",
+        "count": 1
+      }
+    ],
+    "immediate_impact_actions_by_type": [
+      {
+        "key": "New",
+        "count": 17
+      },
+      {
+        "key": "Finep (ongoing)",
+        "count": 10
+      }
+    ],
+    "structuring_actions_by_axis": [
+      {
+        "axis_number": 1,
+        "axis_title": "Infrastructure and AI Development",
+        "count": 13
+      },
+      {
+        "axis_number": 2,
+        "axis_title": "Diffusion, Training and Qualification in AI",
+        "count": 8
+      },
+      {
+        "axis_number": 3,
+        "axis_title": "AI for Improving Public Service",
+        "count": 19
+      },
+      {
+        "axis_number": 4,
+        "axis_title": "AI for Business Innovation",
+        "count": 9
+      },
+      {
+        "axis_number": 5,
+        "axis_title": "Support for the Regulatory and Governance Process of AI",
+        "count": 5
+      }
+    ],
+    "structuring_actions_by_program": [
+      {
+        "program": "AI Solutions for Public Services Program",
+        "count": 8
+      },
+      {
+        "program": "National AI Infrastructure Program",
+        "count": 6
+      },
+      {
+        "program": "National Data Infrastructure",
+        "count": 6
+      },
+      {
+        "program": "Program for Fostering the AI Value Chain",
+        "count": 6
+      },
+      {
+        "program": "Federal Government AI Core",
+        "count": 5
+      },
+      {
+        "program": "AI Research and Development Program",
+        "count": 4
+      },
+      {
+        "program": "AI Training Program",
+        "count": 4
+      },
+      {
+        "program": "AI Qualification, Skills, and Requalification Program",
+        "count": 3
+      },
+      {
+        "program": "AI Program for Brazilian Industry Challenges",
+        "count": 3
+      },
+      {
+        "program": "Program to Support AI Governance",
+        "count": 3
+      },
+      {
+        "program": "Program for Structuring the Data and Software Ecosystem for AI",
+        "count": 2
+      },
+      {
+        "program": "Program for Improvement of the Regulatory Framework for AI",
+        "count": 2
+      },
+      {
+        "program": "Sustainability and Renewable Energy Program for AI",
+        "count": 1
+      },
+      {
+        "program": "AI Diffusion and Dissemination Program",
+        "count": 1
+      }
+    ],
+    "totals": {
+      "total_immediate_impact_actions": 27,
+      "total_structuring_actions": 54,
+      "total_structuring_axes": 5,
+      "total_structuring_programs": 14,
+      "total_pbia_investment_brl_billion": 23.03,
+      "total_premises": 10,
+      "total_pillars": 5,
+      "total_windows_of_opportunity": 10,
+      "total_acronyms": 106,
+      "total_references": 34
+    },
+    "word_count_by_category": [
+      {
+        "category": "Presentation",
+        "total_words": 565
+      },
+      {
+        "category": "Introduction",
+        "total_words": 1173
+      },
+      {
+        "category": "1. The context of artificial intelligence in the world and in Brazil",
+        "total_words": 1231
+      },
+      {
+        "category": "2. What is an AI for the Good of All?",
+        "total_words": 831
+      },
+      {
+        "category": "3. Action plan",
+        "total_words": 523
+      },
+      {
+        "category": "4. Governance and monitoring of the AI for the Good of All Plan",
+        "total_words": 268
+      },
+      {
+        "category": "Final Considerations",
+        "total_words": 283
+      }
+    ]
+  }
+}
