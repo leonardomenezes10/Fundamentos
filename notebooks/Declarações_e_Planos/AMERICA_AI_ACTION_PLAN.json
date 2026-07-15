@@ -1,0 +1,366 @@
+{
+  "document_metadata": {
+    "title": "America's AI Action Plan",
+    "subtitle": "Winning the Race",
+    "publisher": "The White House",
+    "office": "Executive Office of the President of the United States - Office of Science and Technology Policy",
+    "date_published": "July 2025",
+    "authors": [
+      {"name": "Michael J. Kratsios", "role": "Assistant to the President for Science and Technology"},
+      {"name": "David O. Sacks", "role": "Special Advisor for AI and Crypto"},
+      {"name": "Marco A. Rubio", "role": "Assistant to the President for National Security Affairs"}
+    ],
+    "opening_quote": {
+      "text": "Today, a new frontier of scientific discovery lies before us, defined by transformative technologies such as artificial intelligence... Breakthroughs in these fields have the potential to reshape the global balance of power, spark entirely new industries, and revolutionize the way we live and work. As our global competitors race to exploit these technologies, it is a national security imperative for the United States to achieve and maintain unquestioned and unchallenged global technological dominance. To secure our future, we must harness the full power of American innovation.",
+      "author": "Donald J. Trump",
+      "author_title": "45th and 47th President of the United States"
+    },
+    "structure": "Introduction + 3 Pillars (Innovation, Infrastructure, International Diplomacy and Security)",
+    "total_pages": 25
+  },
+  "introduction": {
+    "summary": "The United States is in a race to achieve global dominance in artificial intelligence (AI). Whoever has the largest AI ecosystem will set global AI standards and reap broad economic and military benefits. President Trump signed Executive Order 14179, 'Removing Barriers to American Leadership in Artificial Intelligence,' directing the creation of this AI Action Plan.",
+    "key_points": [
+      "Winning the AI race is framed as ushering in an industrial revolution, an information revolution, and a renaissance simultaneously.",
+      "The Plan has three pillars: innovation, infrastructure, and international diplomacy and security.",
+      "The private sector must be unencumbered by unnecessary regulatory barriers.",
+      "The US must build and maintain vast AI infrastructure and the energy to power it, rejecting 'radical climate dogma and bureaucratic red tape.'",
+      "American AI (semiconductors, models, applications) should become the global gold standard, with allies building on American technology."
+    ],
+    "cross_cutting_principles": [
+      "American workers are central to AI policy; AI should complement work, not replace it.",
+      "AI systems must be free from ideological bias and pursue objective truth rather than 'social engineering agendas.'",
+      "The US must prevent advanced technologies from being misused or stolen by malicious actors and monitor emerging AI risks."
+    ],
+    "referenced_executive_order": {
+      "number": "14179",
+      "title": "Removing Barriers to American Leadership in Artificial Intelligence",
+      "date": "2025-01-23"
+    }
+  },
+  "pillars": [
+    {
+      "pillar_number": 1,
+      "title": "Accelerate AI Innovation",
+      "page_start": 3,
+      "page_end": 13,
+      "summary": "America must have the most powerful AI systems in the world and lead in creative, transformative application of these systems, requiring the Federal government to create conditions where private-sector-led innovation can flourish.",
+      "sections": [
+        {
+          "section_title": "Remove Red Tape and Onerous Regulation",
+          "summary": "America's private sector must be unencumbered by bureaucratic red tape at the state or Federal level. Federal AI-related funding should not go to states with burdensome AI regulations, while not interfering with states' rights to pass prudent, non-restrictive laws.",
+          "recommended_policy_actions": [
+            {"action": "Launch a Request for Information from businesses and the public about current Federal regulations that hinder AI innovation and adoption, and work with relevant agencies to take appropriate action.", "lead_agency": "OSTP"},
+            {"action": "Work with all Federal agencies to identify, revise, or repeal regulations, rules, memoranda, administrative orders, guidance documents, policy statements, and interagency agreements that unnecessarily hinder AI development or deployment, consistent with EO 14192 'Unleashing Prosperity Through Deregulation.'", "lead_agency": "OMB"},
+            {"action": "Work with Federal agencies with AI-related discretionary funding programs to consider a state's AI regulatory climate when making funding decisions and limit funding if regulatory regimes may hinder effectiveness.", "lead_agency": "OMB"},
+            {"action": "Evaluate whether state AI regulations interfere with the agency's ability to carry out obligations under the Communications Act of 1934.", "lead_agency": "FCC"},
+            {"action": "Review all FTC investigations commenced under the previous administration to ensure they do not advance theories of liability that unduly burden AI innovation; review FTC final orders, consent decrees, and injunctions and seek to modify or set aside any that unduly burden AI innovation.", "lead_agency": "FTC"}
+          ]
+        },
+        {
+          "section_title": "Ensure that Frontier AI Protects Free Speech and American Values",
+          "summary": "AI systems must be built with freedom of speech and expression in mind, and government-procured AI should objectively reflect truth rather than social engineering agendas.",
+          "recommended_policy_actions": [
+            {"action": "Revise the NIST AI Risk Management Framework to eliminate references to misinformation, Diversity, Equity, and Inclusion, and climate change.", "lead_agency": "DOC (NIST)"},
+            {"action": "Update Federal procurement guidelines to ensure the government only contracts with frontier LLM developers who ensure their systems are objective and free from top-down ideological bias.", "lead_agency": "Federal Government (procurement guidelines)"},
+            {"action": "Conduct research and, as appropriate, publish evaluations of frontier models from the People's Republic of China for alignment with Chinese Communist Party talking points and censorship.", "lead_agency": "DOC (NIST/CAISI)"}
+          ]
+        },
+        {
+          "section_title": "Encourage Open-Source and Open-Weight AI",
+          "summary": "Open-source and open-weight AI models have unique value for startups, commercial/government adoption of sensitive data use-cases, and academic research, and have geostrategic value for establishing global standards founded on American values.",
+          "recommended_policy_actions": [
+            {"action": "Ensure access to large-scale computing power for startups and academics by improving the financial market for compute (e.g., spot and forward markets).", "lead_agency": "NIST (DOC), OSTP, NSF (NAIRR pilot)"},
+            {"action": "Partner with leading technology companies to increase the research community's access to world-class private sector computing, models, data, and software resources as part of the NAIRR pilot.", "lead_agency": "NSF (NAIRR)"},
+            {"action": "Build the foundations for a lean and sustainable NAIRR operations capability connecting researchers and educators to critical AI resources.", "lead_agency": "NSF"},
+            {"action": "Publish a new National AI Research and Development (R&D) Strategic Plan to guide Federal AI research investments.", "lead_agency": "OSTP"},
+            {"action": "Convene stakeholders to help drive adoption of open-source and open-weight models by small and medium-sized businesses.", "lead_agency": "DOC (NTIA)"}
+          ]
+        },
+        {
+          "section_title": "Enable AI Adoption",
+          "summary": "The bottleneck to harnessing AI's full potential is the limited and slow adoption of AI, particularly in large organizations and critical sectors like healthcare, due to distrust, complex regulation, and lack of governance standards.",
+          "recommended_policy_actions": [
+            {"action": "Establish regulatory sandboxes or AI Centers of Excellence where researchers, startups, and enterprises can rapidly deploy and test AI tools while committing to open sharing of data and results.", "lead_agency": "FDA, SEC, with support from DOC (NIST)"},
+            {"action": "Launch domain-specific efforts (e.g., healthcare, energy, agriculture) to convene stakeholders to accelerate development and adoption of national standards for AI systems and measure productivity gains.", "lead_agency": "NIST (DOC)"},
+            {"action": "Regularly update joint DOD-Intelligence Community assessments of comparative AI adoption levels by the US, competitors, and adversaries' national security establishments.", "lead_agency": "DOD, ODNI"},
+            {"action": "Prioritize, collect, and distribute intelligence on foreign frontier AI projects that may have national security implications.", "lead_agency": "IC, DOE, CAISI (DOC), NSC, OSTP"}
+          ]
+        },
+        {
+          "section_title": "Empower American Workers in the Age of AI",
+          "summary": "A worker-first AI agenda to expand AI literacy and skills development, continuously evaluate AI's impact on the labor market, and pilot new innovations to retrain and help workers thrive in an AI-driven economy, building on EOs 14277 and 14278.",
+          "recommended_policy_actions": [
+            {"action": "Prioritize AI skill development as a core objective of relevant education and workforce funding streams, including career and technical education, apprenticeships, and workforce training.", "lead_agency": "DOL, ED, NSF, DOC"},
+            {"action": "Issue guidance clarifying that AI literacy and skill development programs may qualify as eligible educational assistance under Section 132 of the Internal Revenue Code, enabling tax-free employer reimbursement.", "lead_agency": "Department of the Treasury"},
+            {"action": "Study AI's impact on the labor market using existing data (e.g., Census Bureau's Business Trends and Outlook Survey) to analyze AI adoption, job creation, displacement, and wage effects.", "lead_agency": "BLS, DOC (Census Bureau, BEA)"},
+            {"action": "Establish the AI Workforce Research Hub to lead a sustained Federal effort evaluating AI's impact on the labor market, producing recurring analyses and scenario planning.", "lead_agency": "DOL (with BLS, DOC)"},
+            {"action": "Leverage available discretionary funding to fund rapid retraining for individuals impacted by AI-related job displacement, and issue guidance on state Rapid Response funds for proactive upskilling.", "lead_agency": "DOL"},
+            {"action": "Rapidly pilot new approaches to workforce challenges created by AI, including rapid retraining and shifting entry-level skill requirements, using existing authorities (WIOA, Public Works and Economic Development Act).", "lead_agency": "DOL, DOC"}
+          ]
+        },
+        {
+          "section_title": "Support Next-Generation Manufacturing",
+          "summary": "AI will enable new innovations in the physical world (autonomous drones, self-driving cars, robotics); America and trusted allies must be world-class manufacturers of these technologies, including defense applications.",
+          "recommended_policy_actions": [
+            {"action": "Invest in developing and scaling foundational and translational manufacturing technologies using SBIR/STTR programs, research grants, CHIPS R&D programs, Stevenson-Wydler authorities, Defense Production Act Title III, and Other Transaction Authority.", "lead_agency": "DOD, DOC, DOE, NSF, and other Federal agencies"},
+            {"action": "Convene industry and government stakeholders to identify supply chain challenges to American robotics and drone manufacturing.", "lead_agency": "DOC (NTIA)"}
+          ]
+        },
+        {
+          "section_title": "Invest in AI-Enabled Science",
+          "summary": "Science itself will be transformed by AI, but this requires critical changes in how science is conducted, including enabling infrastructure and new kinds of scientific organizations to scale experimentation alongside AI-enabled predictions.",
+          "recommended_policy_actions": [
+            {"action": "Invest in automated cloud-enabled labs for engineering, materials science, chemistry, biology, and neuroscience, in coordination with DOE National Laboratories.", "lead_agency": "NSF, DOE, NIST (DOC)"},
+            {"action": "Use long-term agreements to support Focused-Research Organizations or similar entities using AI and other emerging technologies for fundamental scientific advancements.", "lead_agency": "Federal science agencies"},
+            {"action": "Incentivize researchers to release more high-quality datasets publicly by considering prior dataset impact in review of new funding proposals.", "lead_agency": "Federal funding agencies"},
+            {"action": "Require federally funded researchers to disclose non-proprietary, non-sensitive datasets used by AI models during research and experimentation.", "lead_agency": "Federal funding agencies"}
+          ]
+        },
+        {
+          "section_title": "Build World-Class Scientific Datasets",
+          "summary": "High-quality data has become a national strategic asset; the US must lead in creating the world's largest and highest quality AI-ready scientific datasets while respecting individual rights, civil liberties, privacy, and confidentiality.",
+          "recommended_policy_actions": [
+            {"action": "Direct the NSTC Machine Learning and AI Subcommittee to make recommendations on minimum data quality standards for biological, materials science, chemical, physical, and other scientific data modalities in AI training.", "lead_agency": "NSTC"},
+            {"action": "Promulgate OMB regulations required under the Confidential Information Protection and Statistical Efficiency Act of 2018 on presumption of accessibility and expanding secure access to Federal data.", "lead_agency": "OMB"},
+            {"action": "Establish secure compute environments within NSF and DOE to enable secure AI use-cases for controlled access to restricted Federal data.", "lead_agency": "NSF, DOE"},
+            {"action": "Create an online portal for NSF's National Secure Data Service (NSDS) demonstration project providing a front door to AI use-cases involving controlled access to restricted Federal data.", "lead_agency": "NSF"},
+            {"action": "Explore creating a whole-genome sequencing program for life on Federal lands to serve as a resource for training future biological foundation models.", "lead_agency": "NSTC, USDA, DOE, NIH, NSF, Dept. of Interior, Cooperative Ecosystem Studies Units"}
+          ]
+        },
+        {
+          "section_title": "Advance the Science of AI",
+          "summary": "Just as LLMs and generative AI represented a paradigm shift, future breakthroughs may similarly transform AI; the US must remain the leading pioneer through strategic, targeted investment in the most promising frontier research paths.",
+          "recommended_policy_actions": [
+            {"action": "Prioritize investment in theoretical, computational, and experimental research to preserve America's leadership in discovering new and transformative AI paradigms, reflected in the forthcoming National AI R&D Strategic Plan.", "lead_agency": "Federal Government / OSTP"}
+          ]
+        },
+        {
+          "section_title": "Invest in AI Interpretability, Control, and Robustness Breakthroughs",
+          "summary": "The inner workings of frontier AI systems are poorly understood, making it hard to predict behavior and challenging to use advanced AI in defense and national security applications where lives are at stake.",
+          "recommended_policy_actions": [
+            {"action": "Launch a technology development program to advance AI interpretability, AI control systems, and adversarial robustness.", "lead_agency": "DARPA, in collaboration with CAISI (DOC) and NSF"},
+            {"action": "Prioritize fundamental advancements in AI interpretability, control, and robustness as part of the forthcoming National AI R&D Strategic Plan.", "lead_agency": "Federal Government"},
+            {"action": "Coordinate an AI hackathon initiative soliciting top US academic talent to test AI systems for transparency, effectiveness, use control, and security vulnerabilities.", "lead_agency": "DOD, DOE, CAISI (DOC), DHS, NSF, academic partners"}
+          ]
+        },
+        {
+          "section_title": "Build an AI Evaluations Ecosystem",
+          "summary": "Evaluations are how the AI industry assesses performance and reliability of AI systems; rigorous evaluations are a critical tool for regulators applying existing law to AI systems in regulated industries.",
+          "recommended_policy_actions": [
+            {"action": "Publish guidelines and resources for Federal agencies to conduct their own evaluations of AI systems for distinct missions, operations, and compliance with existing law.", "lead_agency": "NIST (DOC), including CAISI"},
+            {"action": "Support development of the science of measuring and evaluating AI models.", "lead_agency": "NIST (DOC), DOE, NSF, and other Federal science agencies"},
+            {"action": "Convene meetings at least twice per year for Federal agencies and the research community to share learnings and best practices on building AI evaluations.", "lead_agency": "CAISI (DOC)"},
+            {"action": "Invest in the development of AI testbeds for piloting AI systems in secure, real-world settings across verticals like agriculture, transportation, and healthcare delivery.", "lead_agency": "DOE, NSF"},
+            {"action": "Convene the NIST AI Consortium to empower collaborative establishment of new measurement science and interoperable techniques and metrics.", "lead_agency": "DOC"}
+          ]
+        },
+        {
+          "section_title": "Accelerate AI Adoption in Government",
+          "summary": "AI tools can help the Federal government serve the public with greater efficiency and effectiveness, building on OMB's prior reduction of onerous Biden-era AI rules.",
+          "recommended_policy_actions": [
+            {"action": "Formalize the Chief Artificial Intelligence Officer Council (CAIOC) as the primary venue for interagency coordination on AI adoption, coordinating with other Federal executive councils.", "lead_agency": "CAIOC"},
+            {"action": "Create a talent-exchange program allowing rapid details of Federal staff to other agencies in need of specialized AI talent (e.g., data scientists, software engineers).", "lead_agency": "Federal agencies, with input from OPM"},
+            {"action": "Create an AI procurement toolbox facilitating uniformity across the Federal enterprise, allowing agencies to choose among multiple models compliant with privacy, data governance, and transparency laws.", "lead_agency": "GSA, in coordination with OMB"},
+            {"action": "Implement an Advanced Technology Transfer and Capability Sharing Program to quickly transfer advanced AI capabilities and use cases between agencies.", "lead_agency": "GSA"},
+            {"action": "Mandate that all Federal employees whose work could benefit from frontier language models have access to, and training for, such tools.", "lead_agency": "Federal agencies"},
+            {"action": "Convene a cohort of agencies with High Impact Service Providers to pilot and increase AI use for improving public service delivery.", "lead_agency": "OMB"}
+          ]
+        },
+        {
+          "section_title": "Drive Adoption of AI within the Department of Defense",
+          "summary": "AI has the potential to transform both warfighting and back-office DOD operations; the US must aggressively adopt AI within its Armed Forces while ensuring secure and reliable use.",
+          "recommended_policy_actions": [
+            {"action": "Identify the talent and skills DOD's workforce requires to leverage AI at scale and implement talent development programs accordingly.", "lead_agency": "DOD"},
+            {"action": "Establish an AI & Autonomous Systems Virtual Proving Ground at DOD, beginning with scoping technical, geographic, security, and resourcing requirements.", "lead_agency": "DOD"},
+            {"action": "Develop a streamlined process for classifying, evaluating, and optimizing DOD workflows to prioritize automation with AI, transitioning successfully automated workflows permanently.", "lead_agency": "DOD"},
+            {"action": "Prioritize DOD-led agreements with cloud service providers and computing infrastructure operators to codify priority access to computing resources during a national emergency.", "lead_agency": "DOD"},
+            {"action": "Grow Senior Military Colleges into hubs of AI research, development, and talent building, fostering AI-specific curriculum across majors.", "lead_agency": "DOD / Senior Military Colleges"}
+          ]
+        },
+        {
+          "section_title": "Protect Commercial and Government AI Innovations",
+          "summary": "Maintaining American leadership in AI requires the government to work closely with industry to balance dissemination of cutting-edge AI technologies with national security concerns, addressing security risks to companies, talent, IP, and systems.",
+          "recommended_policy_actions": [
+            {"action": "Collaborate with leading American AI developers to enable the private sector to actively protect AI innovations from security risks, including malicious cyber actors and insider threats.", "lead_agency": "DOD, DHS, CAISI (DOC), and other IC members"}
+          ]
+        },
+        {
+          "section_title": "Combat Synthetic Media in the Legal System",
+          "summary": "Malicious deepfakes present novel challenges to the legal system, such as fake evidence potentially denying justice to plaintiffs and defendants; additional action beyond the TAKE IT DOWN Act is needed.",
+          "recommended_policy_actions": [
+            {"action": "Consider developing NIST's 'Guardians of Forensic Evidence' deepfake evaluation program into a formal guideline and companion voluntary forensic benchmark.", "lead_agency": "NIST (DOC)"},
+            {"action": "Issue guidance to agencies that engage in adjudications to explore adopting a deepfake standard similar to the proposed Federal Rules of Evidence Rule 901(c).", "lead_agency": "DOJ"},
+            {"action": "File formal comments on any proposed deepfake-related additions to the Federal Rules of Evidence.", "lead_agency": "DOJ Office of Legal Policy"}
+          ]
+        }
+      ]
+    },
+    {
+      "pillar_number": 2,
+      "title": "Build American AI Infrastructure",
+      "page_start": 14,
+      "page_end": 19,
+      "summary": "AI is the first digital service challenging America to build vastly greater energy generation than today. American energy capacity has stagnated since the 1970s while China has rapidly built out its grid; America's path to AI dominance depends on reversing this trend.",
+      "sections": [
+        {
+          "section_title": "Create Streamlined Permitting for Data Centers, Semiconductor Manufacturing Facilities, and Energy Infrastructure while Guaranteeing Security",
+          "summary": "AI requires new infrastructure (chip factories, data centers, energy sources), but America's permitting system makes it almost impossible to build fast enough; this infrastructure must also be free of adversarial technology.",
+          "recommended_policy_actions": [
+            {"action": "Establish new Categorical Exclusions under NEPA to cover data center-related actions that normally lack significant environmental effect, adopting exclusions already established by other agencies where possible.", "lead_agency": "Relevant Federal agencies"},
+            {"action": "Expand the use of the FAST-41 process to cover all data center and data center energy projects eligible under the Fixing America's Surface Transportation Act of 2015.", "lead_agency": "Federal permitting agencies"},
+            {"action": "Explore the need for a nationwide Clean Water Act Section 404 permit for data centers, ensuring it does not require a Pre-Construction Notification and covers sites consistent with modern AI data center size.", "lead_agency": "Federal permitting agencies"},
+            {"action": "Expedite environmental permitting by streamlining or reducing regulations under the Clean Air Act, Clean Water Act, CERCLA, and other relevant laws.", "lead_agency": "Federal permitting agencies"},
+            {"action": "Make Federal lands available for data center construction and associated power generation infrastructure by directing agencies with significant land portfolios to identify suited sites.", "lead_agency": "Federal land management agencies"},
+            {"action": "Maintain security guardrails prohibiting adversaries from inserting sensitive inputs, ensuring the domestic AI computing stack is built on American products free from foreign adversary ICTS.", "lead_agency": "Federal Government"},
+            {"action": "Expand efforts to apply AI to accelerate and improve environmental reviews, such as expanding agency participation in DOE's PermitAI project.", "lead_agency": "DOE"}
+          ]
+        },
+        {
+          "section_title": "Develop a Grid to Match the Pace of AI Innovation",
+          "summary": "The US electric grid needs upgrading to support data centers and energy-intensive industries, facing escalating demand from electrification and AI while requiring strategic foresight for both stability and future growth.",
+          "recommended_policy_actions": [
+            {"action": "Stabilize the grid of today by preventing premature decommissioning of critical power generation resources, harnessing existing backup power capacity, and ensuring nationwide compliance with resource adequacy standards.", "lead_agency": "Federal / grid regulators"},
+            {"action": "Optimize existing grid resources through advanced grid management technologies, power line upgrades, and novel demand management approaches for large power consumers during critical grid periods.", "lead_agency": "Federal / grid regulators"},
+            {"action": "Prioritize interconnection of reliable, dispatchable power sources and embrace frontier energy generation (enhanced geothermal, nuclear fission, nuclear fusion); reform power markets to align incentives with grid stability.", "lead_agency": "Federal / grid regulators, DOE"},
+            {"action": "Create a strategic blueprint for navigating the 21st century energy landscape by stabilizing, optimizing, and growing the grid.", "lead_agency": "Federal Government"}
+          ]
+        },
+        {
+          "section_title": "Restore American Semiconductor Manufacturing",
+          "summary": "America must bring semiconductor manufacturing back to US soil to generate high-paying jobs, reinforce technological leadership, and protect supply chains, without bad deals for taxpayers or ideological requirements on companies.",
+          "recommended_policy_actions": [
+            {"action": "Continue focusing on delivering a strong return on investment for taxpayers and removing extraneous policy requirements for CHIPS-funded semiconductor manufacturing projects; streamline regulations slowing manufacturing efforts.", "lead_agency": "DOC (CHIPS Program Office)"},
+            {"action": "Review semiconductor grant and research programs to ensure they accelerate integration of advanced AI tools into semiconductor manufacturing.", "lead_agency": "DOC"}
+          ]
+        },
+        {
+          "section_title": "Build High-Security Data Centers for Military and Intelligence Community Usage",
+          "summary": "AI is well-suited to processing raw intelligence data and will likely be used with the government's most sensitive data, requiring data centers resistant to attacks by the most determined nation-state actors.",
+          "recommended_policy_actions": [
+            {"action": "Create new technical standards for high-security AI data centers, in collaboration with industry and relevant Federally Funded Research and Development Centers.", "lead_agency": "DOD, IC, NSC, NIST (DOC) including CAISI"},
+            {"action": "Advance agency adoption of classified compute environments to support scalable and secure AI workloads.", "lead_agency": "Federal agencies"}
+          ]
+        },
+        {
+          "section_title": "Train a Skilled Workforce for AI Infrastructure",
+          "summary": "Building AI infrastructure requires investment in the workforce that will build, operate, and maintain it (electricians, HVAC technicians, and other high-paying occupations), addressing shortages via skills frameworks, industry-driven training, and expanded pipelines.",
+          "recommended_policy_actions": [
+            {"action": "Create a national initiative to identify high-priority occupations essential to AI infrastructure buildout, convening employers and industry to develop national skill frameworks and competency models.", "lead_agency": "DOL, DOC"},
+            {"action": "Partner with state and local governments and workforce stakeholders to support industry-driven training programs co-developed by employers, addressing pipeline gaps aligned to employer demand.", "lead_agency": "DOL, DOE, ED, NSF, DOC"},
+            {"action": "Partner with education and workforce stakeholders to expand early career exposure programs and pre-apprenticeships engaging middle and high school students in priority AI infrastructure occupations.", "lead_agency": "DOL, ED, NSF"},
+            {"action": "Provide guidance to state and local CTE systems on updating programs of study to align with priority AI infrastructure occupations, including curriculum refresh and dual enrollment expansion.", "lead_agency": "ED (Office of Career, Technical, and Adult Education)"},
+            {"action": "Expand the use of Registered Apprenticeships in occupations critical to AI infrastructure, streamlining program launches and removing barriers to employer adoption.", "lead_agency": "DOL"},
+            {"action": "Expand hands-on research training and development opportunities for students and educators leveraging AI expertise across national laboratories, partnering with community and technical colleges.", "lead_agency": "DOE"}
+          ]
+        },
+        {
+          "section_title": "Bolster Critical Infrastructure Cybersecurity",
+          "summary": "As AI advances in coding and software engineering capabilities, its utility as a tool of both cyber offense and defense expands; critical infrastructure operators need AI-enabled defensive tools and secure-by-design safeguards against adversarial threats.",
+          "recommended_policy_actions": [
+            {"action": "Establish an AI Information Sharing and Analysis Center (AI-ISAC) to promote sharing of AI-security threat information and intelligence across US critical infrastructure sectors.", "lead_agency": "DHS, in collaboration with CAISI (DOC) and the Office of the National Cyber Director"},
+            {"action": "Issue and maintain guidance to private sector entities on remediating and responding to AI-specific vulnerabilities and threats.", "lead_agency": "DHS"},
+            {"action": "Ensure collaborative and consolidated sharing of known AI vulnerabilities from Federal agencies to the private sector, leveraging existing cyber vulnerability sharing mechanisms.", "lead_agency": "Federal agencies"}
+          ]
+        },
+        {
+          "section_title": "Promote Secure-By-Design AI Technologies and Applications",
+          "summary": "AI systems are susceptible to adversarial inputs like data poisoning and privacy attacks; the government must ensure AI systems it relies on, particularly for national security, are protected against spurious or malicious inputs.",
+          "recommended_policy_actions": [
+            {"action": "Continue to refine DOD's Responsible AI and Generative AI Frameworks, Roadmaps, and Toolkits.", "lead_agency": "DOD, in collaboration with NIST (DOC) and ODNI"},
+            {"action": "Publish an IC Standard on AI Assurance under the auspices of Intelligence Community Directive 505 on Artificial Intelligence.", "lead_agency": "ODNI, in consultation with DOD and CAISI (DOC)"}
+          ]
+        },
+        {
+          "section_title": "Promote Mature Federal Capacity for AI Incident Response",
+          "summary": "Prudent planning is required so that if AI systems fail, impacts to critical services or infrastructure are minimized and response is prompt, incorporating AI incident response into existing doctrine and best practices.",
+          "recommended_policy_actions": [
+            {"action": "Partner with the AI and cybersecurity industries to ensure AI is included in standards, response frameworks, best practices, and technical capabilities (e.g., fly-away kits) of incident response teams.", "lead_agency": "NIST (DOC), including CAISI"},
+            {"action": "Modify CISA's Cybersecurity Incident & Vulnerability Response Playbooks to incorporate AI considerations and require CISO consultation with Chief AI Officers, Senior Agency Officials for Privacy, and CAISI.", "lead_agency": "CISA / Federal agencies"},
+            {"action": "Encourage responsible sharing of AI vulnerability information as part of ongoing efforts to implement EO 14306 on sustaining efforts to strengthen the nation's cybersecurity.", "lead_agency": "DOD, DHS, ODNI, in coordination with OSTP, NSC, OMB, Office of the National Cyber Director"}
+          ]
+        }
+      ]
+    },
+    {
+      "pillar_number": 3,
+      "title": "Lead in International AI Diplomacy and Security",
+      "page_start": 20,
+      "page_end": 23,
+      "summary": "America must drive adoption of American AI systems, computing hardware, and standards throughout the world, leveraging its current lead in data center construction, computing hardware performance, and models into an enduring global alliance while preventing adversaries from free-riding on US innovation.",
+      "sections": [
+        {
+          "section_title": "Export American AI to Allies and Partners",
+          "summary": "The US must meet global demand for AI by exporting its full technology stack (hardware, models, software, applications, standards) to countries willing to join America's AI alliance, preventing rivals from making allies dependent on foreign adversary technology.",
+          "recommended_policy_actions": [
+            {"action": "Establish and operationalize a program to gather proposals from industry consortia for full-stack AI export packages; coordinate with other agencies to facilitate deals meeting US-approved security requirements and standards.", "lead_agency": "DOC, Economic Diplomacy Action Group, US Trade and Development Agency, Export-Import Bank, US International Development Finance Corporation, DOS"}
+          ]
+        },
+        {
+          "section_title": "Counter Chinese Influence in International Governance Bodies",
+          "summary": "Many international bodies (UN, OECD, G7, G20, ITU, ICANN) have proposed AI governance frameworks; too many advocate burdensome regulations, vague codes of conduct misaligned with American values, or have been influenced by Chinese companies shaping surveillance standards.",
+          "recommended_policy_actions": [
+            {"action": "Leverage the US position in international diplomatic and standard-setting bodies to vigorously advocate for AI governance approaches that promote innovation, reflect American values, and counter authoritarian influence.", "lead_agency": "DOS, DOC"}
+          ]
+        },
+        {
+          "section_title": "Strengthen AI Compute Export Control Enforcement",
+          "summary": "Advanced AI compute is essential to the AI era, enabling economic dynamism and novel military capabilities; denying foreign adversaries access is a matter of geostrategic competition and national security.",
+          "recommended_policy_actions": [
+            {"action": "Explore leveraging new and existing location verification features on advanced AI compute to ensure chips are not diverted to countries of concern.", "lead_agency": "DOC, OSTP, NSC, in collaboration with industry"},
+            {"action": "Establish a new effort to collaborate with IC officials on global chip export control enforcement, including monitoring emerging AI compute developments and expanding end-use monitoring in high-diversion-risk countries.", "lead_agency": "DOC"}
+          ]
+        },
+        {
+          "section_title": "Plug Loopholes in Existing Semiconductor Manufacturing Export Controls",
+          "summary": "America and its close allies hold near-monopolies on critical semiconductor manufacturing components and processes; new measures are needed to address export control gaps combined with enhanced enforcement.",
+          "recommended_policy_actions": [
+            {"action": "Develop new export controls on semiconductor manufacturing sub-systems, which are currently not controlled unlike major manufacturing systems.", "lead_agency": "DOC"}
+          ]
+        },
+        {
+          "section_title": "Align Protection Measures Globally",
+          "summary": "America must impose strong export controls on sensitive technologies and encourage partners and allies to follow US controls without backfilling; tools like the Foreign Direct Product Rule and secondary tariffs should be used to achieve international alignment.",
+          "recommended_policy_actions": [
+            {"action": "Develop, implement, and share information on complementary technology protection measures, including in basic research and higher education, to mitigate risks from strategic adversaries and concerning entities.", "lead_agency": "DOC, DOS, in coordination with NSC, DOE, NSF"},
+            {"action": "Develop a technology diplomacy strategic plan for an AI global alliance to align incentives and induce key allies to adopt complementary AI protection systems and export controls.", "lead_agency": "DOS, in coordination with DOC, DOD, DOE"},
+            {"action": "Expand new initiatives for promoting plurilateral controls for the AI tech stack, avoiding sole reliance on multilateral treaty bodies.", "lead_agency": "Federal Government"},
+            {"action": "Coordinate with allies to ensure adoption of US export controls, joint development of new controls, and prohibition on adversaries supplying their defense-industrial base or acquiring stakes in defense suppliers.", "lead_agency": "DOC, DOD"}
+          ]
+        },
+        {
+          "section_title": "Ensure that the U.S. Government is at the Forefront of Evaluating National Security Risks in Frontier Models",
+          "summary": "The most powerful AI systems may pose novel national security risks in cyberattacks and CBRNE weapons development; since America leads on AI capabilities, risks in American frontier models preview what adversaries will possess.",
+          "recommended_policy_actions": [
+            {"action": "Evaluate frontier AI systems for national security risks in partnership with frontier AI developers, in collaboration with agencies with expertise in CBRNE and cyber risks.", "lead_agency": "CAISI (DOC)"},
+            {"action": "Evaluate and assess potential security vulnerabilities and malign foreign influence from adversaries' AI systems in critical infrastructure and the American economy, including possible backdoors.", "lead_agency": "CAISI (DOC), in collaboration with national security agencies"},
+            {"action": "Prioritize recruitment of leading AI researchers at Federal agencies to ensure continued cutting-edge evaluations and analysis of AI systems.", "lead_agency": "NIST and CAISI (DOC), DOE, DOD, IC"},
+            {"action": "Build, maintain, and update national security-related AI evaluations through collaboration between CAISI, national security agencies, and research institutions.", "lead_agency": "CAISI (DOC), national security agencies, research institutions"}
+          ]
+        },
+        {
+          "section_title": "Invest in Biosecurity",
+          "summary": "AI will unlock nearly limitless potential in biology, including cures for diseases, but could also create new pathways for malicious actors to synthesize harmful pathogens, requiring a multi-tiered screening approach.",
+          "recommended_policy_actions": [
+            {"action": "Require institutions receiving Federal funding for scientific research to use nucleic acid synthesis tools and providers with robust sequence screening and customer verification, with enforcement mechanisms rather than voluntary attestation.", "lead_agency": "Federal funding agencies"},
+            {"action": "Convene government and industry actors to develop a mechanism facilitating data sharing between nucleic acid synthesis providers to screen for fraudulent or malicious customers.", "lead_agency": "OSTP"},
+            {"action": "Build, maintain, and update national security-related AI evaluations through collaboration between CAISI, national security agencies, and research institutions.", "lead_agency": "CAISI (DOC), national security agencies, research institutions"}
+          ]
+        }
+      ]
+    }
+  ],
+  "analysis_helpers": {
+    "note": "Fields below are pre-aggregated conveniences for charting; derive further metrics as needed from the 'pillars' array above.",
+    "policy_actions_count_by_pillar": {
+      "Pillar I: Accelerate AI Innovation": 58,
+      "Pillar II: Build American AI Infrastructure": 29,
+      "Pillar III: Lead in International AI Diplomacy and Security": 16
+    },
+    "sections_count_by_pillar": {
+      "Pillar I: Accelerate AI Innovation": 15,
+      "Pillar II: Build American AI Infrastructure": 8,
+      "Pillar III: Lead in International AI Diplomacy and Security": 7
+    }
+  }
+}
