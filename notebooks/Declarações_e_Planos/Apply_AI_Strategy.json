@@ -1,0 +1,401 @@
+{
+  "document": {
+    "title": "Apply AI Strategy",
+    "full_title": "Communication from the Commission to the European Parliament and the Council - Apply AI Strategy",
+    "document_number": "COM(2025) 723 final",
+    "issuer": "European Commission",
+    "place": "Brussels",
+    "date": "2025-10-08",
+    "language": "en",
+    "pages": 19,
+    "related_initiatives": [
+      "AI Continent Action Plan",
+      "AI Act",
+      "AI in Science Strategy",
+      "Resource for AI Science in Europe (RAISE)",
+      "Data Union Strategy",
+      "European Startup and Scaleup Strategy",
+      "Industrial Accelerator Act"
+    ],
+    "funding_mobilised_eur_billion": 1
+  },
+  "key_statistics": [
+    {
+      "metric": "Businesses using AI technologies (EU)",
+      "value": 13.5,
+      "unit": "percent",
+      "category": "AI adoption"
+    },
+    {
+      "metric": "SMEs using AI technologies (EU)",
+      "value": 12.6,
+      "unit": "percent",
+      "category": "AI adoption"
+    },
+    {
+      "metric": "SMEs share of European enterprises",
+      "value": 90,
+      "unit": "percent",
+      "category": "SMEs"
+    },
+    {
+      "metric": "European Digital Innovation Hubs (EDIHs)",
+      "value": 250,
+      "unit": "count",
+      "category": "SMEs"
+    },
+    {
+      "metric": "EU regions covered by EDIHs",
+      "value": 85,
+      "unit": "percent",
+      "category": "SMEs"
+    },
+    {
+      "metric": "Industrial robots installed in 2023 (EU)",
+      "value": 90000,
+      "unit": "count",
+      "category": "Robotics"
+    },
+    {
+      "metric": "Service robotics producers (EU)",
+      "value": 400,
+      "unit": "count",
+      "category": "Robotics"
+    },
+    {
+      "metric": "Manufacturing enterprises (EU)",
+      "value": 2200000,
+      "unit": "count",
+      "category": "Manufacturing"
+    },
+    {
+      "metric": "Employees in manufacturing sector (EU)",
+      "value": 30000000,
+      "unit": "count",
+      "category": "Manufacturing"
+    },
+    {
+      "metric": "Manufacturing share of EU GDP",
+      "value": 14,
+      "unit": "percent",
+      "category": "Manufacturing"
+    },
+    {
+      "metric": "Telco operators establishing AI strategies (worldwide)",
+      "value": 65,
+      "unit": "percent",
+      "category": "Electronic communications"
+    },
+    {
+      "metric": "Venture capital raised by climate/environment AI startups since 2019",
+      "value": 700,
+      "unit": "EUR million",
+      "category": "Climate and Environment"
+    },
+    {
+      "metric": "European growers using yield-monitoring algorithms",
+      "value": 27,
+      "unit": "percent",
+      "category": "Agri-Food"
+    },
+    {
+      "metric": "European growers deploying precision-sprayer controllers",
+      "value": 49,
+      "unit": "percent",
+      "category": "Agri-Food"
+    },
+    {
+      "metric": "Video game companies adopting AI",
+      "value": 51,
+      "unit": "percent",
+      "category": "Cultural and creative sectors"
+    },
+    {
+      "metric": "Audiovisual companies adopting AI",
+      "value": 39,
+      "unit": "percent",
+      "category": "Cultural and creative sectors"
+    },
+    {
+      "metric": "News media companies adopting AI",
+      "value": 35,
+      "unit": "percent",
+      "category": "Cultural and creative sectors"
+    },
+    {
+      "metric": "Music creators using AI",
+      "value": 35,
+      "unit": "percent",
+      "category": "Cultural and creative sectors"
+    },
+    {
+      "metric": "Public managers reporting at least one AI solution implemented",
+      "value": 52,
+      "unit": "percent",
+      "category": "Public sector"
+    },
+    {
+      "metric": "Public managers planning new AI projects",
+      "value": 63,
+      "unit": "percent",
+      "category": "Public sector"
+    },
+    {
+      "metric": "AI use cases recorded in EU public administrations (2024)",
+      "value": 1200,
+      "unit": "count",
+      "category": "Public sector"
+    },
+    {
+      "metric": "European workers reporting AI helped them work faster",
+      "value": 67,
+      "unit": "percent",
+      "category": "Workforce"
+    },
+    {
+      "metric": "Growth in healthcare-related AI patents in EU (2016-2024)",
+      "value": 20,
+      "unit": "multiple (x-fold)",
+      "category": "Healthcare"
+    }
+  ],
+  "sectoral_flagships": [
+    {
+      "id": "2.1",
+      "sector": "Healthcare, including pharmaceuticals",
+      "challenges": [
+        "Limited and uneven AI uptake in clinical workflows and administrative processes",
+        "Availability of quality data",
+        "Heterogeneity of infrastructures",
+        "Limited AI literacy, skills and trust among healthcare professionals"
+      ],
+      "actions": [
+        "Establish European AI-powered advanced screening centres for prevention and diagnosis (cardiovascular diseases and cancer)",
+        "Establish a European Network of Expertise on AI Deployment in Healthcare",
+        "Launch an AI drug discovery challenge for diseases such as Alzheimer's disease or certain cancers",
+        "Propose actions to streamline and enable quicker market entry of medical devices"
+      ],
+      "action_count": 4
+    },
+    {
+      "id": "2.2",
+      "sector": "Robotics",
+      "challenges": [
+        "Need for integration of generative AI in robotics",
+        "Uptake of European solutions needed to keep leading innovation"
+      ],
+      "actions": [
+        "Establish a Catalyst for the uptake of European Robotics with developers and user industries",
+        "Fund sectoral Acceleration Pipelines for adoption of AI-powered robotics"
+      ],
+      "action_count": 2
+    },
+    {
+      "id": "2.3",
+      "sector": "Manufacturing, engineering and construction",
+      "challenges": [
+        "Production relocating to lower-cost regions",
+        "Decreasing competitiveness and weakening resilience and strategic autonomy"
+      ],
+      "actions": [
+        "Support development of frontier AI models and AI agents adapted to manufacturing",
+        "Fund Acceleration Pipelines for adoption of AI in manufacturing"
+      ],
+      "action_count": 2
+    },
+    {
+      "id": "2.4",
+      "sector": "Defence, security and space",
+      "challenges": [
+        "AI fundamentally changing the nature of warfare",
+        "Growing interest in dual use AI applications",
+        "Increasingly complex and fast-changing digital threats"
+      ],
+      "actions": [
+        "Accelerate development/deployment of European AI-enabled situational awareness and C2 capacities via EDF",
+        "Deploy strategic European infrastructure of highly secured computing power for defence/space AI",
+        "Support AI compliance of EU space manufacturing and operations",
+        "Foster development and uptake of AI solutions for internal security",
+        "Fund projects to develop AI-based Cybersecurity tools and services",
+        "Support interoperability and trusted integration of AI into cybersecurity architectures"
+      ],
+      "action_count": 6
+    },
+    {
+      "id": "2.5",
+      "sector": "Mobility, transport and automotive",
+      "challenges": [
+        "Interplay of national and EU regulations complicating testing/approval of AVs",
+        "Trust issues and difficulties accessing high quality training data",
+        "Inadequate deployment of transport and digital infrastructures"
+      ],
+      "actions": [
+        "Leverage AI factories/gigafactories to fast track automated driving models under European Connected and Autonomous Alliance",
+        "Launch 'Autonomous Drive Ambition Cities' initiative for AI-enabled self-driving vehicles"
+      ],
+      "action_count": 2
+    },
+    {
+      "id": "2.6",
+      "sector": "Electronic communications",
+      "challenges": [
+        "Lack of open platforms and capacity in edge devices"
+      ],
+      "actions": [
+        "Promote EU capacities in edge AI devices (Smart Networks and Services JU, Chips JU)",
+        "Create a European Telco AI platform under Digital Europe Programme"
+      ],
+      "action_count": 2
+    },
+    {
+      "id": "2.7",
+      "sector": "Energy",
+      "challenges": [
+        "Slower progress in grid management, demand-side flexibility and infrastructure planning",
+        "Strict safety requirements, fragmented governance and limited data-sharing"
+      ],
+      "actions": [
+        "Support development of AI models for forecasting, optimisation, digital twins and system balancing in energy",
+        "Adopt standardisation request on common reporting of AI systems' energy consumption impact"
+      ],
+      "action_count": 2
+    },
+    {
+      "id": "2.8",
+      "sector": "Climate and Environment",
+      "challenges": [
+        "Scientific and technological complexity of AI-based climate modelling",
+        "Capacity and skills gaps among local authorities, SMEs and civil society",
+        "Fragmented ecosystem of climate and environment AI tools"
+      ],
+      "actions": [
+        "Deploy an open-source AI Earth-system frontier model (next step of Destination Earth)"
+      ],
+      "action_count": 1
+    },
+    {
+      "id": "2.9",
+      "sector": "Agri-Food",
+      "challenges": [
+        "Lack of high-quality data and commonly agreed formats",
+        "Missing interoperability between closed/vendor-tied platforms",
+        "Farmer hesitancy due to lack of time/skills, mistrust and liability uncertainty"
+      ],
+      "actions": [
+        "Foster creation of an Agri-food AI platform for specialised farming AI-enabled tools"
+      ],
+      "action_count": 1
+    },
+    {
+      "id": "2.10",
+      "sector": "Cultural and creative sectors, and media",
+      "challenges": [
+        "Access to ethical, transparent, inclusive and high-quality models",
+        "Monetising specialised AI models and securing diverse funding",
+        "Concerns about unauthorised use of copyright-protected content in training data"
+      ],
+      "actions": [
+        "Foster development of micro-studios specialised in AI-enhanced virtual production",
+        "Help development of pan-European multilingual news/media platforms",
+        "Launch targeted study on legal challenges related to AI-generated outputs and copyright"
+      ],
+      "action_count": 3
+    },
+    {
+      "id": "2.11",
+      "sector": "Public sector",
+      "challenges": [
+        "Fragmented public sector data sources",
+        "Limited accessibility of trustworthy AI-based tools",
+        "Need for guidance for administrations starting their AI journey"
+      ],
+      "actions": [
+        "Build an AI toolbox dedicated to public administrations (including judiciary) and launch PAIR Pathway",
+        "Accelerate adoption of European scalable generative AI solutions in public administrations, focus on education",
+        "Revise the European Interoperability Framework to enable AI first policies"
+      ],
+      "action_count": 3
+    }
+  ],
+  "cross_cutting_challenges": [
+    {
+      "id": "3.1",
+      "title": "Enhancing opportunities for European SMEs",
+      "summary": "EDIHs refocused into Experience Centres for AI to bridge supply and demand and promote a European AI Stack.",
+      "actions": [
+        "Launch a call for expression of interest for European companies to share AI models/systems with the EDIH network"
+      ]
+    },
+    {
+      "id": "3.2",
+      "title": "Enabling an AI-ready workforce across sectors",
+      "summary": "AI literacy, upskilling/reskilling and monitoring of labour market impact across sectors.",
+      "actions": [
+        "Provide AI literacy trainings tailored to sectors via the AI Skills Academy",
+        "Encourage industry involvement in upskilling via the Pact for Skills and Skills Guarantee",
+        "Fund 'AI for business' executive master programmes for hybrid profiles",
+        "Establish an 'AI entrepreneurs lab' connecting AI graduates with entrepreneurial mentors",
+        "Actively monitor AI impact on the labour market"
+      ]
+    },
+    {
+      "id": "3.3",
+      "title": "Supporting AI as a production factor",
+      "summary": "Focus on general-purpose AI models, AI agents, specialised models, digital twins and frontier AI/AGI.",
+      "actions": [
+        "Launch and coordinate a Frontier AI Initiative",
+        "Launch major EU-wide competitions to develop open frontier AI models",
+        "Launch targeted research on next-generation AI agents tailored to Apply AI sectors"
+      ]
+    },
+    {
+      "id": "3.4",
+      "title": "Ensuring trust in the European market",
+      "summary": "Support clear, simple and innovation-friendly implementation of the AI Act.",
+      "actions": [
+        "Operate the AI Act Service Desk with a compliance checker",
+        "Prepare guidelines on classification of AI systems as high-risk",
+        "Prepare guidelines on the AI Act's interplay with other Union law",
+        "Ensure Member States set up national competent authorities"
+      ]
+    }
+  ],
+  "governance_mechanism": {
+    "id": "4",
+    "title": "Establishing a single governance mechanism",
+    "components": [
+      {
+        "name": "Apply AI Alliance",
+        "role": "Unique entry point for stakeholders to shape AI policies for strategic sectors",
+        "description": "Existing AI Alliance turned into a coordination forum for Apply AI stakeholders and policy makers, hosting annual gatherings and sectoral boards."
+      },
+      {
+        "name": "AI Observatory",
+        "role": "Monitor AI trends and support stakeholders' dialogues",
+        "description": "Provides indicators to assess AI impact across sectors, monitors developments/trends, and will inform a proposed public/private AI investment target."
+      },
+      {
+        "name": "AI Board",
+        "role": "Member States coordination",
+        "description": "Established under the AI Act, remains the main discussion forum on AI with Member States; monitors national AI strategies via its innovation sub-configuration."
+      }
+    ]
+  },
+  "international_dimension": {
+    "id": "international",
+    "fora": [
+      "G7",
+      "G20",
+      "Global Partnership on AI",
+      "OECD",
+      "Council of Europe",
+      "Network of AI Safety and Security Institutes",
+      "AI summits",
+      "UN system"
+    ],
+    "related_documents": [
+      "Joint Communication on an International Digital Strategy for the EU",
+      "Economic Security Doctrine (upcoming)"
+    ]
+  }
+}
