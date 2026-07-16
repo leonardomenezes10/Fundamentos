@@ -176,3 +176,4 @@ cython_debug/
 # Large files
 noticias.zip
 json/
+extrair_noticias.py
