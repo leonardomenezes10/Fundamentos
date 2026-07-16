@@ -175,3 +175,4 @@ cython_debug/
 
 # Large files
 noticias.zip
+json/

@@ -1,0 +1,92 @@
+{
+    "1": {
+        "titulo": "Posto que não baixar preço do diesel pode ser multado e interditado",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Trata-se de uma medida fiscal e de fiscalização governamental sobre postos de gasolina. Embora ligada ao contexto da greve dos caminhoneiros, a notícia em si descreve regulação de preços e penalidades para postos, o que entra na exceção de decisões administrativas/econômicas."
+    },
+    "2": {
+        "titulo": "Justiça manda garantir 15 leitos de UTI em hospital de Palmas",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Decisão judicial pontual determinando a garantia de leitos de UTI em Palmas, enquadrando-se como trâmite administrativo e de saúde pública regular."
+    },
+    "3": {
+        "titulo": "EUA e OEA condenam violência na Nicarágua",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Sim",
+        "justificativa": "Descreve uma crise política internacional grave na Nicarágua com violência armada estatal, repressão a protestos de rua e mortes civis significativas, indicando contestação e ameaça severa à estabilidade institucional."
+    },
+    "4": {
+        "titulo": "População de Manaus ficou sem ônibus nesta quinta-feira",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Sim",
+        "justificativa": "A greve completa e paralisação total da frota de transporte público em Manaus afetou de forma crítica o funcionamento urbano e a governabilidade local, configurando processo com impacto político relevante regional."
+    },
+    "5": {
+        "titulo": "DF congela valor usado no cálculo do ICMS da gasolina",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Medida tributária tomada pelo governo do Distrito Federal (redução do cálculo do ICMS). Enquadra-se nas exceções de decisões econômicas/administrativas comuns."
+    },
+    "6": {
+        "titulo": "Boletim da PM publica plano de reestruturação de UPP na Baixada",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Plano administrativo de segurança pública para reestruturação de UPPs na Baixada Fluminense, sem indicar crise política ou institucional."
+    },
+    "7": {
+        "titulo": "TRF4 mantém condenação de Sérgio Cabral",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Decisão judicial de manutenção de condenação criminal do ex-governador Sérgio Cabral, que já estava preso. Representa o trâmite normal do sistema de justiça."
+    },
+    "8": {
+        "titulo": "Petroleiros suspendem greve; Petrobras informa que refinarias operam",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Sim",
+        "justificativa": "Paralisação nacional coordenada da categoria estratégica dos petroleiros, desafiando a governabilidade e gerando alto nível de incerteza em refinarias de energia."
+    },
+    "9": {
+        "titulo": "EUA dizem que seria \"trágico\" perder oportunidade de cúpula com Coreia",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Negociação diplomática internacional entre EUA e Coreia do Norte. Enquadra-se nas exceções diplomáticas e não indica instabilidade interna no funcionamento do sistema político de nenhum dos Estados."
+    },
+    "10": {
+        "titulo": "Começa a valer em SP a isenção de pedágio para caminhões vazios",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Decisão administrativa regulatória de concessão de isenção de pedágio em São Paulo como cumprimento de acordos."
+    },
+    "11": {
+        "titulo": "Portaria sobre fiscalização de postos deve ser publicada ainda hoje",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Publicação de portaria ministerial para fiscalização de postos, tratando-se de decisão puramente administrativa e reguladora."
+    },
+    "12": {
+        "titulo": "Governo corta incentivos e verbas para viabilizar diesel mais barato",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Decisão político-econômica de corte de verbas e reconfiguração de incentivos fiscais para subsidiar o óleo diesel."
+    },
+    "13": {
+        "titulo": "Milhares de pessoas acompanham Marcha para Jesus em São Paulo",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Evento religioso pacífico de grande porte (Marcha para Jesus), sem teor de contestação ou ruptura do sistema institucional."
+    },
+    "14": {
+        "titulo": "Exportadores e associação de refrigerante criticam perda de incentivos",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Divergência de opinião e críticas de entidades empresariais (AEB) sobre corte de incentivos. Representa debates econômicos rotineiros da sociedade civil organizada."
+    },
+    "15": {
+        "titulo": "Brasil fica isento da tarifa de aço dos EUA, mas não da de alumínio",
+        "data": "31/05/2018",
+        "classificacao_instabilidade_politica": "Não",
+        "justificativa": "Notícia econômica e de relações internacionais aduaneiras (tarifas de aço e alumínio entre EUA e Brasil)."
+    }
+}
