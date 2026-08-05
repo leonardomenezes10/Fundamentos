@@ -45,6 +45,15 @@ Aplicar, a cada documento individualmente, as mesmas duas operações definidas 
 
 **(b) Normalização/agrupamento** de variantes redundantes que designam o mesmo referente (variações morfológicas, siglas e formas por extenso, maiúsculas/minúsculas, expressões compostas tratadas como unidade única).
 
+**(c) Exclusão de termos idiossincráticos de identificação nacional/institucional — exclusiva desta comparação conjunta, sem equivalente na Skill 02_Análise_Vocab_A.** Diferentemente da análise individual de um único documento — onde nomes de país, siglas de órgãos governamentais e iniciativas nacionais são vocabulário legítimo e informativo sobre aquele documento específico —, a comparação entre documentos exige um filtro adicional: termos que apenas nomeiam a identidade nacional/institucional do próprio documento — e que, por definição, tendem a não ocorrer nos demais documentos por serem exclusivos daquele país/bloco — devem ser excluídos da análise de similaridade. Sem essa exclusão, esses termos inflam artificialmente a "singularidade" estatística de um documento sem refletir nenhuma escolha temática real: um documento não é mais ou menos temático-conceitualmente distinto por nomear a si mesmo.
+
+Essa exclusão exige distinguir, com minúcia e caso a caso — nunca por uma lista fixa e automática —, dois tipos de termos que podem parecer semelhantes à primeira vista, mas são de natureza analítica oposta:
+
+- **Termos técnicos do campo de política de IA/relações internacionais que representam uma especificidade real de abordagem** — mantidos na análise, mesmo que ocorram em um único documento, porque designam um enquadramento, mecanismo ou valor que é, em si, um eixo de comparação legítimo com os demais documentos (ex.: "ally"/"enemy" no documento estadunidense refletem uma moldura de rivalidade geopolítica que os demais documentos não empregam — a ausência desse enquadramento nos outros documentos é, ela mesma, um dado comparativo relevante, não um artefato a descartar).
+- **Identificadores de nacionalidade/instituição que apenas nomeiam o próprio documento, sem carregar conteúdo temático-conceitual autônomo** — excluídos da análise de similaridade (ex.: "Brazil"/"Brazilian" no PBIA; "European"/"Europe" nos documentos da União Europeia; siglas de órgãos e agências governamentais específicas de um único país, como "DOC", "DOD", "NIST", "CAISI" nos documentos estadunidenses; nomes de iniciativas ou estruturas nomeadas exclusivas de um único país, como "NIB" no Brasil). A ausência desses termos nos demais documentos não torna o documento de origem tematicamente mais distinto — é apenas o efeito mecânico de que cada documento nomeia a si mesmo, seu governo e suas próprias instituições.
+
+Em caso de dúvida real sobre se um termo é identificador próprio ou especificidade temática genuína, a decisão deve seguir o mesmo padrão de julgamento fundamentado — nunca automático, nunca por lista fixa universal — já exigido pela Skill 02_Análise_Vocab_A para as demais decisões de remoção e normalização, priorizando sempre a permanência de termos temático-conceituais (que descrevem uma abordagem, mecanismo, valor ou estratégia de política de IA) e a exclusão de identificadores que apenas nomeiam o país, bloco, governo ou instituição responsável pelo documento. Cada exclusão desse tipo deve ser registrada com a justificativa individual no registro persistente (item 8, abaixo), com o mesmo rigor exigido para as demais remoções.
+
 Após esse tratamento por documento, se a comparação envolver mais de um idioma, realizar como etapa **separada e explicitamente identificada** o alinhamento de termos equivalentes entre idiomas (conforme etapa 1). Essa etapa de alinhamento entre idiomas nunca deve ser confundida com a normalização interna de um único documento — são operações distintas e devem ser relatadas separadamente ao usuário.
 
 Um termo só pode ser agrupado a outro (dentro do mesmo documento ou entre documentos) se designar **exatamente o mesmo referente**. Termos parecidos, mas com significados distintos, nunca devem ser fundidos — nem mesmo quando pertencem ao mesmo campo semântico (ex.: "smart" e "intelligent" permanecem distintos em todos os documentos comparados, mesma lógica do princípio geral de não fusão de quase-sinônimos da Skill 02_Análise_Vocab_A, item 5).
@@ -65,7 +74,19 @@ Definir e declarar explicitamente o critério utilizado para selecionar quais te
 
 ### 6. Métrica de comparação/similaridade
 
-Não há uma métrica ou tipo de gráfico fixo ao qual esta skill esteja presa. A cada demanda, deve-se ler esta skill e construir a análise de similaridade textual, de termos, ou de temáticas que o usuário pedir (ex.: sobreposição de vocabulário entre documentos, proximidade de frequência relativa em torno de temas específicos, comparação de ranking de termos mais relevantes). Qualquer que seja a métrica escolhida, ela deve ser declarada e justificada explicitamente, nunca aplicada de forma implícita.
+**Método padrão de mensuração de similaridade entre documentos.** A similaridade de vocabulário entre dois ou mais documentos é medida a partir do vocabulário normalizado (após as etapas de remoção, normalização e exclusão de identificadores próprios da etapa 3) representado como um **vetor de frequência relativa** — a proporção de cada termo em relação ao total de tokens de conteúdo do próprio documento, nunca a contagem absoluta (consistente com a exigência de normalização relativa do item 4 desta skill). Cada documento é assim representado por um vetor no mesmo espaço de termos — a união dos vocabulários normalizados de todos os documentos incluídos na comparação —, e a similaridade entre um par de documentos é calculada sobre esses vetores (ex.: similaridade de cosseno), produzindo um valor único e comparável para cada par. Esse é o método de referência sempre que a demanda do usuário for "similaridade entre documentos" em termos gerais, e deve ser declarado explicitamente como tal sempre que utilizado.
+
+Isso não substitui outras formas de análise de vocabulário/temática que o usuário venha a solicitar de modo complementar ou alternativo (ex.: sobreposição de conjuntos de termos mais frequentes, comparação de ranking, proximidade de frequência relativa em torno de um tema específico) — não há um tipo de gráfico fixo ao qual esta skill esteja presa. Qualquer que seja a métrica efetivamente utilizada em uma visualização, ela deve ser declarada e justificada explicitamente, nunca aplicada de forma implícita.
+
+### 6.1. Sequência estruturada da comparação
+
+A comparação entre os documentos deve seguir uma sequência estruturada, do mais específico para o mais amplo, em vez de comparar todos os pares de documentos de forma desordenada:
+
+1. **Coerência interna por bloco/país.** Primeiro, verificar a similaridade entre os documentos do mesmo país/bloco quando houver mais de um (China: `ai_plus.json` vs. `new_generation_ai_development_plan.json`; União Europeia: `ai_continent_action_plan.json` vs. `apply_ai_strategy.json`) — estabelecendo se os documentos de um mesmo país/bloco falam a mesma "língua" de política de IA entre si ou se divergem internamente. Essa coerência interna nunca deve ser presumida a priori; se a análise revelar divergência interna, isso deve ser reportado como achado, não ocultado.
+2. **Comparação entre blocos/países.** Em seguida, comparar as abordagens entre União Europeia, China e Estados Unidos entre si (tratando cada bloco/país como unidade agregada, ou comparando seus documentos individualmente, conforme a demanda do usuário) — verificando se essas três abordagens internacionais estão próximas ou distantes entre si, e em que aspectos.
+3. **Posicionamento do PBIA.** Por último, posicionar o PBIA em relação ao conjunto já mapeado nos passos 1-2, verificando o grau de proximidade ou distância do documento brasileiro em relação a cada bloco/país e ao conjunto como um todo.
+
+Essa sequência não impede a construção de uma matriz de similaridade completa entre todos os documentos incluídos na comparação de uma só vez (que continua sendo o instrumento de base, ver item 6) — ela define a **ordem de leitura e apresentação** dos resultados ao usuário, para que a interpretação avance do particular (coerência interna de cada bloco) para o geral (posicionamento do PBIA no conjunto), e não o contrário. Essa sequência deve ser seguida sempre que a demanda do usuário for uma análise de similaridade abrangendo o conjunto dos documentos, salvo indicação explícita em contrário.
 
 ### 7. Transparência obrigatória com o usuário
 
@@ -77,7 +98,9 @@ A cada análise comparada realizada, deve-se informar ao usuário, de forma expl
 - Quais bigramas/compostos (com ou sem hífen) foram tratados como unidade única em cada documento, e a confirmação de que o mesmo composto recebeu o mesmo tratamento em todos os documentos onde ocorre;
 - Quais formas hifenizadas foram identificadas em cada documento e a decisão (unida ou separada) tomada para cada uma, com justificativa;
 - Quais termos foram desdobrados por desambiguação contextual em cada documento, com a contagem de cada sentido separadamente;
+- Quais termos foram excluídos por serem identificadores idiossincráticos de nacionalidade/instituição (item 3-c) — ex.: gentílicos do próprio país, siglas de órgãos governamentais nacionais, nomes de iniciativas exclusivas de um único país/bloco —, com a justificativa de cada exclusão e a distinção explícita em relação aos termos técnicos mantidos por representarem especificidade real de abordagem;
 - O método de normalização relativa utilizado para tornar os documentos comparáveis apesar dos tamanhos diferentes;
+- A métrica de similaridade utilizada (item 6 — vetor de frequência relativa e método de cálculo, ex. similaridade de cosseno) e a sequência de comparação seguida (item 6.1), quando a demanda envolver mensuração de similaridade entre os documentos;
 - O critério de corte utilizado.
 
 **Salvaguarda contra viés de confirmação:** a escolha de quais documentos comparar, qual tratar como central, quais termos remover ou agrupar, e qual métrica de comparação usar deve ser sempre linguística ou metodológica — nunca guiada pelo resultado que se espera ou deseja obter (ex.: aproximar ou afastar o PBIA dos demais planos). Selecionar documentos, termos ou métricas para produzir uma conclusão pré-definida é uma violação do rigor acadêmico exigido neste trabalho.
@@ -92,6 +115,8 @@ Deve ser mantido, na pasta **Análise Conjunta**, um registro persistente associ
 - Lista de bigramas/compostos tratados como unidade única, por documento, com verificação de consistência entre documentos;
 - Auditoria das formas hifenizadas por documento (mantidas unidas ou separadas, com justificativa);
 - Lista de termos desdobrados por desambiguação contextual, por documento, com a contagem de cada sentido;
+- Lista de termos excluídos por identificação idiossincrática nacional/institucional (item 3-c), por documento, com a justificativa individual de cada exclusão;
+- Método de mensuração de similaridade utilizado (item 6 — vetor de frequência relativa) e, quando aplicável, os resultados organizados segundo a sequência estruturada de comparação (item 6.1: coerência interna por bloco, comparação entre blocos, posicionamento do PBIA);
 - Método de normalização relativa e critério de corte aplicados;
 - Data da última atualização.
 
@@ -104,7 +129,7 @@ Construir a visualização gráfica solicitada pelo usuário com base no vocabul
 ### 10. Análise final obrigatória
 
 Toda visualização comparada produzida por esta skill deve ser acompanhada de uma análise final contendo:
-- A metodologia aplicada (idiomas envolvidos, documento central, tratamento de bigramas/hífens, desambiguação contextual, método de normalização relativa, critério de corte, métrica de comparação);
+- A metodologia aplicada (idiomas envolvidos, documento central, tratamento de bigramas/hífens, desambiguação contextual, exclusão de identificadores idiossincráticos nacionais/institucionais, método de normalização relativa, critério de corte, métrica de comparação e, quando aplicável, a sequência estruturada de comparação seguida — item 6.1);
 - A lista atualizada de palavras retiradas e de variantes agrupadas por documento, incluindo compostos/bigramas preservados e termos desdobrados por sentido;
 - O que o gráfico mostra e como interpretá-lo;
 - Em quais aspectos e temáticas os documentos comparados se aproximam e se diferenciam, de acordo estritamente com o que o gráfico permite sustentar — sem generalizações ou simplificações que extrapolem o que os dados efetivamente mostram;

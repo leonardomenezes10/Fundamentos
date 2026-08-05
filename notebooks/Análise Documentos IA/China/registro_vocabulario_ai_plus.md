@@ -125,7 +125,14 @@ Cada termo abaixo foi verificado por concordância (contexto de todas as suas oc
 
 **Top 50** termos por frequência absoluta (critério padrão da Skill 02_Análise_Vocab_A, item 6), com o **Top 25** mantido como recorte adicional dentro do mesmo Top 50. Frequência absoluta (não relativa) é apropriada por se tratar de análise interna a um único documento — a normalização relativa entre documentos de tamanhos distintos é exigida apenas na pasta "Análise Conjunta" (Skill 02_Análise_Vocab_B), que não se aplica aqui.
 
-## 7. Histórico de atualizações
+## 7. Correção de consistência entre documentos (auditoria da Análise Conjunta, 2026-08-05)
+
+Antes da análise comparada de similaridade na pasta "Análise Conjunta", a Skill 02_Análise_Vocab_B (item 3) exige verificar se o mesmo bigrama recebe o mesmo tratamento em todos os documentos comparados. A auditoria identificou que "Research and Development"/"R&D" ocorre 4 vezes em `texto_completo` (usualmente como "R&D", nas seções sobre financiamento e infraestrutura de pesquisa), sem estar protegido como bigrama — permanecendo fragmentado em "research" (token genérico, absorvido pela normalização morfológica de `technology`-adjacentes) e a sigla solta "r"/"d" (já descartada como resíduo de formatação). Como "Research & Development (R&D)" é bigrama protegido no PBIA (27 ocorrências) e passou a ser protegido também em `new_generation.json` e `americas_ai_action_plan.json` (ver correção equivalente nos respectivos registros), a ausência de proteção aqui quebraria a comparabilidade do termo entre os documentos do projeto.
+
+**Correção aplicada:** adicionado o padrão `\bResearch and Development\b|\bR&D\b` → `RESEARCHDEVTOKEN` ao `preprocess()` de `ai_plus.ipynb`, com o mesmo rótulo representativo do PBIA ("Research & Development (R&D)"). O notebook foi reexecutado; o termo agora conta 4 ocorrências sob rótulo próprio (abaixo do corte de Top 50 deste documento, mas corretamente identificável e comparável).
+
+## 8. Histórico de atualizações
 
 - **2026-08-05 (criação):** metodologia inicial aplicada (pré-processamento, tokenização com hífen como separador, remoção, normalização, corte Top 25), gráfico de barras horizontais no notebook `ai_plus.ipynb`.
 - **2026-08-05 (revisão metodológica):** correção da fragmentação por hífen (auditoria individual de 59 formas, todas mantidas unidas — Seção 2), desambiguação contextual de termos polissêmicos (Seção 4), proteção do bigrama "State Council" (Seção 1), expansão da normalização morfológica e do corte para Top 50 (Seções 3 e 6). Alterações determinadas pelo usuário para toda a pasta "Análise Documentos IA" (Brasil, China, Estados Unidos, Europa) e replicadas nas Skills 02_Análise_Vocab_A/B.
+- **2026-08-05 (correção de consistência entre documentos):** adicionada proteção do bigrama "Research & Development (R&D)" (Seção 7), motivada pela auditoria de consistência exigida antes da análise comparada da pasta "Análise Conjunta" (Skill 02_Análise_Vocab_B, item 3).

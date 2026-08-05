@@ -111,7 +111,14 @@ Também unificado: **"Brazil's" → "Brazil"** (mesma forma de caixa/variação 
 
 **Top 50** termos por frequência absoluta (critério padrão da Skill 02_Análise_Vocab_A, item 6, adotado nesta revisão), com o **Top 25** mantido como recorte adicional dentro do mesmo Top 50. Frequência absoluta (não relativa) é apropriada por se tratar de análise de um único documento.
 
-## 4. Histórico de atualizações
+## 5. Correção de consistência entre documentos (auditoria da Análise Conjunta, 2026-08-05)
+
+Antes de iniciar a análise comparada de similaridade na pasta "Análise Conjunta", a Skill 02_Análise_Vocab_B (item 3) exige verificar se o mesmo composto/bigrama recebe o mesmo tratamento em todos os documentos comparados. Essa auditoria (registrada de forma centralizada em `Análise Conjunta/`) identificou que o PBIA já protegia corretamente a maioria dos bigramas institucionais compartilhados entre documentos (Public Sector, Private Sector, Federal Government, Machine Learning, Value Chain, Data Center(s), Data Infrastructure, Research & Development), mas **não protegia "AI Act"** como bigrama — as 2 ocorrências do termo (referência à regulação europeia de IA, usada como termo de comparação internacional no corpo do PBIA e no glossário de siglas) permaneciam soltas como "AI" (absorvido pelo bigrama `Artificial Intelligence (AI)`) + "act" (token genérico). Como "AI Act" é protegido como bigrama institucional nos dois documentos europeus (27 e 13 ocorrências, respectivamente), a ausência de proteção equivalente no PBIA quebraria a comparabilidade desse termo entre documentos.
+
+**Correção aplicada:** adicionado o padrão `\bAI Act\b` ao `COMPOUND_TERMS` de `pbia.ipynb`, posicionado **antes** do padrão genérico `Artificial Intelligence|AI` na lista (ordem da mais específica para a mais genérica, conforme já orienta o comentário do próprio bloco de código), para que "AI Act" seja resolvido primeiro e não seja consumido pelo bigrama "AI" solto. O notebook foi reexecutado; "AI Act" agora conta 2 ocorrências sob rótulo próprio (abaixo do corte de Top 50, mas corretamente identificável e comparável entre documentos).
+
+## 6. Histórico de atualizações
 
 - **2026-08-05 (criação):** primeira análise de vocabulário do PBIA (gráfico de barras horizontais, Top 25 termos), executada dentro de `pbia.ipynb`.
 - **2026-08-05 (revisão metodológica):** auditoria das 58 formas hifenizadas (já preservadas desde a criação, mas agora formalmente auditadas — Seção 1.4), novos bigramas de desambiguação contextual para "power"/"state(s)"/"generation" (Seções 1.5, 2.5), expansão da normalização morfológica com 39 novos pares nominais e, pela primeira vez, 22 famílias verbais (Seção 2.3), e expansão do corte para Top 50 (Seção 3). Alterações determinadas pelo usuário para toda a pasta "Análise Documentos IA" (Brasil, China, Estados Unidos, Europa) e replicadas nas Skills 02_Análise_Vocab_A/B.
+- **2026-08-05 (correção de consistência entre documentos):** adicionada proteção do bigrama "AI Act" (Seção 5), motivada pela auditoria de consistência exigida antes da análise comparada da pasta "Análise Conjunta" (Skill 02_Análise_Vocab_B, item 3).

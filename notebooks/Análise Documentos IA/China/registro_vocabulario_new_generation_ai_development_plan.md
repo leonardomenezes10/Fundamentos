@@ -90,7 +90,24 @@ A versão anterior tratava **todo hífen como separador universal**, sem nenhuma
 - **Cobertura da normalização morfológica e da desambiguação contextual concentrada nos candidatos plausíveis ao Top 50** (frequência bruta aproximada ≥ 3-5) — não há lematização/desambiguação exaustiva de toda a cauda longa de 1.611 termos distintos do vocabulário final.
 - **Duas substituições de grafia/extração aplicadas nesta camada de análise** ("co-ordination"→"coordination", "rain-inspired"→"brain-inspired") — decisões documentadas e reversíveis, mas dependentes de leitura manual da concordância, não de uma regra automática generalizável a outros documentos sem inspeção equivalente.
 
-## 8. Histórico de atualizações
+## 9. Correção de consistência entre documentos (auditoria da Análise Conjunta, 2026-08-05)
+
+Antes da análise comparada de similaridade na pasta "Análise Conjunta", a Skill 02_Análise_Vocab_B (item 3) exige verificar se o mesmo bigrama recebe o mesmo tratamento em todos os documentos comparados. A auditoria identificou **cinco bigramas conceituais** presentes neste documento com frequência relevante, mas sem proteção equivalente à já aplicada em outros documentos do projeto:
+
+| Bigrama | Ocorrências em `texto_completo` | Protegido em (antes desta correção) | Situação anterior neste documento |
+|---|---|---|---|
+| Research & Development (R&D) | 35 (29 "Research and Development" + 6 "R&D") | PBIA (27) | Fragmentado em "research"/"development" soltos |
+| Data Infrastructure | 2 | PBIA (8) | Fragmentado em "data"/"infrastructure" soltos |
+| Public Service(s) | 4 | PBIA (27) | Absorvido pela normalização morfológica genérica de "service(s)" |
+| Value Chain | 2 | PBIA (10) | Absorvido pela normalização morfológica genérica de "chain(s)" |
+| Machine Learning | 5 | PBIA (6) | Fragmentado em "machine"/"learning" soltos |
+
+Este é o caso mais significativo identificado na auditoria: "Research and Development"/"R&D" é o segundo termo mais frequente do documento (35 ocorrências) e, sem a proteção de bigrama, seu peso ficava disperso e invisível — distorcendo tanto a leitura individual deste documento quanto qualquer comparação com o PBIA, onde o mesmo conceito já era medido corretamente como unidade própria.
+
+**Correção aplicada:** adicionados os cinco padrões correspondentes ao `preprocess()` de `new_generation.ipynb`, com os mesmos rótulos representativos já usados no PBIA (garantindo que a contagem seja comparável termo a termo na Análise Conjunta). O notebook foi reexecutado; "Research & Development (R&D)" passou a constar no Top 50 do documento com 35 ocorrências (anteriormente ausente como termo próprio); os demais quatro permanecem abaixo do corte de Top 50, mas agora corretamente identificáveis e comparáveis.
+
+## 10. Histórico de atualizações
 
 - **2026-08-05 (criação):** metodologia inicial (pré-processamento, tokenização com hífen como separador, remoção, normalização, corte Top 25 com ajuste de empate em 26 termos).
 - **2026-08-05 (revisão metodológica):** correção da fragmentação por hífen (auditoria de 136 formas, 134 mantidas unidas — Seção 2), desambiguação contextual de "power" e "driving"/"drive"/"driven" (Seção 4), proteção do bigrama "State Council", normalização de duas variantes de grafia/extração, expansão da normalização morfológica (29 novos pares) e do corte para Top 50. Alterações determinadas pelo usuário para toda a pasta "Análise Documentos IA" (Brasil, China, Estados Unidos, Europa) e replicadas nas Skills 02_Análise_Vocab_A/B.
+- **2026-08-05 (correção de consistência entre documentos):** adicionada proteção de cinco bigramas conceituais — Research & Development (R&D), Data Infrastructure, Public Service(s), Value Chain, Machine Learning (Seção 9) — motivada pela auditoria de consistência exigida antes da análise comparada da pasta "Análise Conjunta" (Skill 02_Análise_Vocab_B, item 3).

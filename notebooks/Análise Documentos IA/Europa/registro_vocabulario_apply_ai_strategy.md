@@ -86,7 +86,16 @@ Mantido integralmente da versão anterior, com dois acréscimos:
 - **Empates na fronteira do corte** (herdado): a ordem entre termos empatados é definida apenas pela ordem de primeira ocorrência no texto (comportamento determinístico do `Counter.most_common()`), sem significado semântico adicional — válido também para o novo corte de Top 50.
 - **"European"/"EU"/"Europe" seguem não fundidos**, por representarem classes gramaticais e referentes distintos (herdado).
 
-## 8. Histórico de atualizações
+## 9. Correção de consistência entre documentos (auditoria da Análise Conjunta, 2026-08-05)
+
+Antes da análise comparada de similaridade na pasta "Análise Conjunta", a Skill 02_Análise_Vocab_B (item 3) exige verificar se o mesmo bigrama recebe o mesmo tratamento em todos os documentos comparados. A auditoria identificou que **"public sector" ocorre 12 vezes** em `texto_completo` — nenhuma delas protegida como bigrama. É o caso de maior magnitude relativa encontrado em toda a auditoria: 12 ocorrências em um documento de 4.654 tokens de conteúdo (proporcionalmente mais denso que o "Private Sector" da EUA ou o "Public Sector" do PBIA) ficavam inteiramente fragmentadas em "public" (token solto, sem qualquer normalização) + "sector" (absorvido pelo bucket genérico `sectors`, junto com qualquer outro uso de "sector" no documento). Como "public sector" é bigrama institucional protegido tanto no PBIA (19 ocorrências) quanto em `ai_continent_action_plan.json` (18 ocorrências, o documento europeu irmão deste), a ausência de proteção aqui era a inconsistência de maior impacto potencial sobre a comparação entre os dois documentos europeus.
+
+**Correção aplicada:** adicionado o padrão `\bpublic sector\b` → `PUBLICSECTORTOKEN` ao `preprocess()` de `ai_apply_strategy.ipynb`, com o mesmo rótulo de exibição já usado em `ai_continent_action_plan.ipynb` ("public sector", minúsculo). O notebook foi reexecutado; o termo passa a contar 12 ocorrências sob rótulo próprio — abaixo do corte de Top 50 deste documento (que tem um piso de frequência mais alto que os demais, dado o tamanho do texto), mas corretamente identificável e comparável.
+
+**Nota metodológica:** "private sector" não ocorre neste documento (0 ocorrências, confirmado por busca literal) — não há, portanto, necessidade de proteção equivalente para esse termo aqui, apesar de protegido em outros documentos do projeto.
+
+## 10. Histórico de atualizações
 
 - **2026-08-05 (criação):** metodologia inicial completa (pré-processamento com 5 compostos institucionais, tokenização com hífen como separador residual, remoção, normalização com 68+34 grupos, corte Top 25 com observação de empates).
 - **2026-08-05 (revisão metodológica):** correção da fragmentação por hífen (auditoria de 76 formas, todas mantidas unidas — Seção 2), desambiguação contextual de "power" em três sentidos e de "action"/"alliance" (nome próprio vs. genérico, usando o sinal de maiúscula — Seção 4), expansão da normalização morfológica (9 novos pares, 2 novas famílias verbais) e do corte para Top 50. Alterações determinadas pelo usuário para toda a pasta "Análise Documentos IA" (Brasil, China, Estados Unidos, Europa) e replicadas nas Skills 02_Análise_Vocab_A/B.
+- **2026-08-05 (correção de consistência entre documentos):** adicionada proteção do bigrama "public sector" (Seção 9), motivada pela auditoria de consistência exigida antes da análise comparada da pasta "Análise Conjunta" (Skill 02_Análise_Vocab_B, item 3). 12 ocorrências antes invisíveis, diluídas no bucket genérico "sectors".

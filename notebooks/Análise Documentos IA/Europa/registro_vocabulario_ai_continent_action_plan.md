@@ -95,7 +95,20 @@ Mantidos os 17 já existentes (Seção 1). Acrescentados nesta revisão:
 - **"State aid" segue sem proteção de bigrama explícita no código** (apenas documentado como par não-fundido) — sua baixíssima frequência (2 ocorrências) não afeta o corte de Top 50, mas uma reprodução futura desta análise deveria formalizar essa proteção caso a frequência aumente em revisões futuras do documento.
 - **"European"/"Europe" seguem não fundidos**, por representarem classes gramaticais e referentes distintos (herdado).
 
-## 8. Histórico de atualizações
+## 9. Correção de consistência entre documentos (auditoria da Análise Conjunta, 2026-08-05)
+
+Antes da análise comparada de similaridade na pasta "Análise Conjunta", a Skill 02_Análise_Vocab_B (item 3) exige verificar se o mesmo bigrama recebe o mesmo tratamento em todos os documentos comparados. A auditoria identificou **três bigramas conceituais** presentes neste documento com frequência relevante, mas sem proteção equivalente à já aplicada no PBIA:
+
+| Bigrama | Ocorrências em `texto_completo` | Protegido em (antes desta correção) | Situação anterior neste documento |
+|---|---|---|---|
+| Public Service(s) | 5 | PBIA (27) | Absorvido pela normalização morfológica genérica de "service(s)" |
+| Value Chain | 2 | PBIA (10) | Absorvido pela normalização morfológica genérica de "chain(s)" — este documento não possui merge genérico de "chain(s)", então ficava como token solto "chain"/"chains" |
+| Public Administration | 3 | PBIA (7) | Fragmentado em "public" (não normalizado) + "administration" (token solto) |
+
+**Correção aplicada:** adicionados três novos padrões ao `COMPOUND_PATTERNS` de `ai_continent_action_plan.ipynb` — `\bPublic Services?\b`, `\bValue Chains?\b`, `\bPublic Administration\b` — seguindo exatamente o mesmo mecanismo de placeholder já usado para os demais compostos institucionais deste documento (Seção 1), com rótulos de exibição equivalentes aos usados no PBIA. O notebook foi reexecutado; nenhum dos três altera o Top 50 deste documento (todos abaixo do corte de frequência), mas todos passam a ser corretamente identificáveis e comparáveis entre documentos.
+
+## 10. Histórico de atualizações
 
 - **2026-08-05 (criação):** metodologia inicial completa (remoção de rótulo estrutural, unificação de 17 expressões compostas institucionais, tokenização com hífen como separador, normalização de 31+26 grupos, corte Top 25).
 - **2026-08-05 (revisão metodológica):** correção da fragmentação por hífen (auditoria de 74 formas, 72 mantidas unidas, 2 normalizadas para o bigrama nominal já existente — Seção 2), desambiguação contextual de "power" em três sentidos (Seção 4), expansão da normalização morfológica (21 novos pares, 1 nova família verbal) e do corte para Top 50. Alterações determinadas pelo usuário para toda a pasta "Análise Documentos IA" (Brasil, China, Estados Unidos, Europa) e replicadas nas Skills 02_Análise_Vocab_A/B.
+- **2026-08-05 (correção de consistência entre documentos):** adicionada proteção de três bigramas conceituais — Public Service(s), Value Chain, Public Administration (Seção 9) — motivada pela auditoria de consistência exigida antes da análise comparada da pasta "Análise Conjunta" (Skill 02_Análise_Vocab_B, item 3).

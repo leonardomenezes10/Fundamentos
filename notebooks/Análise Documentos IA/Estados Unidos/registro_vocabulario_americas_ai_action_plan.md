@@ -103,7 +103,31 @@ A versão anterior tratava **todo hífen como separador universal** (regra expl�
 - **"America"/"American"/"Americans" seguem não fundidos** — decisão herdada, mantida por representarem classes gramaticais e referentes distintos.
 - **"DOC" (Department of Commerce) e demais siglas institucionais** (NIST, CAISI, NSF, DOE, DOL, OMB, OSTP, IC) mantidas como tokens próprios, sem fusão entre si nem com termos genéricos — cada uma designa uma agência distinta.
 
-## 8. Histórico de atualizações
+## 9. Correção de consistência entre documentos (auditoria da Análise Conjunta, 2026-08-05)
+
+Antes da análise comparada de similaridade na pasta "Análise Conjunta", a Skill 02_Análise_Vocab_B (item 3) exige verificar se o mesmo bigrama recebe o mesmo tratamento em todos os documentos comparados. A auditoria identificou **quatro bigramas conceituais** presentes neste documento com frequência relevante, mas sem proteção equivalente à já aplicada em outros documentos do projeto:
+
+| Bigrama | Ocorrências em `texto_completo` | Protegido em (antes desta correção) | Situação anterior neste documento |
+|---|---|---|---|
+| Research & Development (R&D) | 6 (2 "Research and Development" + 4 "R&D") | PBIA (27) | Fragmentado em "research"/"development" soltos |
+| Data Center(s) | 14 | PBIA (16) | Fragmentado em "data"/"center(s)" — "center(s)" já tinha merge morfológico genérico, mas sem isolar o composto "data center" como conceito próprio |
+| Private Sector | 10 (8 "private sector" + 2 formas hifenizadas "private-sector"/"private-sector-led") | PBIA (8), ai_continent_action_plan.json (3, unidas) | **Achado mais significativo desta auditoria** — ver detalhamento abaixo |
+| Federal Government | 10 | PBIA (9) | Fragmentado em "federal" (solto) + "government(s)" (bucket genérico, misturado com qualquer outro uso de "government") |
+
+**Detalhamento do caso "Private Sector".** Este é o achado mais relevante da auditoria, pelo tipo de erro que revela: o documento europeu `ai_continent_action_plan.json` já normalizava a variante adjetival hifenizada ("private-sector") para o mesmo referente nominal ("private sector") antes de protegê-lo como bigrama institucional — correção que o próprio registro daquele documento já havia aplicado à sua própria inconsistência interna (hífen vs. espaço). Este documento (EUA), porém, não replicava esse tratamento: das 10 ocorrências totais do conceito "setor privado", apenas 2 (as hifenizadas, mantidas como tokens "private-sector"/"private-sector-led" isolados, sem consolidação) eram sequer identificáveis como tal; as 8 ocorrências na forma espaçada "private sector" se fragmentavam em "private" (token solto, sem qualquer normalização) + "sector" (absorvido no bucket genérico `sector(s)`, junto com qualquer outro uso de "sector" no documento — tecnológico, de chips, etc.). Ou seja: 8 das 10 ocorrências do conceito ficavam **estatisticamente invisíveis**, diluídas em outro rótulo — exatamente o tipo de inconsistência que a Skill 02_Análise_Vocab_B, item 3, exige detectar e corrigir antes de qualquer comparação entre documentos.
+
+**Correção aplicada:**
+- `\bResearch and Development\b|\bR&D\b` → bigrama `"Research & Development (R&D)"` (mesmo rótulo do PBIA).
+- `\bData Centers?\b` → bigrama `"Data Center(s)"` (mesmo rótulo do PBIA).
+- `\bprivate-sector\b` (quando **não** seguido de outro hífen, preservando "private-sector-led" como composto de três partes com identidade própria — não fundido) → normalizado para a forma nominal `"private sector"`, em seguida protegido como bigrama `"Private Sector"` (mesmo rótulo do PBIA; mesma lógica de normalização já usada em `ai_continent_action_plan.ipynb`).
+- `\bFederal Government\b` → bigrama `"Federal Government"` (mesmo rótulo do PBIA).
+
+O notebook foi reexecutado. Nenhum dos quatro termos altera o Top 50 deste documento (todos abaixo do corte de frequência), mas todos passam a ser corretamente identificáveis e comparáveis entre documentos — o que é o requisito relevante para a Análise Conjunta, não para o gráfico individual deste documento.
+
+**Nota metodológica:** "public sector" não ocorre neste documento (0 ocorrências, confirmado por busca literal) — não há, portanto, necessidade de proteção equivalente para esse termo aqui, apesar de protegido em outros documentos do projeto.
+
+## 10. Histórico de atualizações
 
 - **2026-08-05 (criação):** metodologia inicial (pré-processamento, tokenização com hífen como separador, remoção, normalização, corte Top 25).
 - **2026-08-05 (revisão metodológica):** correção da fragmentação por hífen (auditoria de 83 formas, todas mantidas unidas — Seção 2), desambiguação contextual de "power" e "generation" — dois termos que misturavam sentido geopolítico/computacional e energético (Seção 4) —, proteção do bigrama "United States", expansão da normalização morfológica (34 novos pares, 18 novas famílias verbais) e do corte para Top 50. Alterações determinadas pelo usuário para toda a pasta "Análise Documentos IA" (Brasil, China, Estados Unidos, Europa) e replicadas nas Skills 02_Análise_Vocab_A/B.
+- **2026-08-05 (correção de consistência entre documentos):** adicionada proteção de quatro bigramas conceituais — Research & Development (R&D), Data Center(s), Private Sector, Federal Government (Seção 9) — motivada pela auditoria de consistência exigida antes da análise comparada da pasta "Análise Conjunta" (Skill 02_Análise_Vocab_B, item 3). Caso mais significativo: "Private Sector", com 8 das 10 ocorrências antes invisíveis, diluídas no bucket genérico "sector(s)".
