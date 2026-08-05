@@ -4,7 +4,42 @@ Registro persistente exigido pela **Skill 02_Análise_Vocab_A**, associado ao do
 
 - **Documento de origem:** `pbia.json` (`titulo`: "AI for the Good of All – Brazilian Artificial Intelligence Plan"; `pais_ou_bloco`: "Brasil")
 - **Idioma identificado em `texto_completo`:** inglês (o PDF de origem — publicação oficial do MCTI/CGEE — está publicado nessa língua; os critérios de stopwords e normalização abaixo são, portanto, do inglês, não do português).
-- **Última atualização deste registro:** 2026-08-05
+- **Última atualização deste registro:** 2026-08-05 — revisão metodológica determinada pelo usuário (auditoria de hífen, novos bigramas de desambiguação contextual, expansão da normalização morfológica e do corte para Top 50).
+
+## 0. Correção metodológica aplicada nesta revisão
+
+Diferentemente dos demais documentos deste projeto, a tokenização do PBIA **já preservava hífens como parte do token** desde a criação deste registro (`[A-Za-zÀ-ÖØ-öø-ÿ][A-Za-zÀ-ÖØ-öø-ÿ'\-]*`) — não havia, portanto, o erro de "hífen como separador universal" corrigido nos demais documentos. Ainda assim, por determinação do usuário, esta revisão: (i) **auditou individualmente as 58 formas hifenizadas** do texto (Seção 1.4, nova); (ii) **descobriu e corrigiu duas polissemias genuínas não tratadas** — "power" (computacional vs. jurídico-institucional, "Federal Public Power") e "state"/"states" (subnacional genérico vs. "the State" como ente político abstrato vs. "United States" nome de país) — e uma polissemia menor em "generation" (título de eixo do Plano vs. geração de conteúdo por IA vs. sentido genérico); (iii) **expandiu a normalização morfológica**, incluindo pela primeira vez famílias de conjugações verbais (o registro original só normalizava substantivos); e (iv) **expandiu o corte de Top 25 para Top 50**.
+
+### 1.4. Auditoria de compostos com hífen (58 formas identificadas)
+
+Todas as 58 formas hifenizadas do texto foram avaliadas individualmente (Skill 02_Análise_Vocab_A, item 4) e **mantidas unidas** — nenhuma qualificou para separação em suas palavras componentes. Organizadas tematicamente:
+
+| Categoria | Formas (frequência) |
+|---|---|
+| Bem-estar/qualidade | well-being (15), well-defined (3), well-cared (1) |
+| Desempenho/escala | high-performance (14), large-scale (8), high-speed (3), ultra-high-performance (1) |
+| Processo decisório | decision-making (7) |
+| Excelência tecnológica | cutting-edge (6), ai-based (6) |
+| Socioeconômico/propriedade | socio-economic (4), state-owned (4) |
+| Porte/prazo | medium-sized (3), long-term (2), micro-level (1) |
+| Humano-centrado | human-centered (3), human-produced (1), human-machine (1), people-oriented (1) |
+| Eficiência/sustentabilidade | energy-efficient (3), low-environmental (1), low-carbon (1), self-sustenance (1) |
+| Descritores "AI-X" | ai-focused (1), ai-related (1), ai-trained (1) |
+| Público-privado/infraestrutura | public-private (2), pro-infra (2), inct-ai (1), besm-inpe (1), besm-oa (1), inct-mc (1), inct-ia (1) |
+| Micro/empreendedorismo | micro-entrepreneurs (2), micro-entrepreneur (1) |
+| Termos técnicos diversos | de-contingency (1), non-discriminatory (1), general-purpose (1), re-evaluation (1), non-existent (1), market-leading (1), data-driven (1), high-risk (1), technical-professional (1), high-cost (1), low-income (1), non-residents (1), uv-c (1), high-accuracy (1), in-person (1), multi-institutional (1), high-capacity (1), technical-scientific (1), ocean-atmosphere (1), co-operation (1) |
+| Geração tecnológica | next-generation (1) — sentido tecnológico, distinto dos usos de "generation"/"Generation" tratados na Seção 2.4 |
+
+## 1.5. Novos bigramas de desambiguação contextual
+
+| Bigrama | Ocorrências | Justificativa |
+|---|---|---|
+| `"United States"` | 3 | Nome de país, referente distinto de "state(s)" subnacional (ver Seção 2.4) |
+| `"the State"` (case-sensitive, "State" maiúsculo) | 2 | Sentido de ente político abstrato — "o Estado" (ex.: "collaboration between the State, academia..."), referente distinto do sentido subnacional genérico |
+| `"computational power"` | 6 | Sentido computacional de "power" |
+| `"Federal Public Power"` (case-sensitive) | 1 | Termo jurídico-institucional (tradução de "Poder Público Federal"), terceiro referente de "power", distinto de energia/computação |
+| `"Generation of national"` (case-sensitive) | 2 | Título de eixo/categoria estruturante do Plano ("Generation of national capacities and qualifications", "Generation of national capabilities"), não vocabulário genérico solto |
+| `"content generation"` | 1 | Sentido de geração de conteúdo por IA, distinto do sentido genérico de "geração/criação" |
 
 ## 1. Termos removidos (exclusão) e justificativa
 
@@ -54,15 +89,29 @@ Unificados sob um rótulo representativo comum (contagens somadas): action(s), c
 
 Também unificado: **"Brazil's" → "Brazil"** (mesma forma de caixa/variação gramatical — possessivo do mesmo substantivo próprio).
 
+**Cobertura ampliada nesta revisão (Top 50), substantivos (39 novos pares):** application(s), area(s), advantage(s), framework(s), database(s), decision(s), ecosystem(s), enterprise(s), environment(s), example(s), fund(s), goal(s), human(s), interest(s), job(s), leader(s), level(s), market(s), mission(s), nation(s), objective(s), partnership(s), plan(s), platform(s), population(s), problem(s), project(s), scenario(s), school(s), science(s), standard(s), student(s), supercomputer(s), tool(s), transformation(s), treatment(s), volume(s), context(s), characteristic(s), bias(es), business(es), cost(s), change(s), result(s), state(s) (subnacional/genérico, ver Seção 2.4).
+
+**Novidade metodológica desta revisão — famílias verbais (22, antes inexistentes neste registro):** promote, increase, improve, support (verbo), ensure, strengthen, foster, establish, expand, create (verbo), develop (verbo), implement (verbo), include, identify, require, guarantee, monitor, integrate, propose, protect, provide (verbo), reduce, launch, offer. Cada uma mantida separada do substantivo derivacional correspondente quando existente (ex.: "develop"/"development"; "create"/"creation"; "implement"/"implementation"; "provide"/"providers" — este último já documentado na Seção 2.4), seguindo o mesmo critério de não fusão substantivo/verbo já aplicado em todos os demais documentos do projeto.
+
 ### 2.4. Casos avaliados e **não** agrupados (referentes distintos, apesar da semelhança gráfica)
 - **"country" (singular) vs. "countries" (plural):** no PBIA, "the Country" (singular, maiúscula estilística) é usado sistematicamente como sinônimo do próprio Brasil (ex.: "the Country's challenges", "the Country has also made great progress"), enquanto "countries" (plural) refere-se a outras nações/países em geral (ex.: "developing countries", "leading countries"). Referentes diferentes — fusão evitada deliberadamente.
 - **"intelligence" (2 ocorrências residuais fora de "Artificial Intelligence"):** uma delas cita o título da obra de Turing, "Computing Machinery and Intelligence" (nome próprio de um artigo, não o conceito de IA); a outra refere-se a "the main intelligence platform" (uso no sentido de plataforma de inteligência/monitoramento, não de inteligência artificial). Mantidas fora do agrupamento "Artificial Intelligence (AI)" por design do próprio método de extração por bigrama adjacente, que só funde os termos quando aparecem imediatamente adjacentes um ao outro.
 - **"value" vs. "values":** todas as 10 ocorrências de "value" (singular) fazem parte da expressão composta "value chain" (já tratada em 2.2); "values" (plural) refere-se a um conceito distinto (valores éticos/democráticos — ex.: "human values", "democratic values"). Não fundidos.
+- **"country" vs. "countries":** decisão herdada (ver acima) — reconfirmada nesta revisão.
+
+### 2.5. Desambiguação contextual de termos polissêmicos/homônimos (nova, Skill 02_Análise_Vocab_A, item 5)
+
+| Termo | Sentidos identificados (por concordância) | Decisão |
+|---|---|---|
+| power (7 ocorrências soltas antes do desdobramento) | 6 no sentido computacional ("computational power"); 1 no sentido jurídico-institucional ("Federal Public Power", tradução de "Poder Público Federal") | **Desdobrado** em `power (computacional)` (6) e `Poder Público Federal (termo jurídico-institucional)` (1) — ver Seção 1.5 |
+| state (7) / states (4) | 5 ocorrências no sentido subnacional/genérico (estados federativos, ex.: "federal and state agencies"); 2 ocorrências de "the State" como ente político abstrato ("o Estado"); 3 ocorrências de "United States" (nome de país); 1 ocorrência de "states" genérico ("Federative Units (States)") | **Desdobrado** em `state(s) (subnacional/genérico)` (6), `the State (ente político/entidade abstrata)` (2) e `United States` (3) — ver Seção 1.5. Mesma lógica do par "state(s)"/"United States" já documentado no registro dos EUA deste projeto. |
+| generation (5 ocorrências soltas, excluindo o composto hifenizado "next-generation") | 2 ocorrências como título de eixo do Plano ("Generation of national capacities and qualifications", "Generation of national capabilities"); 1 ocorrência no sentido de geração de conteúdo por IA ("content generation capabilities"); 2 ocorrências no sentido genérico de criação ("generation of new employment opportunities") | **Desdobrado** em `Generation of national capacities/capabilities (título de eixo do Plano)` (2) e `generation (geração de conteúdo por IA)` (1); a ocorrência genérica remanescente permanece como token solto "generation" — ver Seção 1.5 |
 
 ## 3. Critério de corte
 
-**Top 25 termos por frequência absoluta** (contagem de ocorrências em `texto_completo`, após as remoções da seção 1 e as normalizações da seção 2). Critério fixo, aplicado de forma consistente a toda a análise deste documento.
+**Top 50** termos por frequência absoluta (critério padrão da Skill 02_Análise_Vocab_A, item 6, adotado nesta revisão), com o **Top 25** mantido como recorte adicional dentro do mesmo Top 50. Frequência absoluta (não relativa) é apropriada por se tratar de análise de um único documento.
 
 ## 4. Histórico de atualizações
 
-- **2026-08-05:** criação do registro; primeira análise de vocabulário do PBIA (gráfico de barras horizontais, Top 25 termos), executada dentro de `pbia.ipynb`.
+- **2026-08-05 (criação):** primeira análise de vocabulário do PBIA (gráfico de barras horizontais, Top 25 termos), executada dentro de `pbia.ipynb`.
+- **2026-08-05 (revisão metodológica):** auditoria das 58 formas hifenizadas (já preservadas desde a criação, mas agora formalmente auditadas — Seção 1.4), novos bigramas de desambiguação contextual para "power"/"state(s)"/"generation" (Seções 1.5, 2.5), expansão da normalização morfológica com 39 novos pares nominais e, pela primeira vez, 22 famílias verbais (Seção 2.3), e expansão do corte para Top 50 (Seção 3). Alterações determinadas pelo usuário para toda a pasta "Análise Documentos IA" (Brasil, China, Estados Unidos, Europa) e replicadas nas Skills 02_Análise_Vocab_A/B.

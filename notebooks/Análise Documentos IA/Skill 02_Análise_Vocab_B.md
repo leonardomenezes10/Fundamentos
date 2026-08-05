@@ -47,7 +47,13 @@ Aplicar, a cada documento individualmente, as mesmas duas operações definidas 
 
 Após esse tratamento por documento, se a comparação envolver mais de um idioma, realizar como etapa **separada e explicitamente identificada** o alinhamento de termos equivalentes entre idiomas (conforme etapa 1). Essa etapa de alinhamento entre idiomas nunca deve ser confundida com a normalização interna de um único documento — são operações distintas e devem ser relatadas separadamente ao usuário.
 
-Um termo só pode ser agrupado a outro (dentro do mesmo documento ou entre documentos) se designar **exatamente o mesmo referente**. Termos parecidos, mas com significados distintos, nunca devem ser fundidos.
+Um termo só pode ser agrupado a outro (dentro do mesmo documento ou entre documentos) se designar **exatamente o mesmo referente**. Termos parecidos, mas com significados distintos, nunca devem ser fundidos — nem mesmo quando pertencem ao mesmo campo semântico (ex.: "smart" e "intelligent" permanecem distintos em todos os documentos comparados, mesma lógica do princípio geral de não fusão de quase-sinônimos da Skill 02_Análise_Vocab_A, item 5).
+
+**Bigramas essenciais e compostos com hífen (herdado da Skill 02_Análise_Vocab_A, itens 3-4, aplicado a cada documento da comparação):** expressões de mais de uma palavra que nomeiam um conceito, modelo ou mecanismo de governança com relevância analítica para a comparação entre países/blocos — grafadas com espaço (ex.: "open source") ou com hífen (ex.: "open-source", "decision-making", "data-driven") — devem ser tratadas como unidade única em **todos** os documentos onde ocorrerem, nunca fragmentadas em palavras soltas. É especialmente importante manter esse tratamento uniforme entre os documentos comparados: se "open-source" for preservado como unidade no documento chinês mas fragmentado em "open"+"source" no documento europeu, a comparação deixa de ser válida, porque estaria comparando grandezas de natureza diferente sob o mesmo rótulo.
+
+Da mesma forma, é proibida qualquer regra cega de tratamento de hífen (nem "hífen sempre separa", nem "hífen sempre une") — cada forma hifenizada identificada em cada documento deve ser avaliada individualmente (mantida unida ou separada, conforme o critério do item 4 da Skill 02_Análise_Vocab_A) e essa decisão deve ser **replicada de forma consistente** sempre que a mesma forma hifenizada ocorrer em mais de um documento da comparação, para não introduzir um viés metodológico artificial entre os países comparados.
+
+**Desambiguação contextual de termos polissêmicos entre documentos (herdado da Skill 02_Análise_Vocab_A, item 5):** antes de comparar a frequência de qualquer termo entre documentos, verificar se ele apresenta mais de um referente em cada um dos textos (ex.: "AI" vs. "AI+"; "state(s)" vs. "United States"; "generation" como geração de energia vs. geração tecnológica; "power" como capacidade computacional vs. poder político vs. energia). Termos com mais de um referente devem ser desdobrados em rótulos por sentido **antes** de qualquer comparação entre países — comparar a contagem bruta e não desambiguada de um termo polissêmico entre documentos é metodologicamente inválido, pois pode atribuir a um país uma ênfase temática que na verdade decorre de um sentido do termo irrelevante à comparação em curso.
 
 ### 4. Normalização pela extensão do documento (comparação relativa)
 
@@ -55,7 +61,7 @@ Cada documento possui um tamanho diferente, e comparar contagens absolutas de te
 
 ### 5. Critério de corte
 
-Definir e declarar explicitamente o critério utilizado para selecionar quais termos entram na visualização comparada (ex.: frequência relativa mínima, número fixo de termos mais relevantes por documento, percentil de corte). O mesmo critério deve ser aplicado de forma **uniforme a todos os documentos comparados** — usar critérios de corte diferentes por documento introduziria um viés na comparação.
+Definir e declarar explicitamente o critério utilizado para selecionar quais termos entram na visualização comparada. O critério de corte padrão desta skill, herdado da Skill 02_Análise_Vocab_A, é o **Top 50** termos por documento (podendo um recorte de Top 25 ser mantido como visão adicional dentro do mesmo Top 50). O mesmo critério deve ser aplicado de forma **uniforme a todos os documentos comparados** — usar critérios de corte diferentes por documento introduziria um viés na comparação. Assim como na análise individual, o corte de Top 50 só é válido se acompanhado da varredura ampliada de normalização morfológica exigida na Skill 02_Análise_Vocab_A (item 6) em cada um dos documentos comparados.
 
 ### 6. Métrica de comparação/similaridade
 
@@ -68,6 +74,9 @@ A cada análise comparada realizada, deve-se informar ao usuário, de forma expl
 - O idioma de cada documento, e o método de equivalência entre idiomas, se aplicável;
 - Quais palavras/termos foram retirados em cada documento, e por quê;
 - Quais variantes foram agrupadas (dentro de cada documento e, se aplicável, entre documentos) e sob qual termo representativo;
+- Quais bigramas/compostos (com ou sem hífen) foram tratados como unidade única em cada documento, e a confirmação de que o mesmo composto recebeu o mesmo tratamento em todos os documentos onde ocorre;
+- Quais formas hifenizadas foram identificadas em cada documento e a decisão (unida ou separada) tomada para cada uma, com justificativa;
+- Quais termos foram desdobrados por desambiguação contextual em cada documento, com a contagem de cada sentido separadamente;
 - O método de normalização relativa utilizado para tornar os documentos comparáveis apesar dos tamanhos diferentes;
 - O critério de corte utilizado.
 
@@ -80,6 +89,9 @@ Deve ser mantido, na pasta **Análise Conjunta**, um registro persistente associ
 - Idioma de cada documento e método de equivalência entre idiomas, se aplicável;
 - Lista de termos removidos por documento e a justificativa de cada remoção;
 - Lista de agrupamentos de variantes (internos e, se houver, entre idiomas) e o termo representativo de cada grupo;
+- Lista de bigramas/compostos tratados como unidade única, por documento, com verificação de consistência entre documentos;
+- Auditoria das formas hifenizadas por documento (mantidas unidas ou separadas, com justificativa);
+- Lista de termos desdobrados por desambiguação contextual, por documento, com a contagem de cada sentido;
 - Método de normalização relativa e critério de corte aplicados;
 - Data da última atualização.
 
@@ -92,8 +104,8 @@ Construir a visualização gráfica solicitada pelo usuário com base no vocabul
 ### 10. Análise final obrigatória
 
 Toda visualização comparada produzida por esta skill deve ser acompanhada de uma análise final contendo:
-- A metodologia aplicada (idiomas envolvidos, documento central, método de normalização relativa, critério de corte, métrica de comparação);
-- A lista atualizada de palavras retiradas e de variantes agrupadas por documento;
+- A metodologia aplicada (idiomas envolvidos, documento central, tratamento de bigramas/hífens, desambiguação contextual, método de normalização relativa, critério de corte, métrica de comparação);
+- A lista atualizada de palavras retiradas e de variantes agrupadas por documento, incluindo compostos/bigramas preservados e termos desdobrados por sentido;
 - O que o gráfico mostra e como interpretá-lo;
 - Em quais aspectos e temáticas os documentos comparados se aproximam e se diferenciam, de acordo estritamente com o que o gráfico permite sustentar — sem generalizações ou simplificações que extrapolem o que os dados efetivamente mostram;
 - Ajustes possíveis para melhorar a visualização;
