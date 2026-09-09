@@ -1,0 +1,16 @@
+﻿rank,Termo,Tipo,Ocorrências,Por 1.000 tokens,Presente c/ ênfase em N docs
+1,Intelligent,unigrama,32,11.177086971707999,2
+2,Smart,unigrama,15,5.239259517988124,2
+3,Explore,unigrama,11,3.8421236465246245,2
+4,Coordination,unigrama,10,3.4928396786587497,3
+5,Compute,unigrama,10,3.4928396786587497,3
+6,Open-source,unigrama,9,3.143555710792875,1
+7,Encourage,unigrama,9,3.143555710792875,2
+8,Consumption,unigrama,9,3.143555710792875,1
+9,Product,unigrama,8,2.7942717429269996,2
+10,AI Application,bigrama,7,2.444987775061125,2
+11,Agricultural,unigrama,7,2.444987775061125,1
+12,Government,unigrama,7,2.444987775061125,3
+13,Society,unigrama,7,2.444987775061125,3
+14,Device,unigrama,7,2.444987775061125,1
+15,Refine,unigrama,6,2.09570380719525,1

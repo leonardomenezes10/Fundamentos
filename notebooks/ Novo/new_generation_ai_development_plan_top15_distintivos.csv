@@ -1,0 +1,16 @@
+﻿rank,Termo,Tipo,Ocorrências,Por 1.000 tokens,Presente c/ ênfase em N docs
+1,Intelligent,unigrama,120,10.611956137247965,2
+2,Smart,unigrama,82,7.2515033604527765,2
+3,Theory,unigrama,61,5.3944110364343825,1
+4,Computing,unigrama,50,4.4216483905199855,3
+5,Enterprise,unigrama,44,3.8910505836575875,2
+6,Social,unigrama,42,3.714184648036788,3
+7,Construction,unigrama,39,3.448885744605589,2
+8,Learning,unigrama,38,3.360452776795189,2
+9,Autonomous,unigrama,36,3.1835868411743897,2
+10,Breakthrough,unigrama,36,3.1835868411743897,3
+11,Basic,unigrama,36,3.1835868411743897,3
+12,Knowledge,unigrama,35,3.0951538733639903,3
+13,Product,unigrama,33,2.9182879377431905,2
+14,Core,unigrama,31,2.741422002122391,1
+15,Method,unigrama,28,2.476123098691192,2

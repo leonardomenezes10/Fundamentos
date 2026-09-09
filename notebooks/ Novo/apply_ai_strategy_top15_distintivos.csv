@@ -1,0 +1,16 @@
+﻿rank,Termo,Tipo,Ocorrências,Por 1.000 tokens,Presente c/ ênfase em N docs
+1,Strategy,unigrama,33,4.420037503348513,2
+2,Solution,unigrama,29,3.884275381730512,3
+3,AI Model,bigrama,20,2.678810608090008,3
+4,Defence,unigrama,20,2.678810608090008,1
+5,Digital,unigrama,20,2.678810608090008,3
+6,Sectoral,unigrama,17,2.276989016876507,1
+7,AI Solution,bigrama,17,2.276989016876507,3
+8,Impact,unigrama,17,2.276989016876507,3
+9,Address,unigrama,16,2.1430484864720065,3
+10,Uptake,unigrama,16,2.1430484864720065,1
+11,Frontier,unigrama,16,2.1430484864720065,2
+12,Act,unigrama,16,2.1430484864720065,3
+13,Healthcare,unigrama,16,2.1430484864720065,1
+14,Deployment,unigrama,15,2.009107956067506,2
+15,Enable,unigrama,14,1.8751674256630055,2

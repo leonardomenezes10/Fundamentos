@@ -1,0 +1,51 @@
+﻿rank,Termo,Tipo,Ocorrências,Por 1.000 tokens
+1,AI,unigrama,242,29.84
+2,System,unigrama,53,6.54
+3,Federal,unigrama,49,6.04
+4,National,unigrama,44,5.43
+5,Agency,unigrama,40,4.93
+6,Technology,unigrama,40,4.93
+7,Security,unigrama,38,4.69
+8,Development,unigrama,34,4.19
+9,Model,unigrama,33,4.07
+10,Infrastructure,unigrama,33,4.07
+11,AI System,bigrama,32,3.95
+12,Data,unigrama,30,3.7
+13,Government,unigrama,30,3.7
+14,Use,unigrama,29,3.58
+15,Program,unigrama,28,3.45
+16,Control,unigrama,26,3.21
+17,Research,unigrama,26,3.21
+18,Build,unigrama,25,3.08
+19,Lead,unigrama,23,2.84
+20,Innovation,unigrama,22,2.71
+21,Adoption,unigrama,22,2.71
+22,Power,unigrama,21,2.59
+23,National Security,bigrama,20,2.47
+24,Industry,unigrama,20,2.47
+25,Workforce,unigrama,20,2.47
+26,Create,unigrama,19,2.34
+27,Grid,unigrama,18,2.22
+28,Tool,unigrama,17,2.1
+29,Standard,unigrama,17,2.1
+30,Center,unigrama,17,2.1
+31,Critical,unigrama,17,2.1
+32,Action,unigrama,16,1.97
+33,Manufacturing,unigrama,16,1.97
+34,Global,unigrama,16,1.97
+35,Risk,unigrama,16,1.97
+36,Semiconductor,unigrama,16,1.97
+37,Science,unigrama,15,1.85
+38,Expand,unigrama,15,1.85
+39,Establish,unigrama,15,1.85
+40,Effort,unigrama,15,1.85
+41,Collaboration,unigrama,15,1.85
+42,Compute,unigrama,15,1.85
+43,Export,unigrama,15,1.85
+44,Adversary,unigrama,14,1.73
+45,Federal Agency,bigrama,14,1.73
+46,Information,unigrama,14,1.73
+47,Develop,unigrama,14,1.73
+48,Worker,unigrama,14,1.73
+49,Policy,unigrama,14,1.73
+50,Future,unigrama,14,1.73

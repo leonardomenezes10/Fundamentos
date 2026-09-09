@@ -1,0 +1,16 @@
+﻿rank,Termo,Tipo,Ocorrências,Por 1.000 tokens,Presente c/ ênfase em N docs
+1,Factory,unigrama,41,4.612961296129613,2
+2,Act,unigrama,41,4.612961296129613,3
+3,Strategy,unigrama,40,4.5004500450045,2
+4,AI Factory,bigrama,39,4.387938793879387,2
+5,Digital,unigrama,32,3.6003600360036003,3
+6,Launch,unigrama,27,3.0378037803780376,3
+7,AI Act,bigrama,27,3.0378037803780376,2
+8,Solution,unigrama,22,2.4752475247524752,3
+9,Facilitate,unigrama,21,2.362736273627363,2
+10,Cloud,unigrama,21,2.362736273627363,2
+11,Gigafactory,unigrama,19,2.137713771377138,1
+12,AI Model,bigrama,19,2.137713771377138,3
+13,Hub,unigrama,18,2.025202520252025,2
+14,Investment,unigrama,18,2.025202520252025,3
+15,Foster,unigrama,17,1.9126912691269127,3

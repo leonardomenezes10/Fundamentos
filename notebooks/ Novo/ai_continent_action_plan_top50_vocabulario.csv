@@ -1,0 +1,51 @@
+﻿rank,Termo,Tipo,Ocorrências,Por 1.000 tokens
+1,AI,unigrama,351,39.49
+2,Data,unigrama,69,7.76
+3,Sector,unigrama,57,6.41
+4,Public,unigrama,51,5.74
+5,Factory,unigrama,41,4.61
+6,Act,unigrama,41,4.61
+7,Strategy,unigrama,40,4.5
+8,Development,unigrama,40,4.5
+9,AI Factory,bigrama,39,4.39
+10,Innovation,unigrama,35,3.94
+11,Digital,unigrama,32,3.6
+12,Model,unigrama,29,3.26
+13,Research,unigrama,29,3.26
+14,Service,unigrama,28,3.15
+15,Access,unigrama,27,3.04
+16,Launch,unigrama,27,3.04
+17,AI Act,bigrama,27,3.04
+18,Initiative,unigrama,23,2.59
+19,Solution,unigrama,22,2.48
+20,Skill,unigrama,22,2.48
+21,Data,unigrama,21,2.36
+22,Facilitate,unigrama,21,2.36
+23,Application,unigrama,21,2.36
+24,Cloud,unigrama,21,2.36
+25,Action,unigrama,21,2.36
+26,Talent,unigrama,20,2.25
+27,Market,unigrama,19,2.14
+28,Gigafactory,unigrama,19,2.14
+29,Capacity,unigrama,19,2.14
+30,AI Model,bigrama,19,2.14
+31,Technology,unigrama,19,2.14
+32,Develop,unigrama,18,2.03
+33,Hub,unigrama,18,2.03
+34,Strategic,unigrama,18,2.03
+35,Industry,unigrama,18,2.03
+36,Adoption,unigrama,18,2.03
+37,Investment,unigrama,18,2.03
+38,Foster,unigrama,17,1.91
+39,Enhance,unigrama,17,1.91
+40,Centre,unigrama,17,1.91
+41,Science,unigrama,17,1.91
+42,Startup,unigrama,17,1.91
+43,Digital Innovation,bigrama,17,1.91
+44,Innovation Hub,bigrama,17,1.91
+45,Use,unigrama,16,1.8
+46,Infrastructure,unigrama,16,1.8
+47,Competitiveness,unigrama,16,1.8
+48,Resource,unigrama,16,1.8
+49,Public Sector,bigrama,16,1.8
+50,Energy,unigrama,15,1.69

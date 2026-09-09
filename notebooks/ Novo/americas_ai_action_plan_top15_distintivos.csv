@@ -1,0 +1,16 @@
+﻿rank,Termo,Tipo,Ocorrências,Por 1.000 tokens,Presente c/ ênfase em N docs
+1,Federal,unigrama,49,6.042668639782957,2
+2,Agency,unigrama,40,4.932790726353434,2
+3,AI System,bigrama,32,3.946232581082748,2
+4,Government,unigrama,30,3.6995930447650758,3
+5,Program,unigrama,28,3.452953508447404,2
+6,Control,unigrama,26,3.2063139721297325,2
+7,Power,unigrama,21,2.589715131335553,2
+8,National Security,bigrama,20,2.466395363176717,1
+9,Workforce,unigrama,20,2.466395363176717,1
+10,Grid,unigrama,18,2.2197558268590454,1
+11,Standard,unigrama,17,2.0964360587002098,3
+12,Center,unigrama,17,2.0964360587002098,3
+13,Critical,unigrama,17,2.0964360587002098,3
+14,Semiconductor,unigrama,16,1.973116290541374,1
+15,Expand,unigrama,15,1.8497965223825379,3
