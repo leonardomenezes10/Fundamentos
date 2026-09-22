@@ -181,6 +181,14 @@ def montar_indice() -> dict[str, str]:
 INDICE = montar_indice()
 
 
+def recarregar_codebook() -> None:
+    """Reconstrói o índice de lemas. Chame SEMPRE depois de alterar CODEBOOK ou
+    VARIANTES em tempo de execução (por exemplo, dentro de um notebook);
+    a classificação usa o índice, não a lista."""
+    global INDICE
+    INDICE = montar_indice()
+
+
 def candidatos_singular(t: str) -> list[str]:
     c = []
     if t.endswith("ies") and len(t) > 4:
@@ -600,6 +608,26 @@ def escrever_saidas(resultados: dict, tabelas: dict, args, dir_saida: Path) -> N
         print("  (a base atual não é o top-50; diferenças em relação à referência são esperadas)")
 
     print(f"\nArquivos gravados em {dir_saida}: coordenadas.csv, robustez.csv, termos_ausentes.md")
+    return df_coord, df_rob
+
+
+def executar(dir_dados: Path | str = DIR_DADOS_PADRAO, fonte: str = "json", top: int = 50,
+             bigramas: str = REGRA_BIGRAMAS_PADRAO, saida: Path | str = DIR_SCRIPT,
+             conferir: bool = True):
+    """Executa a análise inteira e grava os três arquivos de saída.
+
+    É o ponto de entrada usado tanto pela linha de comando quanto pelo notebook
+    quadrantes_planos_ia.ipynb, para que os dois produzam exatamente o mesmo
+    resultado. Devolve (tabelas, resultados, df_coordenadas, df_robustez)."""
+    args = argparse.Namespace(fonte=fonte, top=top, bigramas=bigramas,
+                              dados=Path(dir_dados), saida=Path(saida))
+    tabelas = carregar_tabelas(args.dados, args.fonte, args.top)
+    if conferir and args.fonte == "json" and args.top == 50:
+        conferir_com_csv(args.dados, tabelas)
+    resultados = {fname: agregar(df, args.bigramas) for fname, df in tabelas.items()}
+    args.saida.mkdir(parents=True, exist_ok=True)
+    df_coord, df_rob = escrever_saidas(resultados, tabelas, args, args.saida)
+    return tabelas, resultados, df_coord, df_rob
 
 
 def main() -> None:
@@ -610,14 +638,8 @@ def main() -> None:
     p.add_argument("--dados", type=Path, default=DIR_DADOS_PADRAO, help="pasta com os JSONs/CSVs")
     p.add_argument("--saida", type=Path, default=DIR_SCRIPT, help="pasta de saída")
     args = p.parse_args()
-
-    tabelas = carregar_tabelas(args.dados, args.fonte, args.top)
-    if args.fonte == "json" and args.top == 50:
-        conferir_com_csv(args.dados, tabelas)
-
-    resultados = {fname: agregar(df, args.bigramas) for fname, df in tabelas.items()}
-    args.saida.mkdir(parents=True, exist_ok=True)
-    escrever_saidas(resultados, tabelas, args, args.saida)
+    executar(dir_dados=args.dados, fonte=args.fonte, top=args.top,
+             bigramas=args.bigramas, saida=args.saida)
 
 
 if __name__ == "__main__":
