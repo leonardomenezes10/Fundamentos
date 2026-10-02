@@ -30,7 +30,7 @@ As visualizações e interpretações produzidas aqui podem ser incorporadas a r
 ### 1.3. Restrição de ambiente e de fontes
 
 - **Pasta de atuação exclusiva:** `notebooks/A_IC FAPESP 2026/Declarações IA/`.
-- **Insumos permitidos:** (a) o JSON da declaração produzido pela **skill 01** (`<SIGLA>_extracao.json`); (b) o codebook de categorias desta pasta (`codebook_declaracoes.json`); (c) as instruções do pesquisador.
+- **Insumos permitidos:** (a) o JSON da declaração produzido pela **skill 01** (`<SIGLA>_extracao.json`); (b) as instruções do pesquisador.
 - **É PROIBIDO**, salvo pedido expresso do pesquisador:
   - investigar outras páginas, pastas ou notebooks do repositório para buscar padrões de resposta, resultados anteriores ou modelos de análise;
   - se espelhar em outras resoluções, análises ou interpretações sobre o mesmo documento ou o mesmo caso, sejam do repositório, da internet ou do conhecimento prévio do modelo;
@@ -66,11 +66,8 @@ Analisar, em notebook Jupyter (`.ipynb`), o conteúdo extraído de **uma** decla
 2. **Descrever o documento:** extensão, número de unidades (parágrafos/itens), tokens e vocabulário.
 3. **Identificar os termos mais frequentes** (lemas), com frequência absoluta, frequência por 1.000 tokens e grau de dispersão ao longo do texto.
 4. **Identificar expressões recorrentes** de duas palavras (bigramas).
-5. **Mapear o enfoque temático** por meio de um codebook de categorias, com proporções, intervalos de confiança e teste de robustez.
-6. **Localizar** onde, ao longo do documento, os termos e as categorias aparecem.
-7. **Caracterizar a ênfase normativa** do texto por meio dos verbos modais (*shall*, *must*, *should*, *will*, *may*, etc.).
-8. **Interpretar** cada visualização com base nos valores obtidos, apontando método, escolhas e fragilidades.
-9. **Registrar** parâmetros, versões e saídas para garantir a reprodutibilidade.
+5. **Atender** as necessidades da demanda mandada pelo comando do pesquisador.
+6. **Interpretar** cada visualização com base nos valores obtidos, apontando método, escolhas e fragilidades.
 
 ---
 
@@ -119,33 +116,13 @@ O pré-processamento é o mesmo para todas as declarações, para que os resulta
 | Frequência absoluta | Número de ocorrências do lema no documento |
 | Frequência por 1.000 tokens | (frequência ÷ total de tokens do documento) × 1.000. O denominador é o total de tokens (palavras), **incluindo** *stopwords* |
 | Alcance | Número e percentual de unidades (parágrafos/itens) em que o lema aparece |
-| Dispersão (DP normalizado) | Medida de Gries (2008), normalizada (Lijffijt & Gries, 2012): 0 = distribuição proporcional ao tamanho das unidades; 1 = concentração máxima. Distingue termos espalhados pelo texto de termos concentrados em poucos trechos |
 | Bigramas | Pares de tokens de conteúdo **adjacentes no texto original**, na mesma frase, sem pontuação entre eles. Não se formam pares artificiais pela remoção de *stopwords* |
-| Categorias temáticas | Ocorrências dos termos do codebook, por 1.000 tokens e em percentual do total de ocorrências do codebook |
 | Intervalo de confiança | Bootstrap por reamostragem de **unidades** (parágrafos/itens), com semente fixa. A reamostragem por unidade respeita a dependência entre palavras do mesmo parágrafo |
 | Modais | Verbos modais identificados pela etiqueta gramatical (`MD`), por 1.000 tokens |
 
 Medidas que dependem fortemente da extensão do texto (como a razão tipo/token) **não** devem ser usadas como indicador de riqueza vocabular sem a devida ressalva.
 
-### 3.5. Codebook de categorias temáticas
-
-- O codebook é um **instrumento analítico do pesquisador**. Fica em arquivo único da pasta (`codebook_declaracoes.json`), compartilhado por todos os notebooks, para que todas as declarações sejam medidas com o mesmo instrumento.
-- Uma versão proposta pelo agente deve vir marcada como **proposta**, até ser validada pelo pesquisador.
-- As categorias são **mutuamente exclusivas**: um termo pertence a uma só categoria.
-- O notebook deve sempre mostrar: (a) o codebook completo; (b) a **cobertura** (percentual dos tokens do documento captado pelo codebook); (c) os termos com **zero ocorrências**; (d) a contribuição de cada termo para sua categoria; (e) um **teste de robustez**: quanto a categoria depende do seu termo mais frequente.
-- Alterar o codebook depois de ver os resultados é permitido apenas por decisão do pesquisador e deve ser registrado (nova versão do codebook).
-
-### 3.6. Regras para as visualizações
-
-1. **Um único eixo de valores por gráfico.** É vedado o uso de dois eixos verticais com escalas diferentes.
-2. **Barras começam em zero.** Eixos não podem ser truncados para exagerar diferenças.
-3. **Cores fixas por documento** em todos os notebooks (a mesma cor representa sempre a mesma declaração), com paleta segura para daltonismo.
-4. **Legibilidade acadêmica:** fonte de no mínimo 9 pt, rótulos em português, separador decimal com vírgula, exportação em PNG (300 dpi) e PDF.
-5. **Formas de leitura imprecisa** (nuvens de palavras, gráficos de pizza, gráficos 3D) **não** podem ser usadas como evidência principal.
-6. Toda figura tem uma **tabela correspondente** com os valores exatos, exibida no notebook e exportada.
-7. Ordens fixas (por exemplo, a ordem das categorias do codebook) são mantidas entre figuras e entre documentos.
-
-### 3.7. Vieses proibidos
+### 3.5. Vieses proibidos
 
 - Escolher termos, categorias, recortes ou parâmetros para **confirmar uma hipótese** da pesquisa.
 - Destacar apenas os resultados convenientes ou omitir os inconvenientes.
@@ -155,18 +132,15 @@ Medidas que dependem fortemente da extensão do texto (como a razão tipo/token)
 
 ---
 
-## 4. Protocolo de operação e entregáveis
+## 4. Protocolo de operação
 
 ### 4.1. Procedimento passo a passo
 
 1. **Ler esta skill por inteiro** antes de começar.
-2. **Verificar o insumo:** o JSON da skill 01 existe nesta pasta? Foi produzido pela skill 01 (campo `extraction.skill`)? Há itens pendentes de revisão humana no CSV da skill 01? Se houver pendências, avisar o pesquisador.
-3. **Configurar** os parâmetros na célula de configuração do notebook. Nenhum parâmetro pode ficar espalhado pelo código.
-4. **Executar** o pré-processamento e exibir o perfil do documento.
-5. **Gerar** cada visualização com sua tabela correspondente.
-6. **Redigir**, após a execução, o bloco de texto de cada visualização (seção 4.3).
-7. **Registrar** a execução (parâmetros, versões, *hash* dos insumos, lista de saídas).
-8. **Informar** ao pesquisador, de forma breve, o que foi produzido e quais pontos exigem a atenção dele.
+2. **Configurar** os parâmetros na célula de configuração do notebook. Nenhum parâmetro pode ficar espalhado pelo código.
+3. **Gerar** cada visualização com sua tabela correspondente.
+4. **Redigir**, após a execução, o bloco de texto de cada visualização (seção 4.3).
+5. **Informar** ao pesquisador, de forma breve, o que foi produzido e quais pontos exigem a atenção dele.
 
 ### 4.2. Estrutura obrigatória do notebook
 
@@ -195,18 +169,6 @@ Logo após cada visualização, o notebook deve conter:
 - Separa **observação** (o que os números mostram) de **inferência** (o que eles podem sugerir), e marca a inferência como tal.
 - Não extrapola para além do documento analisado e não faz comparações com outros documentos (isso é tarefa da skill 03).
 
-### 4.4. Entregáveis
-
-| Entregável | Local |
-|---|---|
-| Notebook de análise | `Análise_<SIGLA>.ipynb`, nesta pasta |
-| Figuras (PNG 300 dpi + PDF) | `resultados/<SIGLA>/<versão>/` |
-| Tabelas completas (CSV, UTF-8 com BOM, `;`, vírgula decimal) | `resultados/<SIGLA>/<versão>/` |
-| Registro de execução (`registro_execucao.json`) | `resultados/<SIGLA>/<versão>/` |
-
-- **Não sobrescrever** resultados existentes. Uma nova execução com mudanças gera uma nova versão (`v2`, `v3`, …). O notebook deve interromper a execução se a pasta de saída já tiver arquivos e a substituição não tiver sido autorizada.
-- Alterações pedidas em gráficos já existentes são **acrescentadas** como novas versões (novas células ao final do notebook e novos arquivos), sem apagar as anteriores, salvo ordem expressa do pesquisador.
-
 ---
 
 ## 5. Regras de qualidade e rigor acadêmico
@@ -217,15 +179,8 @@ Logo após cada visualização, o notebook deve conter:
 4. **Neutralidade:** nenhum instrumento ou parâmetro é escolhido para produzir um resultado desejado.
 5. **Não inventar dados:** nenhum valor é estimado, ajustado ou arredondado para "melhorar" um gráfico. Divergências inesperadas são explicadas, não corrigidas à força.
 6. **Exclusividade das fontes:** só se usa o que está nesta pasta. Nada vem de outras páginas, pastas ou resoluções anteriores sem pedido expresso do pesquisador.
-7. **Fragilidades declaradas:** limitações conhecidas (erros de lematização, ambiguidade de termos, documentos curtos, cobertura do codebook) são sempre declaradas.
+7. **Fragilidades declaradas:** limitações conhecidas (erros de lematização, ambiguidade de termos, documentos curtos) são sempre declaradas.
 8. **Primazia do pesquisador:** as ordens e os comandos do pesquisador são a decisão final.
 9. **Escopo individual:** esta skill não compara documentos. Toda comparação segue a skill 03.
 
 > ⚠️ **RIGOR ACADÊMICO E CIENTÍFICO:** esta pesquisa é financiada pela FAPESP e segue o *Código de Boas Práticas Científicas* da instituição. Uma visualização sem método explícito, com escolhas ocultas ou com interpretação não sustentada pelos dados compromete a validade dos resultados publicados. O padrão exigido é o máximo.
-
-### Referências metodológicas
-
-- GRIES, S. Th. Dispersions and adjusted frequencies in corpora. *International Journal of Corpus Linguistics*, v. 13, n. 4, p. 403-437, 2008.
-- LIJFFIJT, J.; GRIES, S. Th. Correction to Stefan Th. Gries' "Dispersions and adjusted frequencies in corpora". *International Journal of Corpus Linguistics*, v. 17, n. 1, p. 147-149, 2012.
-- EFRON, B.; TIBSHIRANI, R. J. *An Introduction to the Bootstrap*. New York: Chapman & Hall, 1993.
-- KRIPPENDORFF, K. *Content Analysis: An Introduction to Its Methodology*. 4. ed. Thousand Oaks: SAGE, 2019.

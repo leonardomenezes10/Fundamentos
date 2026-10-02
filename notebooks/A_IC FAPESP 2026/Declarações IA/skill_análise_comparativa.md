@@ -31,7 +31,7 @@ Valem integralmente as regras da skill 02 (seção 1.2):
 ### 1.3. Restrição de ambiente e de fontes
 
 - **Pasta de atuação exclusiva:** `notebooks/A_IC FAPESP 2026/Declarações IA/`.
-- **Insumos permitidos:** (a) os JSONs das declarações produzidos pela **skill 01** (`<SIGLA>_extracao.json`); (b) o codebook de categorias desta pasta (`codebook_declaracoes.json`); (c) as instruções do pesquisador.
+- **Insumos permitidos:** (a) os JSONs das declarações produzidos pela **skill 01** (`<SIGLA>_extracao.json`); (b) as instruções do pesquisador.
 - **É PROIBIDO**, salvo pedido expresso do pesquisador:
   - investigar outras páginas, pastas ou notebooks do repositório para buscar padrões de resposta, resultados anteriores ou modelos de análise;
   - se espelhar em outras resoluções, análises ou interpretações sobre os mesmos documentos ou o mesmo caso;
@@ -67,7 +67,7 @@ Comparar, em notebook Jupyter (`.ipynb`), o conteúdo extraído de duas ou mais 
 4. **Identificar semelhanças:** termos com peso relativo parecido nos documentos.
 5. **Identificar distinções:** termos significativamente mais característicos de um documento do que do outro (análise de *keyness*).
 6. **Comparar o vocabulário** compartilhado e exclusivo, com as ressalvas de tamanho.
-7. **Comparar os enfoques temáticos** (categorias do codebook), com intervalos de confiança para cada documento e para a diferença entre eles.
+7. **Comparar os enfoques temáticos**, com intervalos de confiança para cada documento e para a diferença entre eles.
 8. **Comparar a ênfase normativa** (verbos modais).
 9. **Interpretar** cada visualização com base nos valores obtidos, apontando método, escolhas e fragilidades.
 10. **Registrar** parâmetros, versões e saídas para garantir a reprodutibilidade.
@@ -82,7 +82,7 @@ Igual à skill 02 (seção 3.1). De cada JSON são usados **apenas** o título (
 
 ### 3.2. Identidade de procedimento
 
-- **Mesmo pipeline, mesmos parâmetros, mesmo codebook** para todos os documentos comparados. O pré-processamento é o da skill 02 (seção 3.3).
+- **Mesmo pipeline e mesmos parâmetros** para todos os documentos comparados. O pré-processamento é o da skill 02 (seção 3.3).
 - **Mesmo idioma.** Documentos em idiomas diferentes não são comparados lexicalmente. Se os idiomas divergirem, o agente para e informa o pesquisador.
 - **Simetria.** Nenhum documento é tratado como referência privilegiada. A convenção de sentido das medidas (por exemplo, valores positivos = mais característico do documento A) é declarada e mantida em todas as figuras.
 - **Cores fixas por documento**, as mesmas usadas nos notebooks individuais.
@@ -132,7 +132,7 @@ Valem todas as regras da skill 02 (seção 3.6), com os acréscimos:
 
 ### 3.8. Vieses proibidos
 
-Valem todos os da skill 02 (seção 3.7), e mais:
+Valem todos os da skill 02 (seção 3.5), e mais:
 - comparar valores absolutos de documentos de tamanhos diferentes como se fossem comparáveis;
 - afirmar que um documento "enfatiza mais" um tema com base em diferenças que não passaram pelos critérios da seção 3.4;
 - escolher o documento de referência ou o sentido da comparação para favorecer uma leitura;
@@ -184,14 +184,14 @@ As regras de não sobrescrita e de versionamento da skill 02 (seção 4.4) valem
 ## 5. Regras de qualidade e rigor acadêmico
 
 1. **Comparação relativa obrigatória:** nenhuma conclusão comparativa se apoia em valores absolutos.
-2. **Identidade de procedimento:** mesmo pipeline, mesmos parâmetros, mesmo codebook e mesmo idioma para todos os documentos.
+2. **Identidade de procedimento:** mesmo pipeline, mesmos parâmetros e mesmo idioma para todos os documentos.
 3. **Significância com tamanho de efeito:** diferenças termo a termo só são afirmadas quando passam pelos dois critérios. Diferenças entre categorias só são afirmadas quando o intervalo de confiança da diferença não inclui zero.
 4. **Fidelidade ao insumo:** analisa-se apenas o texto integral e literal das unidades dos JSONs da skill 01.
 5. **Transparência total:** todo método e toda escolha estão no código **e** na descrição em texto.
 6. **Reprodutibilidade:** parâmetros centralizados, semente fixa, versões e *hashes* registrados.
 7. **Neutralidade e simetria:** nenhum documento é privilegiado e nenhum parâmetro é escolhido para produzir um resultado desejado.
 8. **Exclusividade das fontes:** só se usa o que está nesta pasta.
-9. **Fragilidades declaradas:** instabilidade de frequências baixas, diferença de gênero textual, limites do codebook e erros de lematização são sempre declarados.
+9. **Fragilidades declaradas:** instabilidade de frequências baixas, diferença de gênero textual e erros de lematização são sempre declarados.
 10. **Primazia do pesquisador:** as ordens e os comandos do pesquisador são a decisão final.
 
 > ⚠️ **RIGOR ACADÊMICO E CIENTÍFICO:** esta pesquisa é financiada pela FAPESP e segue o *Código de Boas Práticas Científicas* da instituição. Uma comparação que ignore a diferença de tamanho entre documentos, que trate ruído estatístico como diferença real ou que esconda escolhas metodológicas compromete a validade dos resultados publicados. O padrão exigido é o máximo.
