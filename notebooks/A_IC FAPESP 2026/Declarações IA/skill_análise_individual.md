@@ -10,6 +10,8 @@ data: 2026-10-01
 
 > **Aplicação obrigatória.** Toda análise de uma declaração **isolada** (não comparada) feita dentro da pasta `notebooks/A_IC FAPESP 2026/Declarações IA/` **deve** seguir esta skill. Antes de criar, alterar ou executar um notebook de análise individual, o agente deve ler esta skill e cumpri-la por inteiro. Esta skill **não** cobre análises conjuntas ou comparativas: essas são regidas pela skill 03 (`skill_análise_comparativa.md`).
 
+> ⚠️ **OS COMANDOS DO PESQUISADOR SÃO OBEDECIDOS EM ÚLTIMA INSTÂNCIA.** Eles prevalecem sobre qualquer regra desta skill. Visualizações, relatórios e outras saídas **só vão para a pasta `resultados/` por comando do pesquisador** (seção 4.4).
+
 ---
 
 ## 1. Contexto
@@ -50,7 +52,7 @@ A Etapa 02 parte **exclusivamente** do resultado da Etapa 01. Se o JSON da decla
 
 ### 1.5. Autoridade do pesquisador
 
-As **ordens e comandos do pesquisador são a decisão final** sobre o que analisar, como analisar e o que manter. O agente pode **propor** instrumentos (listas de termos, categorias, limiares) e **apontar** riscos metodológicos, mas não pode impor escolhas, alterar decisões do pesquisador por conta própria nem omitir uma ordem recebida. Quando uma ordem do pesquisador tiver um risco metodológico, o agente **cumpre a ordem e registra o risco** na seção de fragilidades da visualização afetada.
+As **ordens e comandos do pesquisador são a decisão final e são obedecidos em última instância** sobre o que analisar, como analisar e o que manter. O agente pode **propor** instrumentos (listas de termos, categorias, limiares) e **apontar** riscos metodológicos, mas não pode impor escolhas, alterar decisões do pesquisador por conta própria nem omitir uma ordem recebida. Quando uma ordem do pesquisador tiver um risco metodológico, o agente **cumpre a ordem e registra o risco** na seção de fragilidades da visualização afetada.
 
 ---
 
@@ -169,6 +171,11 @@ Logo após cada visualização, o notebook deve conter:
 - Separa **observação** (o que os números mostram) de **inferência** (o que eles podem sugerir), e marca a inferência como tal.
 - Não extrapola para além do documento analisado e não faz comparações com outros documentos (isso é tarefa da skill 03).
 
+### 4.4. Pasta `resultados`
+
+- Visualizações, tabelas, relatórios e quaisquer outras saídas **só vão para a pasta `resultados/` quando o pesquisador der o comando**, e da forma que ele exigir.
+- **Nenhuma** visualização é adicionada automaticamente a `resultados/`. Sem o comando, o notebook apenas exibe as visualizações e as tabelas, sem gravá-las (`SALVAR_SAIDAS = False` na célula de configuração).
+
 ---
 
 ## 5. Regras de qualidade e rigor acadêmico
@@ -180,7 +187,7 @@ Logo após cada visualização, o notebook deve conter:
 5. **Não inventar dados:** nenhum valor é estimado, ajustado ou arredondado para "melhorar" um gráfico. Divergências inesperadas são explicadas, não corrigidas à força.
 6. **Exclusividade das fontes:** só se usa o que está nesta pasta. Nada vem de outras páginas, pastas ou resoluções anteriores sem pedido expresso do pesquisador.
 7. **Fragilidades declaradas:** limitações conhecidas (erros de lematização, ambiguidade de termos, documentos curtos) são sempre declaradas.
-8. **Primazia do pesquisador:** as ordens e os comandos do pesquisador são a decisão final.
+8. **Primazia do pesquisador:** as ordens e os comandos do pesquisador são a decisão final e são obedecidos em última instância.
 9. **Escopo individual:** esta skill não compara documentos. Toda comparação segue a skill 03.
 
 > ⚠️ **RIGOR ACADÊMICO E CIENTÍFICO:** esta pesquisa é financiada pela FAPESP e segue o *Código de Boas Práticas Científicas* da instituição. Uma visualização sem método explícito, com escolhas ocultas ou com interpretação não sustentada pelos dados compromete a validade dos resultados publicados. O padrão exigido é o máximo.
