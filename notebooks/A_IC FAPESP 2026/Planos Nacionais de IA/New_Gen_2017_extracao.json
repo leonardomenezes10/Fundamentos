@@ -1,0 +1,2398 @@
+{
+  "document": {
+    "title": "A New Generation of Artificial Intelligence Development Plan",
+    "subtitle": null,
+    "issuer": "State Council",
+    "country_or_bloc": "China",
+    "date": "July 8, 2017",
+    "period": null,
+    "language": "en",
+    "source_file": "A-New-Generation-of-Artificial-Intelligence-Development-Plan-1 (1).pdf",
+    "source_sha256": null,
+    "pages": 28
+  },
+  "extraction": {
+    "skill": "skill_extração",
+    "corpus": "Planos Nacionais de IA",
+    "skill_version": "1.0",
+    "date": "2026-10-05",
+    "units_extracted": 179,
+    "headings_extracted": 45,
+    "paragraphs_extracted": 101,
+    "list_items_extracted": 33,
+    "words_extracted": 11359,
+    "characters_extracted": 85475
+  },
+  "sections": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [],
+      "number": null,
+      "page": 1,
+      "text": "The rapid development of artificial intelligence will profoundly change human social life and the world. To seize the major strategic opportunities for the development of artificial intelligence, build China's first-mover advantage in artificial intelligence development, accelerate the construction of innovative countries and the world's science and technology power, this plan is enacted in accordance with the requirements of the CPC Central Committee and State Council."
+    },
+    {
+      "id": 2,
+      "type": "heading",
+      "level": 1,
+      "category": "Body",
+      "path": [],
+      "number": "I.",
+      "page": 1,
+      "text": "The Strategic Situation"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "The Strategic Situation"
+      ],
+      "number": null,
+      "page": 1,
+      "text": "Artificial intelligence has developed into a new stage. After 60 years of evolution, especially in the motivation of new theories and technologies (i.e mobile Internet, large data, super-computing, sensor network, brain science) and strong demand for economic and social development, artificial intelligence has accelerated with new features of deep learning, cross-border integration, man-machine collaboration, open group intelligence and autonomous control. Knowledge learning driven by large data, cross-media co-processing, man-machine collaboration to enhance intelligence, group integration intelligence and autonomous intelligence systems have become the focus of the development of artificial intelligence. Brain science research results inspired by the brain intelligence are ready, chip hardware platform development trend is more obvious and artificial intelligence has developed into a new stage. At present, the whole promotion of a new generation of artificial intelligence related disciplines, theoretical modeling, technological innovation, hardware and software upgrades is triggering chain breakthroughs and propelling the development of the economic and social fields from digitalization and networkization to automation."
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "The Strategic Situation"
+      ],
+      "number": null,
+      "page": 2,
+      "text": "Artificial intelligence has become the new focus of international competition. Artificial intelligence is thought to be the strategic technology leading the future, the world's major developed countries regard the development of artificial intelligence as the major strategy to increase national competitiveness and enhance national security, therefore they intensify the introduction of plans and policies and the deployment of the core technology, top talent, standards etc. trying to grasp the initiative in the new round of international science and technology competition. At present, China's national security and international competition situation are more complex, so we must look at the world, layout the artificial intelligence development on the national strategic level, grasp firmly the strategic initiative of international competition during the new stage of artificial intelligence development, create new competitive advantage, open up new spaces of development, and effectively protect national security."
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "The Strategic Situation"
+      ],
+      "number": null,
+      "page": 2,
+      "text": "Artificial intelligence has become a new engine of economic development. Artificial intelligence as the core driving force of a new round of industrial transformation, will further release the huge capacity accumulatedby previous scientific and technological revolution and industrial transformation, create a new powerful engine, reconstruct the economic activities of production, distribution, exchange, consumption and others, form the intelligent new demand from macro to the microscopic areas, promote the birth of new technologies, new products, new industries, new formats and new models, trigger significant changes in economic structure, profoundly change human production, lifestyle and thinking mode, and achieve the remarkable jump of social productivity as a whole. China's economy has developed into a new normal situation and deepening the supply side of the structural reform task is very arduous, as a result, we must speed up the rapid application of artificial intelligence, cultivate and expand the artificial intelligence industry to inject new kinetic energy into China's economic development."
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "The Strategic Situation"
+      ],
+      "number": null,
+      "page": 2,
+      "text": "Artificial intelligence brings new opportunities for social construction. China is in a comprehensive stage of building a well-off society, population aging, resource environment constraints and other challenges are still grim and the application of artificial intelligence in education, medical care, pension, environmental protection, urban operation, judicial services and other fields will greatly improve the precision level of public service, comprehensively enhancing the quality of life of the people. Artificial intelligence technology can accurately perceive, forecast, early warn the major trends of infrastructure and social security operation, timely grasp the change of group awareness and psychology, respond actively decision-making, significantly improve the ability and level of social governance, and it is indispensable for the effective maintenance of social stability."
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "The Strategic Situation"
+      ],
+      "number": null,
+      "page": 2,
+      "text": "Uncertainties in the development of artificial intelligence bring new challenges. Artificial intelligence is a disruptive technology that can affect government management, economic security and social stability, and even global governance, which may lead to problems of changes in employment structure, impact law and social ethics, violateng personal privacy and challenge international relations. While vigorously developing artificial intelligence, we must attach great importance to the possible safety risk challenges, strengthen the forward-looking prevention and restraint guidance, minimize risk and ensure the safe, reliable and controllable development of artificial intelligence."
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "The Strategic Situation"
+      ],
+      "number": null,
+      "page": 3,
+      "text": "China has a good basis for the development of artificial intelligence. The State has deployed special projects, such as intelligent manufacturing and other key research and development projects, issued three years implementation program of the \"Internet+\", made a series of measures in aspects of research and development of science and technology, application and promotion and industrial development etc. After years of continuous accumulation, China has made important progresses in the field of artificial intelligence, the number of international scientific papers published and the amount of patented invention has been ranked second in the world and some key technologies have achieved an important breakthrough. Voice recognition, visual recognition technology are world-leading, adaptive autonomous learning, intuitive perception, comprehensive reasoning, mixed intelligence and group intelligence, etc., are with the ability of crossing development, Chinese information processing, intelligent monitoring, biometric identification, industrial robots, service robots, unmanned driving have gradually developed into the practical application, artificial intelligence innovation and entrepreneurship are increasingly active and a number of leading enterprises growing remarkably have been widely concerned and recognized. The organic combination between the accelerating accumulation of technical capacity, massive data resources, huge application requirements and open market environment forms China's unique advantages of artificial intelligence development."
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "The Strategic Situation"
+      ],
+      "number": null,
+      "page": 3,
+      "text": "At the same time, we must also clearly see that the overall level of development of China's artificial intelligence and that of the developed countries still have gaps. China lacks major original results and there are huge gaps in the basic theory, the core algorithm, key equipment, high-end chips, major products and systems, components, software and interface and so on; scientific research institutions and enterprises have not yet formed the ecological circle and industrial chain with international influence in short of systematic research and development layout; artificial intelligence cutting-edge talent is far from meeting the demand; the infrastructure, policies and regulations and the standard system adapted to the development of artificial intelligence need to be improved."
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "The Strategic Situation"
+      ],
+      "number": null,
+      "page": 3,
+      "text": "Facing the new situation and new demands, we must take the initiative to change the strain, firmly grasp a major historical opportunity for the development of artificial intelligence, closely judge the general trend, take the initiative to grasp the direction, seize the initiative, lead the artificial intelligence development trend of the world, serve the economic and social development, support national security, and promote the overall competitiveness of the country and leapfrog development."
+    },
+    {
+      "id": 11,
+      "type": "heading",
+      "level": 1,
+      "category": "Body",
+      "path": [],
+      "number": "II.",
+      "page": 3,
+      "text": "Overall Requirements"
+    },
+    {
+      "id": 12,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Overall Requirements"
+      ],
+      "number": "(A)",
+      "page": 3,
+      "text": "Guiding Thought"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Guiding Thought"
+      ],
+      "number": null,
+      "page": 3,
+      "text": "We shall comprehensively implement the spirit of the 18th CPC National Congress, as well as the third, fourth, fifth and sixth plenary sessions of the 18th CPC Central Committee, and thoroughly study and implement the new spirit of the speeches delivered by Xi Jinping and his new series of ideas. In accordance with the overall plan to seek economic, political, cultural, social, and ecological progress and the Four-pronged Strategy, we shall conscientiously implement the decision-making arrangements by CPC Central Committee and State Council and the in-depth innovation-driven development strategy to accelerate the integration of artificial intelligence and economy, society and defense and enhance a new generation of artificial intelligence scientific and technological innovation capacity as the main direction. We shall develop intelligent economy, construct intelligent society, safeguard national security, build the ecosystem with cluster integration of knowledge, technology, industry and mutual support of talent, system, culture, foresee the risks and challenges, propel sustainable development as the center of the intelligent, and as a result comprehensively enhance the social productive forces, national strength and national competitiveness for the purpose to speed up the construction of innovative countries and the science and technology power of the world, to achieve \"two hundred years\" goals and to provide strong support for the great rejuvenation of the nation."
+    },
+    {
+      "id": 14,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Overall Requirements"
+      ],
+      "number": "(B)",
+      "page": 4,
+      "text": "Basic Principles"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Basic Principles"
+      ],
+      "number": null,
+      "page": 4,
+      "text": "Leadership of technology. We shall grasp the developmental trend of artificial intelligence in the world, highlight the foresight of R & D deployment, explore the layout in the key frontier areas, provide long-term support, strive to achieve transformational and subversive breakthroughs in theory, methods, tools and systems, comprehensively enhance the original innovation capability of artificial intelligence, accelerate the construction of first-mover advantages and achieve high-end leading developments."
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Basic Principles"
+      ],
+      "number": null,
+      "page": 4,
+      "text": "Systematic Layouts. The making of targeted systematic development strategy shall base on different characteristics of basic research, technology development, industrial development and industry application. We shall give full play to the advantages of the socialist system that concentrates on doing things, promote the layout of projects, bases, talent pool, organically converge deployed major projects and new tasks, echelon the current urgent needs and long-term developments, and create a collaborative force between innovation capacity building, institutional reform and policy environment."
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Basic Principles"
+      ],
+      "number": null,
+      "page": 4,
+      "text": "Market-oriented. We shall follow the rules of the market, adhere to the application-oriented, highlight the main role of enterprises in the choice of technology companies and the making of industry product standards, accelerate the commercial applications of artificial intelligence technology and form the competitive advantage. We shall handle the relationship between the government and market and make the best of governments’ role in planning guidance, policy support, security, market regulation, environmental construction, ethical regulations and other aspects."
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Basic Principles"
+      ],
+      "number": null,
+      "page": 4,
+      "text": "Open Source. We shall advocate the concept of open source and sharing, promote the sharing of the production, research and innovation. We shall follow coordinated development law of the economic development and national defense construction, promote the two-way conversion application of military and civilian scientific and technological achievements, build and share military and civilian innovation resources, form the new pattern of military and civilian integration of all elements, multi-field, high efficiency. We shall actively participate in global R & D and management of artificial intelligence, optimize the allocation of innovative resources on a global scale."
+    },
+    {
+      "id": 19,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Overall Requirements"
+      ],
+      "number": "(C)",
+      "page": 5,
+      "text": "Strategic goals"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": null,
+      "page": 5,
+      "text": "Divided in three steps:"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": null,
+      "page": 5,
+      "text": "The first step, by 2020, is to keep up the overall technology and application of artificial intelligence with the advanced level of the world. Artificial intelligence industry has become a new important economic growth point, and artificial intelligence technology application has become a new way to improve people's livelihood, s supported the goal of the struggle of China’s entry into the ranks of innovative countries and the achievement of a moderately prosperous society."
+    },
+    {
+      "id": 22,
+      "type": "list_item",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": "-",
+      "page": 5,
+      "text": "A new generation of artificial intelligence theory and technology made important progress. Large-scale data intelligence, cross-media intelligence, group intelligence, hybrid enhanced intelligence, autonomous intelligence systems and other basic theory and core technology will have achieved important progress, and artificial intelligence models, core devices, high-end equipment and basic softwares will have achieved landmark results."
+    },
+    {
+      "id": 23,
+      "type": "list_item",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": "-",
+      "page": 5,
+      "text": "Artificial intelligence industry competitiveness develops into the international first phalanx. We shall make the initial establishment of artificial intelligence technology standards, service system and industrial ecological chain, cultivate a number of the world's leading artificial intelligence backbone enterprises, make the scale of artificial intelligence core industry more than 150 billion yuan, and drive the scale of related industries more than 1 trillion yuan."
+    },
+    {
+      "id": 24,
+      "type": "list_item",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": "-",
+      "page": 5,
+      "text": "Further optimize artificial intelligence development environment. We shall focus on the field of innovation and application, gather a number of high-level personnel and innovation team, and establish initially artificial intelligence ethics norms, policies and regulations of some areas."
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": null,
+      "page": 5,
+      "text": "The second step:by 2025, we shall achieve a major breakthrough in artificial intelligence basic theory, and parts of the technology and application will be at a world-leading level. We shall make artificial intelligence become the main driving force of China's industrial upgrading and economic transformation, and make positive progress in the construction of an artificial intelligence society."
+    },
+    {
+      "id": 26,
+      "type": "list_item",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": "-",
+      "page": 5,
+      "text": "We shall initially establish a new generation of artificial intelligence theory and technology system with independent learning ability of artificial intelligence to achieve a breakthrough in many areas, and to obtain leading research results."
+    },
+    {
+      "id": 27,
+      "type": "list_item",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": "-",
+      "page": 5,
+      "text": "We shall make artificial intelligence industry develop into the global high-end value chain. We shall make a new generation of artificial intelligence widely used in intelligent manufacturing, intelligent medical care, intelligent cities, intelligent agriculture, national defense construction and other fields. The scale of the core industry scale of artificial intelligence will be worth than 400 billion yuan, driving the scale of related industries to be more than 5 trillion yuan."
+    },
+    {
+      "id": 28,
+      "type": "list_item",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": "-",
+      "page": 6,
+      "text": "We shall make initial establishment of artificial intelligence laws and regulations, ethical norms and policy systems, and form artificial intelligence safety assessment and control capabilities."
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": null,
+      "page": 6,
+      "text": "The third step: by 2030, we shall make artificial intelligence theory, technology and application achieve the world's leading level to be the major artificial intelligence innovation center of the world, intelligent economy, intelligent society achieve remarkable results, and lay an important foundation for China’s entry into the forefront of the innovative countries and economic powers."
+    },
+    {
+      "id": 30,
+      "type": "list_item",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": "-",
+      "page": 6,
+      "text": "We shall form a more mature and new generation of artificial intelligence theory and technology system. We shall make a major breakthrough in the brain intelligence, independent intelligence, mixed intelligence and group intelligence and other areas, have an important impact in the field of international artificial intelligence and occupy the commanding heights of artificial intelligence technology."
+    },
+    {
+      "id": 31,
+      "type": "list_item",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": "-",
+      "page": 6,
+      "text": "We shall make the competitiveness of artificial intelligence industry reach the international advanced level. We shall expand widely and deeply artificial intelligence in production and life, social governance, national defense construction and all aspects, form the complete industrial chain and high-end industrial cluster of core technology, key systems, support platform and intelligent application, make core industry scale of artificial intelligence be more than 1 Trillion yuan, driving the scale of related industries be more than 10 trillion yuan."
+    },
+    {
+      "id": 32,
+      "type": "list_item",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Strategic goals"
+      ],
+      "number": "-",
+      "page": 6,
+      "text": "We shall form a number of the world's leading artificial intelligence technology innovation and personnel training base, and build more comprehensive laws and regulations, ethics and policy system of artificial intelligence."
+    },
+    {
+      "id": 33,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Overall Requirements"
+      ],
+      "number": "(D)",
+      "page": 6,
+      "text": "Overall deployment."
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Overall deployment."
+      ],
+      "number": null,
+      "page": 6,
+      "text": "The development of artificial intelligence is a complex systeic project related to the overall situation. In accordance with the layout of \"build a system, grasp the dual attributes, adhere to the Trinity, strengthen the four support\" , we shall form the strategic path for an healthy and sustainable developments of artificial intelligence."
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Overall deployment."
+      ],
+      "number": null,
+      "page": 6,
+      "text": "Constructing open and cooperative artificial intelligence technology innovation system. In view of the weak theoretical basis of the original theory and the lack of major products and systems, we shall establish a new generation of artificial intelligence basic theory and key common technology system, layout the construction of major scientific and technological innovation base, strengthen the artificial intelligence high-end talent team, promote innovation and interaction with the main body and form continuous innovation ability of artificial intelligence."
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Overall deployment."
+      ],
+      "number": null,
+      "page": 7,
+      "text": "Grasp the characteristics of a high degree of integration of the artificial intelligence technology attributes and social attributes. It is necessary to increase the artificial intelligence development and application of efforts to maximize the potential of artificial intelligence; but also to predict the challenges of artificial intelligence, coordination of industrial policies, innovative policies and social policies to achieve the development of incentive and reasonable regulation of coordination and maximize the risk prevention."
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Overall deployment."
+      ],
+      "number": null,
+      "page": 7,
+      "text": "Adhere to the \"Three in One\" promotion of research and development, product applications and industry training an artificial intelligence. We shall adapt to the characteristics and trends of artificial intelligence development, strengthen the integration of innovation chain and industrial chain and interactive evolution of technology supply and market demand, promote the application and industrial upgrading by technological breakthroughs. At the same time of a large-scale promotion of technology applications and industrial development, we shall strengthen the long-term R & D layout and research, achieve rolling development and continuous improvement to ensure that the theory is in the front, the techologies are in the commanding heights and the application is safe and controllable."
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Overall Requirements",
+        "Overall deployment."
+      ],
+      "number": null,
+      "page": 7,
+      "text": "Fully support science and technology, economic, social development and national security. Through artificial intelligence technology, we will make a break-through in comprehensively reaising the innovation capability of our country. We shall strengthen the artificial intelligence industry, cultivate the smart economy to create a new growth cycle for future ten years or even decades of economic prosperity of China; we shall build an artificial intelligence society for the development of the world's science and technology, for the improvement of people's livelihood and welfare in the society and for the implementation of the ideology of people-centered development; we shall enhance the national defense strength of artificial intelligence to protect and safeguard national security."
+    },
+    {
+      "id": 39,
+      "type": "heading",
+      "level": 1,
+      "category": "Body",
+      "path": [],
+      "number": "III.",
+      "page": 7,
+      "text": "Key Tasks"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks"
+      ],
+      "number": null,
+      "page": 7,
+      "text": "Based on the national development of the overall situation, we shall accurately grasp the development trend of global artificial intelligence, identify breakthroughs and the main direction, comprehensively enhance the basic ability of scientific and technological innovation, comprehensively expand the depth of application of key areas, and comprehensively enhance the economic and social development and national defense application level."
+    },
+    {
+      "id": 41,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Key Tasks"
+      ],
+      "number": "(A)",
+      "page": 7,
+      "text": "Build open and cooperative technology system of artificial intelligence ."
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence ."
+      ],
+      "number": null,
+      "page": 7,
+      "text": "Based on the increase of the source of artificial intelligence innovation supply, we shall ensure that China's artificial intelligence technology level ranks highly among the world and make more contributions to artificial intelligence development via the deployment of the frontier basic theory, the key common technology, the basic platform, personnel and other aspects and the promotion of open source sharing and the ability of the continuous system innovation enhancement."
+    },
+    {
+      "id": 43,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence ."
+      ],
+      "number": "1.",
+      "page": 8,
+      "text": "Establish a new generation of basic theory of artificial intelligence system."
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system."
+      ],
+      "number": null,
+      "page": 8,
+      "text": "We shall focus on the major scientific frontier issues of artificial intelligence, take into account the current needs and long-term development, break through the basic theory of artificial intelligence bottlenecks as the focus, and ensure that advanced layout may lead to artificial intelligence paradigm transformation of basic research, promote cross-integration of disciplines for sustainable development and depth applications of artificial intelligence and provide strong scientific reserves."
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system."
+      ],
+      "number": null,
+      "page": 8,
+      "text": "Breaking the bottleneck of basic theory of application. We shall target at the direction of the basic theory of the application of clear objectives and the expectation of leading artificial intelligence technology and enhance the large data intelligence, cross-media perception computing, human-machine hybrid intelligence, group intelligence, autonomous collaboration and decision-making and other basic theoretical research. The large data intelligence theory focuses on breaking the difficult issues such as unsupervised learning, comprehensive depth reasoning, and establishing data-driven, natural language understanding as the core cognitive computing model, from large data to knowledge, from knowledge to decision-making ability. Cross-media perceptual computing theory focuses on low-cost and low-power intelligent perception, complex scene active perception, natural environment auditory and verbal perception, multimedia autonomous learning and other theoretical methods to achieve superman perception and high dynamic, high-dimensional, multi-mode distributed large scene perception. The theory of mixed enhancement and intelligence emphasizes the theory of context comprehension and decision learning, intuition reasoning and causal model, memory and knowledge evolution of man-machine coordination and communion, and realizes the mixed and enhanced intelligence which is close to or more than human intelligence level. The theory of group intelligence focuses on the organization, emergence and learning of group intelligence, and establishes an expressible and computable group intelligence incentive algorithm and model to form an Internet based group intelligent theory system. Autonomous collaborative control and optimization decision-making theory focus on breakthroughs for autonomous unmanned systems of collaborative perception and interaction, autonomous collaborative control and optimization of decision-making, knowledge-driven human resources ternary coordination and interoperability theory and form theoretical architecture of independent intelligent unmanned system innovation ."
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system."
+      ],
+      "number": null,
+      "page": 8,
+      "text": "Layout the basic theory of frontier research. On basis of the direction of artificial intelligence paradigm change, we shall forward-looking layout advanced machine learning, brain-like intelligence calculation, quantum intelligence computing and other cross-domain basic theory research. Advanced machine learning theory focuses on breakthroughs in adaptive learning, autonomous learning and other theoretical methods to achieve strong ability of artificial intelligence high interpretability. The theory and method of brain-like intelligence focuses on the breakthrough of the theory and method of information coding, processing, memory, learning and reasoning, forms brain-like complex system and brain-like control, and establishes a new model and brain-inspired cognitive computing model. Quantum intelligent computing theory focuses on quantum acceleration of machine learning methods, the establishment of high-performance computing and quantum algorithm hybrid model and form highly efficient and accurate quantum artificial intelligence system architecture."
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system."
+      ],
+      "number": null,
+      "page": 9,
+      "text": "To carry out interdisciplinary exploratory research. We shall promote the artificial fusion of artificial intelligence and neuroscience, cognitive science, quantum science, psychology, mathematics, economics, sociology and other related basic disciplines, strengthen the introduction of artificial intelligence algorithm, model development of mathematical basic theory research, pay attention to artificial intelligence law and ethical theory of basic theory to support the original strong, non-consensus exploratory research, encourage scientists to explore freely and to capture the forefront of artificial intelligence problems and put forward more original theory to make more original discoveries."
+    },
+    {
+      "id": 48,
+      "type": "heading",
+      "level": 4,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system."
+      ],
+      "number": null,
+      "page": 9,
+      "text": "Box 1 Basic Theory"
+    },
+    {
+      "id": 49,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system.",
+        "Box 1 Basic Theory"
+      ],
+      "number": "1.",
+      "page": 9,
+      "text": "Large data intelligence theory. This paper studies the new methods of artificial intelligence combined with data-driven and knowledge-guided approaches, the theory and method of cognitive computing with natural language understanding and image graphics as the core, the theory and method of comprehensive depth reasoning and creative artificial intelligence, the basic theory of intelligent decision-making under incomplete information and the framework, data-driven general artificial intelligence mathematical model and theory."
+    },
+    {
+      "id": 50,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system.",
+        "Box 1 Basic Theory"
+      ],
+      "number": "2.",
+      "page": 9,
+      "text": "Cross-media perceptual computing theory. We shall study transcendental perception of human visual perception, active visual perception and computation for the real world, auditory perception and calculation of natural acoustic scenes, verbal perception and computation of natural interactive environment, human perception and computation for asynchronous sequences and intelligent perception of self - learning, urban full - scale intelligent perception reasoning engine."
+    },
+    {
+      "id": 51,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system.",
+        "Box 1 Basic Theory"
+      ],
+      "number": "3.",
+      "page": 9,
+      "text": "Hybrid enhanced intelligent theory. We shall do research on \"people in the loop\" of the hybrid enhanced intelligence, man-machine intelligent symbiosis behavior and brain-computer collaboration, machine intuitionistic reasoning and causal models, associative memory model and knowledge evolution methods, complex data and tasks to enhance intelligent learning methods, cloud Robot collaborative computing methods, contextual understanding in the real world environment and man-machine group synergy."
+    },
+    {
+      "id": 52,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system.",
+        "Box 1 Basic Theory"
+      ],
+      "number": "4.",
+      "page": 9,
+      "text": "Group intelligence theory. We shall do research on group intelligence structure theory and organization method, group intelligence incentive mechanism and emergence mechanism, group intelligent learning theory and method and group intelligent general computing paradigm and model."
+    },
+    {
+      "id": 53,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system.",
+        "Box 1 Basic Theory"
+      ],
+      "number": "5.",
+      "page": 9,
+      "text": "Autonomous collaborative control and optimization decision theory. We shall do research on cooperative awareness and interaction for autonomous unmanned systems, collaborative control and optimization decision-making for autonomous unmanned systems, knowledge-driven anthropogenic ternary coordination and interoperability theory."
+    },
+    {
+      "id": 54,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system.",
+        "Box 1 Basic Theory"
+      ],
+      "number": "6.",
+      "page": 9,
+      "text": "Advanced machine learning theory. We shall study statistical learning basic theory, uncertainty reasoning and decision making, distributed learning and interaction, privacy protection learning, small sample learning, deep reinforcement learning, unsupervised learning, semi-supervised learning, active learning and other learning theory and efficient model."
+    },
+    {
+      "id": 55,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system.",
+        "Box 1 Basic Theory"
+      ],
+      "number": "7.",
+      "page": 10,
+      "text": "Brain intelligent computing theory. We shall do research on brain perception, brain learning, brain memory mechanism and computational fusion, brain-like complex system, brain control and other theories and methods."
+    },
+    {
+      "id": 56,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of basic theory of artificial intelligence system.",
+        "Box 1 Basic Theory"
+      ],
+      "number": "8.",
+      "page": 10,
+      "text": "Quantum Intelligence Computing Theory. We shall explore the quantum mode and intrinsic mechanism of brain cognition, study efficient quantum intelligence models and algorithms, high-performance high-bit quantum artificial intelligence processors and real-time quantum artificial intelligence systems that can interact with external environment."
+    },
+    {
+      "id": 57,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence ."
+      ],
+      "number": "2.",
+      "page": 10,
+      "text": "Establish a new generation of artificial intelligence key common technology system."
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system."
+      ],
+      "number": null,
+      "page": 10,
+      "text": "Aiming at the urgent need to enhance the international competitiveness of China's artificial intelligence, the new generation of artificial intelligence key common technology of the R & D deployment should focus on the algorithm, the data and hardware to enhance the perceptions, knowledge, cognitive reasoning and human-computer interaction capacity as the focus and form open compatible, stable and mature technology system."
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system."
+      ],
+      "number": null,
+      "page": 10,
+      "text": "Knowledge computing engine and knowledge service technology. Focusing on knowledge processing, deep search and visual interaction core technology, we shall achieve continuous knowledge of incremental incremental access with capabilities of the identification of concept, entity discovery, attribute prediction, knowledge evolution modeling and relationship mining, and form billions of entities covering the scale multi-source, multidisciplinary and multi-data types of cross-media knowledge maps."
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system."
+      ],
+      "number": null,
+      "page": 10,
+      "text": "Cross-media analysis reasoning technology. Focusing on cross-media unified characterization, association understanding and knowledge mining, knowledge map construction and learning, knowledge evolution and reasoning and intelligent description and generation technology, we shall achieve cross-media knowledge representation, analysis, mining, reasoning, evolution and utilization and build an analytical reasoning engine."
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system."
+      ],
+      "number": null,
+      "page": 10,
+      "text": "Key technologies of group intelligence. Focusing on breakthroughs based on the Internet's popular collaboration, large-scale collaborative knowledge resource management and open sharing technology, we shall establish group knowledge representation framework, achieve the cluster and the integration based on group knowledge-based knowledge acquisition and open dynamic environment and support group perception, collaboration and evolution covering the scale of the nation's tens of millions."
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system."
+      ],
+      "number": null,
+      "page": 10,
+      "text": "New architecture and new technology of hybrid enhanced intelligence. Focusing on breakthroughs in the integration of human-computer interaction and implementation of the integrated model, intelligent computing forward new sensor, universal hybrid computing architecture and other core technologies, we shall build adaptive environment to adapt to the hybrid intelligent system, man-machine group hybrid enhanced intelligent systems and support surroundings."
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system."
+      ],
+      "number": null,
+      "page": 11,
+      "text": "Independent unmanned system of intelligent technology. Focusing on independent unmanned system computing architecture, complex dynamic scene perception and understanding, real-time precision positioning, adaptive environment for complex intelligent navigation and other common technology, unmanned aerial vehicle control and automotive, ship and rail traffic and other intelligent technology, service robots, special robots and other core technologies, we shall support unmanned system applications and industrial development."
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system."
+      ],
+      "number": null,
+      "page": 11,
+      "text": "Virtual reality intelligent modeling technology. Focusing on virtual object intelligent behavior modeling technology, we shall enhance the virtual reality of intelligent object behavior of social, diversity and interactive vividness, achieve virtual reality and enhance the reality and other technologies and artificial intelligence organic combination and efficient interaction."
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system."
+      ],
+      "number": null,
+      "page": 11,
+      "text": "Intelligent computing chip and system. Focusing on breakthroughs in energy-efficient, reconfigurable brain computing chips and computational imaging capabilities of brain-like vision sensor technology, we shall research and develop high-performance brain neural network architecture and hardware systems with independent learning ability to achieve the brain intelligent system of multimedia awareness of information, intelligent growth and reason ."
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system."
+      ],
+      "number": null,
+      "page": 11,
+      "text": "Natural language processing technology. Focusing on the natural language of grammatical logic, character conceptual representation and in-depth semantic analysis of the core technology, we shall promote the effective and free communication between man and the machine and achieve multi-style multi-language multi-domain natural language intelligent understanding and automatic generation."
+    },
+    {
+      "id": 67,
+      "type": "heading",
+      "level": 4,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system."
+      ],
+      "number": null,
+      "page": 11,
+      "text": "Box 2 Key Common Technology"
+    },
+    {
+      "id": 68,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system.",
+        "Box 2 Key Common Technology"
+      ],
+      "number": "1.",
+      "page": 11,
+      "text": "Knowledge computing engine and knowledge service technology. We shall do research on knowledge computing and visual interaction engine, innovation design, digital creativity and visual media as the core business intelligence and other knowledge service technologies and carry out large-scale biological data knowledge discoveries."
+    },
+    {
+      "id": 69,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system.",
+        "Box 2 Key Common Technology"
+      ],
+      "number": "2.",
+      "page": 11,
+      "text": "Cross-media analysis reasoning technology. We shall do research on cross-media unified characterization, association understanding and knowledge mining, knowledge map construction and learning, knowledge evolution and reasoning, intelligent description and generation technologies and develop cross-media analysis reasoning engine and verification system."
+    },
+    {
+      "id": 70,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system.",
+        "Box 2 Key Common Technology"
+      ],
+      "number": "3.",
+      "page": 11,
+      "text": "Group key technology of intelligence. We shall carry out the active knowledge and discovery of group intelligence, knowledge acquisition and acquisition, collaboration and sharing, evaluation and evolution, human-computer integration and enhancement, self-maintenance and security interaction and other key technology research and build group intelligence space service architecture, intelligent collaborative decision and control technology."
+    },
+    {
+      "id": 71,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system.",
+        "Box 2 Key Common Technology"
+      ],
+      "number": "4.",
+      "page": 12,
+      "text": "Hybrid enhanced intelligent new architecture and new technology. We shall do research on hybrid enhanced intelligent core technology, cognitive computing framework, new hybrid computing architecture, man-machine sharing and online intelligent learning technology and the parallel management and control of the hybrid enhanced intelligent framework."
+    },
+    {
+      "id": 72,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system.",
+        "Box 2 Key Common Technology"
+      ],
+      "number": "5.",
+      "page": 12,
+      "text": "Independent unmanned system of intelligent technology. We shall do research on intelligent robot, marine robot, polar robot technology, unmanned workshop / intelligent factory intelligent technology, high-end intelligent control technology and autonomous unmanned operation, and so on. This paper studies the autonomous control technology of robot and robot arm based on computer vision localization, navigation and recognition in complex environment."
+    },
+    {
+      "id": 73,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system.",
+        "Box 2 Key Common Technology"
+      ],
+      "number": "6.",
+      "page": 12,
+      "text": "Virtual reality intelligent modeling technology. This paper studies the mathematical expression and modeling method of intelligent behavior of virtual object, the problem of natural, continuous and deep interaction between virtual object and virtual environment and users and the technology and method system of intelligent object modeling."
+    },
+    {
+      "id": 74,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system.",
+        "Box 2 Key Common Technology"
+      ],
+      "number": "7.",
+      "page": 12,
+      "text": "Intelligent computing chip and system. We shall do research and develop neural network processor and energy-efficient, reconfigurable brain computing chip, a new type of sensor chip and system, intelligent computing architecture and systems, artificial intelligence operating system, and mixed computing architecture suitable for artificial intelligence."
+    },
+    {
+      "id": 75,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Establish a new generation of artificial intelligence key common technology system.",
+        "Box 2 Key Common Technology"
+      ],
+      "number": "8.",
+      "page": 12,
+      "text": "Natural language processing technology. We shall study the short text of the calculation and analysis technology, cross-language text mining technology and machine-aware intelligence for semantic understanding of technology and the man-machine dialogue system of multimedia information understanding."
+    },
+    {
+      "id": 76,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence ."
+      ],
+      "number": "3.",
+      "page": 12,
+      "text": "The layout of artificial intelligence innovation platform."
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "The layout of artificial intelligence innovation platform."
+      ],
+      "number": null,
+      "page": 12,
+      "text": "We shall construct innovative platform of artificial intelligence and strengthen the support for the application, research and development of artificial intelligence. Artificial intelligence open source hardware and software infrastructure platform focuses on building unified computing framework platform supporting knowledge reasoning, probability statistics, depth learning and other artificial intelligence paradigm and forms a promotion of artificial intelligence software, hardware and intelligent clouds between the ecological chain. The group intelligent service platform focuses on the construction of the knowledge resource management and the open sharing tool based on the large-scale cooperation of the Internet, and forms the platform and the service environment for the innovation of the industry and university. The hybrid enhanced intelligent support platform focuses on the construction of a heterogeneous real-time computing engine supporting large-scale training and a new computing cluster, providing a service-oriented, systematic platform and solution for complex intelligent computing. Autonomous unmanned system support platform focuses on the construction of autonomous systems for autonomous systems in the environment of environmental awareness, autonomous collaborative control, intelligent decision-making and other artificial intelligence common core technology support system and forms development and test environment of open, modular, reconfigurable autonomous unmanned system. Artificial intelligence basic data and security detection platforms focus on the construction of artificial intelligence for the public data resource library, the standard test data set, cloud service platform and form artificial intelligence algorithms and platform security test evaluation methods, techniques, norms and tools. We shall promote all kinds of open source of common software and technology platform. All kinds of platforms shall be in accordance with the requirements of the depth of integration of military and civilian and related provisions and promote the sharing of military and civilian sharing."
+    },
+    {
+      "id": 78,
+      "type": "heading",
+      "level": 4,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "The layout of artificial intelligence innovation platform."
+      ],
+      "number": null,
+      "page": 13,
+      "text": "Box 3 Basic Support Platform"
+    },
+    {
+      "id": 79,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "The layout of artificial intelligence innovation platform.",
+        "Box 3 Basic Support Platform"
+      ],
+      "number": "1.",
+      "page": 13,
+      "text": "The hardware and software infrastructure platform of the artificial intelligence open source. We shall establish open source software platform of large data artificial intelligence, the artificial intelligence cloud service platform of collaborative terminal and cloud, the new multi-intelligent sensor and integrated platform, the new product design platform of artificial intelligence hardware, the intelligent service platform of large data ."
+    },
+    {
+      "id": 80,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "The layout of artificial intelligence innovation platform.",
+        "Box 3 Basic Support Platform"
+      ],
+      "number": "2.",
+      "page": 13,
+      "text": "Group intelligent service platform. We shall establish a group of knowledge-based computing support platform, the public service system of science and technology, the development and verification automation system of group intelligence software, the learning and innovation system of group intelligence software, decision-making system of open environment and the economic service system of group-sharing ."
+    },
+    {
+      "id": 81,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "The layout of artificial intelligence innovation platform.",
+        "Box 3 Basic Support Platform"
+      ],
+      "number": "3.",
+      "page": 13,
+      "text": "Hybrid enhanced intelligent support platform. We shall establish artificial intelligence supercomputing center, large-scale super intelligent computing support environment, online intelligent education platform, \"people in the loop\" driving brain, industrial development complexity analysis and the intelligent platform of risk assessment, the intelligent security platform of supporting nuclear power security operations and the research and development and testing platform of machine technology"
+    },
+    {
+      "id": 82,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "The layout of artificial intelligence innovation platform.",
+        "Box 3 Basic Support Platform"
+      ],
+      "number": "4.",
+      "page": 13,
+      "text": "Autonomous unmanned system support platform. We shall establish independent and supportive platform of unmanned system common core technology, supportive platform of unmanned aerial vehicle independent control and auto, ship and rail traffic automatic driving, the supportive platform of service robot, space robot, marine robot, polar robot and the support platform of intelligent factory and intelligent control equipment technical and so on."
+    },
+    {
+      "id": 83,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "The layout of artificial intelligence innovation platform.",
+        "Box 3 Basic Support Platform"
+      ],
+      "number": "5.",
+      "page": 13,
+      "text": "The basic data and security detection platform of artificial intelligence. We shall construct public data resource library of artificial intelligence data-oriented, standard test data set, cloud service platform, establish algorithms and platform security test model and evaluation model of artificial intelligence and research and develop security evaluation tools of artificial intelligence algorithms and platform ."
+    },
+    {
+      "id": 84,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence ."
+      ],
+      "number": "4.",
+      "page": 13,
+      "text": "Accelerate the training of high-end talent of gathered artificial intelligence."
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Accelerate the training of high-end talent of gathered artificial intelligence."
+      ],
+      "number": null,
+      "page": 13,
+      "text": "We shall regard the construction of high-end talent team as the most important development of artificial intelligence, adhere to the combination of training and introduction, improve the artificial intelligence education system, strengthen the talent pool and echelon construction, especially to accelerate the introduction of the world's top talent and young talent, and form China's talent highland of artificial intelligence ."
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Accelerate the training of high-end talent of gathered artificial intelligence."
+      ],
+      "number": null,
+      "page": 14,
+      "text": "We shall cultivate high level of artificial intelligence innovation talent and team, support and cultivate the development potential of artificial intelligence leading talent, strengthen the basic research of artificial intelligence, applied research, operation and maintenance aspects of professional and technical personnel training. We shall draw attention to the training of compound talents, focus on cultivating through the artificial intelligence theory, methods, technology, products and applications of vertical composite talents, and master the \"artificial intelligence\" economy, society, management, standards, law and other horizontal compound talents. Through major research and development tasks and base platform construction, we shall converge high-end talents of artificial intelligence and form a number of high-level innovation teams in a number of artificial intelligence. We shall encourage and guide domestic innovative talents and strengthen cooperation with the world's top research institutions of artificial intelligence."
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Accelerate the training of high-end talent of gathered artificial intelligence."
+      ],
+      "number": null,
+      "page": 14,
+      "text": "We shall increase the introduction of high-end artificial intelligence talent. We shall open up specialized channels, implement special policies to achieve high precision artificial intelligence introduction. We shall focus on the introduction of neural awareness, machine learning, automatic driving, intelligent robots and other international top scientists and high level of innovation teams. We shall encourage the use of project cooperation, technical advice, etc. flexible introduction of artificial intelligence talent. We shall co-ordinate the use of \"thousands of people plan\" and other existing talent plans to strengthen the field of artificial intelligence talents, especially the introduction of outstanding young talent. We shall Improve the enterprise human capital cost accounting related policies and encourage enterprises, scientific research institutions to introduce artificial intelligence talent."
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build open and cooperative technology system of artificial intelligence .",
+        "Accelerate the training of high-end talent of gathered artificial intelligence."
+      ],
+      "number": null,
+      "page": 14,
+      "text": "We shall construct artificial intelligence. We shall improve the field of artificial intelligence disciplines, establish artificial intelligence professional, promote the building of artificial intelligence as the first-class discipline, establish artificial intelligence college in the pilot institutions as soon as possible, increase the enrollment number of masters and doctors in the related disciplines of artificial intelligence. We shall encourage colleges and universities to broaden the content of artificial intelligence professional education on the basis of the original basis, form a new model of \"artificial intelligence X\" compound professional training and attach importance to cross-integration of professional education of artificial intelligence and mathematics, computer science, physics, biology, psychology, sociology, law and other disciplines. We shall strengthen cooperation in production and research and encourage universities, research institutes and enterprises and other institutions to carry out the construction of artificial intelligence disciplines."
+    },
+    {
+      "id": 89,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Key Tasks"
+      ],
+      "number": "(B)",
+      "page": 14,
+      "text": "Cultivate a high-end and efficient intelligent economy."
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy."
+      ],
+      "number": null,
+      "page": 14,
+      "text": "Accelerate the cultivation of an AI industry that drives innovation; promote deep integration between AI and other industries; and form a data-driven, man-machine collaborated, cross-border integrated, and collective intelligent economy. Data and knowledge become the first element of economic growth. Man-machine collaboration becomes the mainstream production and service. Cross-border integration becomes an important economic model. Personalized demand and customization are new consumer trends. There is a significant increase in productivity. Industries strive towards high-end value chains, acting as strong support for real economic development, and comprehensively enhancing its quality and efficiency."
+    },
+    {
+      "id": 91,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy."
+      ],
+      "number": "1.",
+      "page": 15,
+      "text": "Significantly developing emerging industries in AI."
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Significantly developing emerging industries in AI."
+      ],
+      "number": null,
+      "page": 15,
+      "text": "Speed up the application of key technologies of AI. Promote technology integration and the innovation of new business models. Promote the innovation of smart products in key sectors, and actively cultivate new forms of AI. Lay out high-end industry value chains, and build internationally competitive AI industry clusters."
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Significantly developing emerging industries in AI."
+      ],
+      "number": null,
+      "page": 15,
+      "text": "Intelligent hardware and software. Develop AI for operating systems, databases, middleware, development tools and other key basic software. Break through graphics processors and other core hardware; research on image recognition, speech recognition, machine translation, intelligent interaction, knowledge processing, control decision system solutions, foster growth for AI applications based on the hardware and software industry."
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Significantly developing emerging industries in AI."
+      ],
+      "number": null,
+      "page": 15,
+      "text": "Smart robots. Capture the core components of intelligent robots, special sensors, improve the intelligent robot hardware interface standards, software interface protocol standards and safety standards. Develop intelligent industrial robots, intelligent service robots. The aim is to to achieve large-scale applications for these robots and eventually enter the international market. Develop and promote of space robots, marine robots, polar robots and other special intelligent robots. Establish safety standards and standard physical characteristics for these intelligent robots."
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Significantly developing emerging industries in AI."
+      ],
+      "number": null,
+      "page": 15,
+      "text": "Intelligent vehicles. Develop self-driving vehicles and rail transportation systems. Strengthen the integration between vehicle automatic perception, self-driving technology, the Internet of Vehicles, the internet and other technologies. Support the development of traffic intelligence perception system, the formation of China's own self-driving platform technology system and product assembly capabilities. Explore car sharing mode in self-driving. Develop consumer and commercial UAVs and unmanned boats. Establish test identification, testing, athletics and other professional service systems. Improve airspace and water management measures."
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Significantly developing emerging industries in AI."
+      ],
+      "number": null,
+      "page": 15,
+      "text": "Virtual Reality and Augmented Reality. Break through high-performance software modeling, content shooting generation, enhance interaction between reality and humans/computers, integrate the environment with tools and other key technologies. Develop virtual display devices, optical devices, high-performance True 3D Volumetric Display Technique, development engines and other products. Establish virtual reality and enhanced realism technologies, products, service standards and evaluation systems to promote the integration of key industries."
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Significantly developing emerging industries in AI."
+      ],
+      "number": null,
+      "page": 15,
+      "text": "Smart Terminals. Speed up smart terminals' core technology and product development. Develop a new generation of smart phones, automotive smart terminals and other mobile smart terminal products and equipment to encourage the development of smart watches, smart headphones, smart glasses and other end products that can be worn to expand product form and application services."
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Significantly developing emerging industries in AI."
+      ],
+      "number": null,
+      "page": 16,
+      "text": "The Fundamental Components of the Internet of Things (IoT). Develop a new generation of the Internet of Things (IoT) to support the highly sensitive, highly reliable intelligent sensor devices and chips. Capture radio frequency identification, close-range machine communication and other key technologies such as Internet and low-power processor and other key devices."
+    },
+    {
+      "id": 99,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy."
+      ],
+      "number": "2.",
+      "page": 16,
+      "text": "Accelerate the promotion of industrial intelligence upgrades."
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Accelerate the promotion of industrial intelligence upgrades."
+      ],
+      "number": null,
+      "page": 16,
+      "text": "Promote the integration of AI with industrial innovations. In manufacturing, agriculture, logistics, finance, business, home and other key industries and areas, carry out pilot applications for AI demonstrations. Promote the application of AI scale, and comprehensively enhance the level of industrial development intelligence."
+    },
+    {
+      "id": 101,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Accelerate the promotion of industrial intelligence upgrades."
+      ],
+      "number": null,
+      "page": 16,
+      "text": "Intelligent manufacturing. Focus on the major needs of manufacturing. Promote key technological equipment for intelligent manufacturing, the core support software, industrial Internet systems integration applications. Research and develop intelligent products and intelligent interconnection products, intelligent manufacturing tools and systems, and intelligent manufacturing cloud service platforms. Promote intelligent manufacturing processes, discrete intelligent manufacturing, network collaborative manufacturing, remote diagnosis and operation and maintenance services and other new manufacturing model, the establishment of intelligent manufacturing standard system to promote the manufacturing life cycle of intelligent activities."
+    },
+    {
+      "id": 102,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Accelerate the promotion of industrial intelligence upgrades."
+      ],
+      "number": null,
+      "page": 16,
+      "text": "Intelligent agriculture. Develop agricultural intelligent sensors and control systems, intelligent agricultural equipment, farm machinery field operations autonomous system. Establish Intelligent Integrated Agricultural Information Remote Sensing Monitoring Network. Establish agricultural big dat-driven intelligent decision analysis system to carry out intelligent farms, intelligent plants, intelligent pastures, intelligent fishing grounds, intelligent orchards, intelligent processing workshops of agricultural products, agricultural green intelligent supply chains and other integrated application demonstration."
+    },
+    {
+      "id": 103,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Accelerate the promotion of industrial intelligence upgrades."
+      ],
+      "number": null,
+      "page": 16,
+      "text": "Intelligent logistics. Strengthen intelligent loading and unloading, handling, packaging & sorting, processing and distribution of intelligent logistics equipment research and development and application. Construct deep perception intelligent storage systems to enhance storage operations' level of management and efficiency. Through intelligent logistics, improve public information platforms and command systems, product quality certifications and traceability systems, and intelligent distribution scheduling systems."
+    },
+    {
+      "id": 104,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Accelerate the promotion of industrial intelligence upgrades."
+      ],
+      "number": null,
+      "page": 16,
+      "text": "Smart finance. Establish large financial data systems to enhance financial multimedia data processing and understanding. Innovative smart financial products and services. Develop new financial formats. Encourage the financial industry to apply intelligent customer service, intelligent monitoring and other technologies and equipment. Establish financial risk early detection, prevention and control systems."
+    },
+    {
+      "id": 105,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Accelerate the promotion of industrial intelligence upgrades."
+      ],
+      "number": null,
+      "page": 17,
+      "text": "Business Intelligence Encourage cross-media analysis and reasoning. Apply knowledge computing engines, knowledge services and other new technologies in the field of business. Promote AI based on new business services and decision-making systems. Construct geography, network media, basic urban data and other cross-media big data platforms to support enterprises carrying out intelligent business. Encourage the provision of customized business intelligence decision-making services around individual needs and business management."
+    },
+    {
+      "id": 106,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Accelerate the promotion of industrial intelligence upgrades."
+      ],
+      "number": null,
+      "page": 17,
+      "text": "Smart home. Strengthen the integration of AI technology with home building systems to enhance construction equipment and household products' levels of intelligence. R&D to adapt to different scenarios of home interoperability protocols, interface standards. Enhance home appliances, durable goods and other household products' perceptiblity and connectivity capabilities. Support intelligent home business innovation service model, to provide Internet sharing solution."
+    },
+    {
+      "id": 107,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy."
+      ],
+      "number": "3.",
+      "page": 17,
+      "text": "Significantly develop Intelligent Enterprise"
+    },
+    {
+      "id": 108,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Significantly develop Intelligent Enterprise"
+      ],
+      "number": null,
+      "page": 17,
+      "text": "Large-scale promotion of Intelligent Enterprise upgrades. Support and guide enterprises in the design, production, management, logistics and marketing and other core business segments of the application of AI technology. Build a new enterprise organizational structure and mode of operation, the formation of manufacturing and services, integrating intelligent finance with business model. Develop personalized customizations. Expand the supply of intelligent products. Encourage large-scale Internet enterprises to build cloud manufacturing platforms and service platforms, for manufacturing enterprises online to provide key industrial software and model library. Carry out manufacturing capacity outsourcing services to promote the development of SMEs towards AI."
+    },
+    {
+      "id": 109,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Significantly develop Intelligent Enterprise"
+      ],
+      "number": null,
+      "page": 17,
+      "text": "Promote the application of smart factories. Strengthen the application of key technologies and system methods of smart factories. Focus on the promotion of production line reconfiguration and dynamic intelligent dispatching, production equipment, intelligent materials and cloud data acquisition, multi-dimensional human resources collaboration and interoperability technology. Encourage and guide enterprises to build big data systems for factories, networked distributed production facilities. Achieve the production of equipment network, visualization of production data, the production process transparency, unmanned production sites, and enhance the intelligence level of factory operations and management."
+    },
+    {
+      "id": 110,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Significantly develop Intelligent Enterprise"
+      ],
+      "number": null,
+      "page": 17,
+      "text": "Accelerate the cultivation of AI industry leader. In UAVs, voice recognition, image recognition and other areas, accelerate the capabilities of AI to become a global leader and brand. In intelligent robots, smart cars, wearable equipment, virtual reality and other emerging areas, speed up the cultivation of a number of leading enterprises. Support the AI enterprises to strengthen patent layouts. Take the lead or participate in international standard setting. Promote domestic enterprises and their pioneering work, industry organizations, research institutions, universities and other joint alliances in China's AI industry. Support the backbone enterprises to build open source hardware factory, open source software platforms, the formation of various types of resources to promote the ecological innovation. Promote the development of micro, small and medium-sized enterprises developments and all-around applications. Support all institutions and platforms that use AI to provide professional services."
+    },
+    {
+      "id": 111,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy."
+      ],
+      "number": "4.",
+      "page": 18,
+      "text": "Take AI to new heights"
+    },
+    {
+      "id": 112,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Take AI to new heights"
+      ],
+      "number": null,
+      "page": 18,
+      "text": "Combine the regional basis and advantages, according to the field of AI applications related to the layout of the relevant industries. Encourage local around the AI industry chain and innovation chain, gather high-end elements, high-end enterprises, high-end talent. Build AI industry clusters and elevate innovation to new heights."
+    },
+    {
+      "id": 113,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Take AI to new heights"
+      ],
+      "number": null,
+      "page": 18,
+      "text": "Carry out pilot demonstrations for applications of AI. In the areas where the AI is better and the development potential is bigger, the organization will carry out the national AI innovation experiment. Explore the system mechanism, policy regulations, the cultivation of talent and so on the big reform, promotes the transformation of the AI achievement, the big product integration innovation and the demonstration application. Form replicable, promotable experience, leading to promote intelligent economy and intelligent social development."
+    },
+    {
+      "id": 114,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Take AI to new heights"
+      ],
+      "number": null,
+      "page": 18,
+      "text": "Construct National AI Industrial Park. Relying on the national independent innovation demonstration area and the national high-tech industry development zone and other innovative carriers, strengthen the optimal allocation and combination of science and technology, talent, finance, policy and other elements. Accelerate the construction of AI industry innovation clusters."
+    },
+    {
+      "id": 115,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Cultivate a high-end and efficient intelligent economy.",
+        "Take AI to new heights"
+      ],
+      "number": null,
+      "page": 18,
+      "text": "Construct national AI base. Rely on people engaged in AI research from colleges, universities, scientific research institutes concentrated areas. Build AI field of professional innovation platform and other new entrepreneurial service agencies, the construction of a number of low-cost, convenient, all elements, open AI all creation space, Hatch service system, to promote the transformation of artificial and technological achievements of scientific and technological transformation, to support AI innovation and entrepreneurship."
+    },
+    {
+      "id": 116,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Key Tasks"
+      ],
+      "number": "(C)",
+      "page": 18,
+      "text": "Construct safe and convenient intelligent society."
+    },
+    {
+      "id": 117,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society."
+      ],
+      "number": null,
+      "page": 18,
+      "text": "Around the goal of improving people's living standards and quality, speed up the depth of the application of AI, develop all-encompassing, ubiquitous intelligent environments, which will significantly increase the whole society's level of intelligence. More and more simple, repetitive, dangerous tasks are completed by AI, through which individual creativity has been greatly utilized. This has led to the creation of more high-quality and high-comfort jobs; precision intelligent services are more diverse, and people can enjoy high-quality services and a more convenient life in general; social governance, due to the substantial increase in the level of intelligence, has led to more secure and efficient social operations."
+    },
+    {
+      "id": 118,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society."
+      ],
+      "number": "1.",
+      "page": 19,
+      "text": "The development of convenient and efficient intelligent services ."
+    },
+    {
+      "id": 119,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "The development of convenient and efficient intelligent services ."
+      ],
+      "number": null,
+      "page": 19,
+      "text": "Around education, health care, pension and other urgent needs in society, accelerate the application of innovative AI for the public to provide personalized, diversified, high-quality services."
+    },
+    {
+      "id": 120,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "The development of convenient and efficient intelligent services ."
+      ],
+      "number": null,
+      "page": 19,
+      "text": "Intelligent education. Use intelligent technology to accelerate the promotion of personnel training models, teaching methods reform. The new education system includes interactive learning and intelligent learning. Carry intelligent campus construction, promote AI in teaching, management, resource construction and other full-scale applications. Develop three-dimensional integrated teaching fields, based on big data intelligence online learning platforms. Develop intelligent education assistants, establish intelligent, fast and comprehensive education analysis systems. Establish a learner-centered educational environment. Provide precision push education services to achieve daily education and life-long education."
+    },
+    {
+      "id": 121,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "The development of convenient and efficient intelligent services ."
+      ],
+      "number": null,
+      "page": 19,
+      "text": "Intelligent medical care. Promote the use of new AI methods of treatment for new ways to establish a rapid and accurate intelligent medical system. Explore smart hospital construction. Development man-machine coordination in surgical robots, intelligent clinic assistants. Research and development of flexible, wearable, biologically compatible physiological monitoring systems. Research and development of human-computer collaboration in clinical intelligent diagnosis and treatment programs to achieve intelligent image recognition, pathological classification and intelligent multi-consultation. Based on AI, carry out large-scale genome recognition, proteomics, metabolomics and other research and development of new drugs to promote intelligent pharmaceutical regulation. Strengthen epidemic intelligence monitoring, prevention, and control."
+    },
+    {
+      "id": 122,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "The development of convenient and efficient intelligent services ."
+      ],
+      "number": null,
+      "page": 19,
+      "text": "Intelligent health and old age. Strengthen collective intelligent health management. Break through in big data healthcare analytics, Internet of Things and other key technologies. Research and develop health management wearable equipment and home intelligent health testing and monitoring equipment. Promote health management from discrete monitoring to continuous monitoring, and change from short process management to long process management. Construct smart old-age communities and institutions. Build a safe and convenient smart pension infrastructure system. Improve the intelligence and intuitiveness of elderly products. Develop audio-visual aids, physical auxiliary equipment and other intelligent home care equipment. Expand space for activities for the elderly. Develop mobile social and service platforms for the elderly and companion care services to enhance the quality of life of the elderly."
+    },
+    {
+      "id": 123,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society."
+      ],
+      "number": "2.",
+      "page": 19,
+      "text": "Promote social governance intelligence."
+    },
+    {
+      "id": 124,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "Promote social governance intelligence."
+      ],
+      "number": null,
+      "page": 20,
+      "text": "Address the hot and difficult issues in administrative management, judicial management, urban management, environmental protection and other social governance by promoting the application of AI technology to promote social governance modernization."
+    },
+    {
+      "id": 125,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "Promote social governance intelligence."
+      ],
+      "number": null,
+      "page": 20,
+      "text": "Intelligent government. Develop AI platforms for government services and decision-making. Develop decision-making engines for the open environment and to promote them in the judgment of complex social problems, policy assessment, risk warning, emergency response and other major strategic decision-making aspects. Strengthen the integration between government information resources and accurate forecasting of public demand, as well as smooth communication channels between the government and the public."
+    },
+    {
+      "id": 126,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "Promote social governance intelligence."
+      ],
+      "number": null,
+      "page": 20,
+      "text": "Wisdom court. Establish a set of trial, personnel, data applications, judicial disclosure and dynamic monitoring in one of the wisdom of the court data platform. Promote the application of AI in evidence collection, case analysis, legal document reading and analysis. Achieve intelligence in the trial system and judicial capacity."
+    },
+    {
+      "id": 127,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "Promote social governance intelligence."
+      ],
+      "number": null,
+      "page": 20,
+      "text": "Smart cities. Construct the infrastructure for smart cities. Develop smart construction, and promote the upgrading of underground corridors and other municipal infrastructure. Construct big data urban platform to build a multi-heterogeneous data integration of urban operation and management system to achieve the urban infrastructure and urban green space, wetlands and other important ecological elements of the comprehensive perception and the depth of urban complex system operation awareness. Research and develop community public service information systems to promote community service systems and residents of intelligent home system collaboration. Promote periodical updates to smart urban planning, construction, and management."
+    },
+    {
+      "id": 128,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "Promote social governance intelligence."
+      ],
+      "number": null,
+      "page": 20,
+      "text": "Intelligent Transportation System. Study the establishment of self-driving vehicles and vehicle infrastructure integration. Research and develop complex traffic under the complex multi-dimensional traffic information platform, smart traffic control and integrated operation to coordinate the command. Build smart traffic monitoring, management, and service systems underground, on tracks, in the air and at sea."
+    },
+    {
+      "id": 129,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "Promote social governance intelligence."
+      ],
+      "number": null,
+      "page": 20,
+      "text": "Intelligent environmental protection. Establish big data platform for smart monitoring in the atmosphere, water, soil and other environmental areas. Build land and sea interaction, land and earth interaction, and information-sharing intelligent environment monitoring network and service platform. Research and develop intelligent forecasting models and early warning programs for resource energy consumption and environmental pollutant discharge. Strengthen the environmental protection and intelligent prevention and control systems for sudden environmental events in Beijing-Tianjin-Hebei, Yangtze River Economic Zone and other major national strategic regions."
+    },
+    {
+      "id": 130,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society."
+      ],
+      "number": "3.",
+      "page": 20,
+      "text": "Use AI to Improve Public Safety Measures."
+    },
+    {
+      "id": 131,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "Use AI to Improve Public Safety Measures."
+      ],
+      "number": null,
+      "page": 21,
+      "text": "Promote further applications of AI in the field of public safety, and promote the construction of public safety intelligent monitoring and early warning and control systems. Research and develop a variety of detection sensor technologies, video image information analysis and identification technology, biometric identification technology, intelligent security and police products, around the comprehensive management of the community, criminal investigation, anti-terrorism and other urgent needs. Establish an intelligent monitoring platform. Strengthen the intelligence of security equipment in key public areas. Support the conditions of the community or the city based on AI to carry out public security regional demonstration. Strengthen the AI of food safety protection. Establish an intelligent food safety early warning system for food classification, warning levels, and food safety risks and assessment. Strengthen the effective monitoring of natural disasters. Build a comprehensive intelligent monitoring and early warning response platform around earthquake disasters, geological disasters, meteorological disasters, floods, marine disasters, and other major natural disasters."
+    },
+    {
+      "id": 132,
+      "type": "heading",
+      "level": 3,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society."
+      ],
+      "number": "4.",
+      "page": 21,
+      "text": "Promote social interaction and mutual trust."
+    },
+    {
+      "id": 133,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Construct safe and convenient intelligent society.",
+        "Promote social interaction and mutual trust."
+      ],
+      "number": null,
+      "page": 21,
+      "text": "Encourage the role of AI technology in enhancing social interaction and promoting credible communication. Strengthen the next generation of social network research and development. Accelerate innovation in virtual reality and other technologies to promote the integration between the virtual environment and physical environment, in order to satisfy individual senses, analysis, judgment, decision-making, and other real-time visceral needs. Implement such innovations in work, study, life, entertainment and in other areas. Improve interpersonal communication needs by developing assistant products that engage in intelligent interaction with the ability to accurately understand emotional cues and mimic genuine human communication and demand to meet the virtuous circle. Promote the integration of block chain technology and AI, establish a new social credit system, and minimize the cost and risk of interpersonal communication."
+    },
+    {
+      "id": 134,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Key Tasks"
+      ],
+      "number": "(D)",
+      "page": 21,
+      "text": "Strengthen AI in the field of military-civilian integration."
+    },
+    {
+      "id": 135,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Strengthen AI in the field of military-civilian integration."
+      ],
+      "number": null,
+      "page": 21,
+      "text": "Depth implementation of military-civilian integration and development strategy. Promote the formation of multi-element, multi-field, highly efficient AI integration of military and civilian pattern. Build a new generation of AI based on the common theory and key common technology research and development. Establish the normalization of communication and coordination mechanism in scientific research institutes, universities, enterprises and military units. Promote AI technology in military-civilian two-way transformation. Strengthen a new generation of AI technology in command-and-decision, military deduction, defense equipment, strong support, and guide AI in the field of defense technology to civilian applications. Encourage participation of folk scientific research in the field of national defense intelligence and major scientific/technological innovation tasks. Promote all kinds of AI technology quickly embedded in the field of national defense innovation. Strengthen the military and civilian intelligence technology standard system construction. Promote science and technology innovation platform base of the overall layout and open sharing."
+    },
+    {
+      "id": 136,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Key Tasks"
+      ],
+      "number": "(E)",
+      "page": 22,
+      "text": "Build a safe and efficient intelligent infrastructure system."
+    },
+    {
+      "id": 137,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Build a safe and efficient intelligent infrastructure system."
+      ],
+      "number": null,
+      "page": 22,
+      "text": "Vigorously promote the construction of intelligent information infrastructure. Enhance the traditional level of intelligent infrastructure to form a smart economy, intelligent society, and satisfies national defense needs. Speed up the promotion of information transmission as the core of the digital and network information infrastructure. Set integration awareness, transmission, storage, computing, processing in one of the intelligent information infrastructure changes. Optimize the upgrade of the network infrastructure. Research and develop the layout for the fifth generation of mobile communications (5G) system. Improve the Internet of Things infrastructure, to speed up the integration of information network construction, improve low latency, and high-throughput transmission capacity. Co-ordinate the use of big data infrastructure, strengthen data security and privacy protection. Provide massive data support for AI research and development and extensive application. Build high-performance computing infrastructure, and enhance the service support capabilities of the Supercomputing Center for AI applications. Construct a distributable and efficient energy Internet, the formation of multi-energy support complementary, timely and effective access to new energy networks. Promote intelligent energy storage facilities, intelligent electricity facilities, energy supply and demand information to achieve real-time matching and intelligent response."
+    },
+    {
+      "id": 138,
+      "type": "heading",
+      "level": 3,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build a safe and efficient intelligent infrastructure system."
+      ],
+      "number": null,
+      "page": 22,
+      "text": "Box 4 Intelligent infrastructure"
+    },
+    {
+      "id": 139,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build a safe and efficient intelligent infrastructure system.",
+        "Box 4 Intelligent infrastructure"
+      ],
+      "number": "1.",
+      "page": 22,
+      "text": "Network infrastructure. Speed up the layout of real-time collaboration with AI 5G Enhance the technology research and development and application. Construct space-oriented collaborative AI of high-precision navigation and positioning network. Strengthen the core of intelligent sensor network technology research and key facilities. Develop and support of intelligent industrial Internet, for unmanned car networking, research intelligence Network security architecture. Speed up the construction of integrated information network between land and sky. Promote the full integration between space-based information network, the future of the Internet, and mobile communication network."
+    },
+    {
+      "id": 140,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build a safe and efficient intelligent infrastructure system.",
+        "Box 4 Intelligent infrastructure"
+      ],
+      "number": "2.",
+      "page": 22,
+      "text": "Big data infrastructure. Relying on the national data sharing exchange platform, data open platform and other public infrastructures, construct government governance, public services, industrial development, technology research and development and other fields of large data base information database that support the implementation of national governance data applications. Integrate various types of social data platforms and data center resources. Form integrated service capabilities that cover the entire country, the layout is reasonable."
+    },
+    {
+      "id": 141,
+      "type": "list_item",
+      "level": null,
+      "category": "Box",
+      "path": [
+        "Key Tasks",
+        "Build a safe and efficient intelligent infrastructure system.",
+        "Box 4 Intelligent infrastructure"
+      ],
+      "number": "3.",
+      "page": 22,
+      "text": "High performance computing infrastructure. Continue to strengthen the supercomputing infrastructure, distributed computing infrastructure and cloud computing center construction. Build a sustainable ecosystem for the consistent development of high-performance computing applications. Promote the next generation of supercomputer research and development applications."
+    },
+    {
+      "id": 142,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Key Tasks"
+      ],
+      "number": "(F)",
+      "page": 23,
+      "text": "Lay out a new generation of AI major science and technology projects."
+    },
+    {
+      "id": 143,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Lay out a new generation of AI major science and technology projects."
+      ],
+      "number": null,
+      "page": 23,
+      "text": "Focusing on China's AI needs and weak links, establish a new generation of major scientific and technological projects in AI. Strengthen the overall co-ordination. Clarify task boundaries and R&D focus. Form a new generation of major scientific and technological projects in AI as the core. The existing R&D layout should support the \"1+N\" AI Program."
+    },
+    {
+      "id": 144,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Lay out a new generation of AI major science and technology projects."
+      ],
+      "number": null,
+      "page": 23,
+      "text": "\"1\" refers to a new generation of major scientific and technological projects in AI. Focus on the basic theory and key common technology forward-looking layout, including the study of big data intelligence, cross-media perception computing, hybrid enhanced intelligence, group intelligence, autonomous collaborative control and decision-making theory. Compute engine and knowledge service technology, cross-media analysis reasoning technology, group intelligent key technology, hybrid enhanced intelligent new architecture and new technology, autonomous unmanned control technology, open source sharing AI basic theory and common technology."
+    },
+    {
+      "id": 145,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Lay out a new generation of AI major science and technology projects."
+      ],
+      "number": null,
+      "page": 23,
+      "text": "Continue to carry out the development of predictions and research in AI. Strengthen the economic and social impacts of AI on the economic and social impact as well as their countermeasures."
+    },
+    {
+      "id": 146,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Lay out a new generation of AI major science and technology projects."
+      ],
+      "number": null,
+      "page": 23,
+      "text": "\"N\" refers to the national planning and deployment of AI research and development projects. The focus is on strengthening the convergence of the new generation of major scientific and technological projects. Collaboratively promote research in artificial technology for breakthroughs and product development applications. Strengthen the convergence of major national science and technology projects, in the \"nuclear high base\" (core electronic devices, high-end general-purpose chips, basic software). Integrate circuit equipment and other national science and technology major projects to support AI hardware and software development. Strengthen the support between \"Technological Innovations 2030 - major projects.\" Speed up brain science and brain computing, quantum information and quantum computing, intelligent manufacturing and robotics, big data and other research, to provide support for major breakthroughs in AI. The national key research and development program will continue to promote high-performance computing and other key special implementations, increasing support for research and development of AI applications. The National Natural Science Foundation will strengthen support for cross-disciplinary research and exploration in the field of AI. In the deep sea space station, health protection and other major projects, as well as smart cities, smart agricultural equipment and other key national R&D projects are focused on special deployment, strengthening the technical applications of AI. Other types of science and technology projects to support the basic theory of AI and common technology research results should be open and shared."
+    },
+    {
+      "id": 147,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Key Tasks",
+        "Lay out a new generation of AI major science and technology projects."
+      ],
+      "number": null,
+      "page": 23,
+      "text": "Innovate a new generation of major scientific and technological projects in AI to organize the implementation of the model. Adhere to focus on doing things, focusing on the principle of breaking through, and fully utilizing the role of market mechanisms to mobilize departments, locale, businesses and social forces to collectively promote the implementation. Clarify management responsibilities and regular assessments. Strengthen dynamic adjustments and improve management efficiency."
+    },
+    {
+      "id": 148,
+      "type": "heading",
+      "level": 1,
+      "category": "Body",
+      "path": [],
+      "number": "IV.",
+      "page": 24,
+      "text": "Allocation of Resources"
+    },
+    {
+      "id": 149,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Allocation of Resources"
+      ],
+      "number": null,
+      "page": 24,
+      "text": "Make full use of existing funds, bases and other stock resources. The overall allocation of international and domestic innovation resources, good financial investments, the role of policy incentives and market allocation of resources leading role, leveraging enterprises, social investment, the formation of financial funds, capital, social capital to support the new pattern."
+    },
+    {
+      "id": 150,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Allocation of Resources"
+      ],
+      "number": "(A)",
+      "page": 24,
+      "text": "Establish financial guidance, market-led financial support mechanism."
+    },
+    {
+      "id": 151,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Allocation of Resources",
+        "Establish financial guidance, market-led financial support mechanism."
+      ],
+      "number": null,
+      "page": 24,
+      "text": "Co-ordinate the government and market multi-channel capital investments. Increase financial support, revitalize existing resources. Provide support for application demonstrations in the forefront of AI research, key common technology research, transfer of results, and base platform construction. Use existing government investment funds to support AI projects that are qualified. Encourage leading enterprises, industry innovation alliance led the establishment of market-oriented AI development fund. Use angel investment, venture capital, venture capital funds and capital market financing and other channels to guide social capital to support the development of AI. Actively use the government and social capital cooperation and other models to direct social capital towards the implementation of major scientific and technological projects in AI in various applications."
+    },
+    {
+      "id": 152,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Allocation of Resources"
+      ],
+      "number": "(B)",
+      "page": 24,
+      "text": "Optimize the layout of the construction of a foundation for innovation in AI."
+    },
+    {
+      "id": 153,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Allocation of Resources",
+        "Optimize the layout of the construction of a foundation for innovation in AI."
+      ],
+      "number": null,
+      "page": 24,
+      "text": "In accordance with the national science and technology innovation layout and framework, promote the field of AI to build a number of international leading innovation base. Guide the existing key national laboratories, key enterprise laboratories, national engineering laboratories and other bases that focus on AI, towards the forefront of AI research. According to regulations, enterprises are the main body, production and research cooperation in the field of AI related technology and industrial innovation base, play a leading role in demonstrating technological innovation. Develop AI in the field of professional space. Promote the latest technological achievements and resources, services, precision docking. Fully utilize all kinds of innovation base to gather talent, capital and other innovative resources. The role of being at the forefront of AI theory and key common technology, and carry out demonstrations of its applications."
+    },
+    {
+      "id": 154,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Allocation of Resources"
+      ],
+      "number": "(C)",
+      "page": 24,
+      "text": "Co-ordinate international and domestic innovative resources."
+    },
+    {
+      "id": 155,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Allocation of Resources",
+        "Co-ordinate international and domestic innovative resources."
+      ],
+      "number": null,
+      "page": 24,
+      "text": "Support domestic AI enterprises and international AI leading universities, research institutes, and teamwork. Encourage domestic AI enterprises to \"go out.\" Provide services to capable AI enterprises to carry out overseas mergers and acquisitions, equity investment, venture capital and the establishment of overseas R&D centers. Encourage foreign AI enterprises and research institutions to set up R&D centers in China. Relying on the \"One Belt, One Road\" strategy to promote the construction of international AI scientific and technological cooperation bases and joint research centers, and to speed up the AI technology in \"One Belt, One Road\" along the country to promote the application. Promote the establishment of international AI organizations to jointly develop relevant international standards. Support the relevant industry associations, alliances and service agencies to build AI services for global service platforms."
+    },
+    {
+      "id": 156,
+      "type": "heading",
+      "level": 1,
+      "category": "Body",
+      "path": [],
+      "number": "V.",
+      "page": 25,
+      "text": "Assurance Measures"
+    },
+    {
+      "id": 157,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Assurance Measures"
+      ],
+      "number": null,
+      "page": 25,
+      "text": "Based on China's need to promote the healthy and rapid development of AI, it is necessary to deal with the possible challenges of AI by forming an institutional arrangements to adapt to the development of AI. Build an open and inclusive international environment and reinforce the notion of AI development as the foundation for society."
+    },
+    {
+      "id": 158,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Assurance Measures"
+      ],
+      "number": "(A)",
+      "page": 25,
+      "text": "Develop laws and regulations and ethical norms that promote the development of AI."
+    },
+    {
+      "id": 159,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Assurance Measures",
+        "Develop laws and regulations and ethical norms that promote the development of AI."
+      ],
+      "number": null,
+      "page": 25,
+      "text": "Strengthen the research on legal, ethical and social issues related to AI, and establish laws, regulations and ethical frameworks to ensure the healthy development of AI. Carry out research on legal issues such as civil and criminal responsibility confirmation, privacy and property protection, information security utilization related to the application of AI. Establish a traceability and accountability system. Clarify the legalities of AI and related rights, obligations and responsibilities. Focus on automatic driving, service robots and other applications based on the better subdivision areas. Speed up the study and development of relevant safety management laws and regulations, lay the legal framework for the rapid application of new technology. Carry out AI in behavioral science, the study of ethics and other issues. Establish ethical and moral multi-level judgment structure and the ethical framework in human-computer collaboration. Develop a code of ethics for R&D designers of AI products. Strengthen assessments of potential hazards and benefits of AI, and build solutions for emergencies in complex situations. Actively participate in global governance of AI. Strengthen the study of major common international problems such as robot alienation and safety supervision. Deepen international cooperation in AI laws and regulations, international rules and so on, and jointly cope with global challenges."
+    },
+    {
+      "id": 160,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Assurance Measures"
+      ],
+      "number": "(B)",
+      "page": 25,
+      "text": "Improve the key policies that support AI development."
+    },
+    {
+      "id": 161,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Assurance Measures",
+        "Improve the key policies that support AI development."
+      ],
+      "number": null,
+      "page": 25,
+      "text": "Implement tax incentives for small and medium AI enterprises and start-up enterprises. Through high-tech enterprises tax incentives and R&D additional deductions and other policies to support the development of AI enterprises. Improve the implementation of open data and protection-related policies. Expand public data to open the use of reform pilot to support the public and enterprises to fully tap the commercial value of public data, and promote the application of AI innovation. Study and perfect the incorporation of AI into education, medical care, insurance and social assistance. Effectively deal with social problems brought by AI."
+    },
+    {
+      "id": 162,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Assurance Measures"
+      ],
+      "number": "(C)",
+      "page": 26,
+      "text": "Establish standards and the intellectual property system for AI technology."
+    },
+    {
+      "id": 163,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Assurance Measures",
+        "Establish standards and the intellectual property system for AI technology."
+      ],
+      "number": null,
+      "page": 26,
+      "text": "Strengthen research on the framework of AI. Adhere to the principles of security, availability, interoperability, traceability, and gradually establish and improve the basics of AI, interoperability, industry applications, network security, privacy protection and other technical standards. Speed up the promotion of unmanned, service robots and other segments of industry associations and the Union to develop relevant standards. Encourage AI enterprises to participate in or lead the development of international standards. Using the technical standard \"going out\" to promote the application of AI products overseas. Strengthen the protection of intellectual property in the field of AI. Improve technological innovation in the field of AI, patent protection and standardization of interactive support mechanism to promote the innovation of AI intellectual property rights. Establish AI public patent pools. Promote the use of AI and the spread of new technologies."
+    },
+    {
+      "id": 164,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Assurance Measures"
+      ],
+      "number": "(D)",
+      "page": 26,
+      "text": "Establish safety supervision and evaluation systems for AI."
+    },
+    {
+      "id": 165,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Assurance Measures",
+        "Establish safety supervision and evaluation systems for AI."
+      ],
+      "number": null,
+      "page": 26,
+      "text": "Strengthen the research and evaluation of the influence of AI in national security. Improve the safety protection system of human, technology, material and pipe, and construct the early warning mechanism in AI safety monitoring. Strengthen the development of AI technology prediction, research and follow-up research. Adhere to problem-specific and accurate interpretations of technology and industry trends. Enhance risk awareness; pay attention to risk assessment, prevention and control. Strengthen the prospective prevention and restraint guidance, the recent focus on the impact of employment, long-term focus on the impact of social ethics, to ensure that the development of AI is safe. Establish and improve the open and transparent AI supervision system. Implement design accountability and application of the supervision of the two-tier regulatory structure. Achieve AI algorithm design, monitor product development, application of results, and the rest of the process. Promote self-discipline in AI enterprises and the industry. Earnestly strengthen management. Increase disciplinary measures against the abuse of data, violations of personal privacy, and anything morally unethical. Strengthen R&D in AI network security technology. Strengthen systems network security protection in AI products. Develop dynamic AI research and development evaluation mechanism. Around the AI design, product and system complexity, risk, uncertainty, interpretability, potential economic impact and other issues, develop systematic testing methods and indicators system. Construct cross-domain AI test platforms to promote AI safety certification, assessment of AI products and systems of key performance."
+    },
+    {
+      "id": 166,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Assurance Measures"
+      ],
+      "number": "(E)",
+      "page": 26,
+      "text": "Vigorously strengthen training for the labor force working in AI."
+    },
+    {
+      "id": 167,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Assurance Measures",
+        "Vigorously strengthen training for the labor force working in AI."
+      ],
+      "number": null,
+      "page": 26,
+      "text": "Accelerate the study of how AI affects the employment structure, the change of employment methods and the skills demands of new occupations and jobs. Establish lifelong learning and employment training systems to meet the needs of intelligent economy and intelligent society, and support institutions of higher learning, vocational schools and socialization training Institutions to carry out AI skills training, substantially increasing the professional skills of workers to meet the demands of the high-quality jobs in China's AI research. Encourage enterprises and organizations to provide AI skills training for employees. Strengthen re-employment training and guidance for workers to ensure that simple and repetitive work and the smooth transition of workers due to AI."
+    },
+    {
+      "id": 168,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Assurance Measures"
+      ],
+      "number": "(F)",
+      "page": 27,
+      "text": "Carry out a wide range of AI science activities."
+    },
+    {
+      "id": 169,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Assurance Measures",
+        "Carry out a wide range of AI science activities."
+      ],
+      "number": null,
+      "page": 27,
+      "text": "Support the development of a variety of AI science activities. Encourage the broad masses of scientific and technological workers to join the AI of popular science and promotion. Comprehensively improve the whole society's overall intelligence on and application of AI. Implement universal intelligence education project. In primary and secondary schools, offer AI-related courses, and gradually promote the programming education, to encourage society to participate in educational programming software, game development and promotion. Construct and improve AI science infrastructure. Fully utilize all kinds of AI innovation base platform and other popular science role. Encourage AI enterprises, research institutions to build open source platforms, open AI research and development platforms, production facilities or exhibition hall for the public. Support the development of AI competition, to encourage the formation of a variety of AI science creations. Encourage scientists to participate in AI science."
+    },
+    {
+      "id": 170,
+      "type": "heading",
+      "level": 1,
+      "category": "Body",
+      "path": [],
+      "number": "VI.",
+      "page": 27,
+      "text": "Organization and Implementation"
+    },
+    {
+      "id": 171,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Organization and Implementation"
+      ],
+      "number": null,
+      "page": 27,
+      "text": "A new generation of AI development planning is comprehensive and forward-looking. We must strengthen the organization and leadership, improve the mechanism, aim at the target, focus on the task, to nail the spirit of a firm grasp, a blueprint in the end."
+    },
+    {
+      "id": 172,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Organization and Implementation"
+      ],
+      "number": "(A)",
+      "page": 27,
+      "text": "Organization and leadership."
+    },
+    {
+      "id": 173,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Organization and Implementation",
+        "Organization and leadership."
+      ],
+      "number": null,
+      "page": 27,
+      "text": "In accordance with the unified arrangements of the CPC Central Committee and the State Council, the leading group of national science and technology system reform and innovation system construction should take the lead in coordinating and reviewing major tasks, major policies, major issues and key work arrangements to promote the construction, guidance, coordination and supervision of relevant laws and regulations on AI. The relevant departments to do the deployment of planning tasks. Relying on the national science and technology plan (special, fund, etc.) management inter-ministerial joint meeting, the Ministry of Science and Technology, in conjunction with the relevant departments, will be responsible for promoting a new generation of major scientific and technological projects in AI to strengthen coordination with other planning tasks. Establish AI planning and promote it to offices. The office is located in the Ministry of Science and Technology, specifically responsible for promoting the implementation of planning. Establish the AI strategy advisory committee, which will study the scope and strategic major issues of AI. It will provide advisory assessment for any major decision-making. Promote the construction of AI think tanks. Support all kinds of think tanks to carry out major research on AI, and offer strong intellectual support for AI development."
+    },
+    {
+      "id": 174,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Organization and Implementation"
+      ],
+      "number": "(B)",
+      "page": 28,
+      "text": "Protect the implementation."
+    },
+    {
+      "id": 175,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Organization and Implementation",
+        "Protect the implementation."
+      ],
+      "number": null,
+      "page": 28,
+      "text": "Clarify division labor in planning tasks. Clarify responsibility units and schedule. Develop annual and phased implementation plan. Establish annual assessments, mid-term assessments and other implementations of the monitoring and evaluation mechanism. Adapt to the rapid developments of AI according to the progress of the tasks. The completion of the stage objectives, new trends in technology development. Strengthen the planning and project dynamic adjustment."
+    },
+    {
+      "id": 176,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Organization and Implementation"
+      ],
+      "number": "(C)",
+      "page": 28,
+      "text": "Pilot demonstrations."
+    },
+    {
+      "id": 177,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Organization and Implementation",
+        "Pilot demonstrations."
+      ],
+      "number": null,
+      "page": 28,
+      "text": "On the major tasks of AI and key policy measures, develop specific programs to carry out pilot demonstrations. Strengthen coordination efforts between various departments for local pilot demonstrations, summarize timely the promotion of replicable experience and practices. Through pilot first, demonstration lead, promote the healthy and orderly development of AI."
+    },
+    {
+      "id": 178,
+      "type": "heading",
+      "level": 2,
+      "category": "Body",
+      "path": [
+        "Organization and Implementation"
+      ],
+      "number": "(D)",
+      "page": 28,
+      "text": "Public opinion guidance."
+    },
+    {
+      "id": 179,
+      "type": "paragraph",
+      "level": null,
+      "category": "Body",
+      "path": [
+        "Organization and Implementation",
+        "Public opinion guidance."
+      ],
+      "number": null,
+      "page": 28,
+      "text": "Make full use of the variety of traditional media and new media, timely publicity of new progress in AI, new results, to inform the public of healthy developments in AI. Mobilize the whole society to participate in supporting the development of AI initiatives. Timely public opinion guidance, better response to the development of AI may bring social, ethical and legal challenges."
+    }
+  ]
+}
