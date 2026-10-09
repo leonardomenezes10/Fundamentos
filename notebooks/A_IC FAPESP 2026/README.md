@@ -29,6 +29,7 @@ Cada subpasta corresponde a um conjunto documental (corpus) específico e conté
 | [Ministério das Relações Exteriores](<./Ministério das Relações Exteriores/>) | Manifestações oficiais da diplomacia brasileira (Itamaraty) |
 | [Ministry of Foreign Affairs of China](<./Ministry of Foreign Affairs of China/>) | Manifestações oficiais da chancelaria da República Popular da China |
 | [Planos Nacionais de IA](<./Planos Nacionais de IA/>) | Estratégias e planos governamentais de inteligência artificial |
+| [EBIA_PBIA](<./EBIA_PBIA/>) | Estratégia Brasileira de Inteligência Artificial (EBIA) e Plano Brasileiro de Inteligência Artificial (PBIA), analisados em português |
 | [Declarações IA](<./Declarações IA/>) | Declarações e compromissos internacionais sobre inteligência artificial |
 | [Organismos Multilaterais](<./Organismos Multilaterais/>) | Documentos produzidos no âmbito de organizações e foros multilaterais |
 
